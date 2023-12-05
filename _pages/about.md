@@ -9,7 +9,7 @@ redirect_from:
 
 
 
-I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) and [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/), advised by [Prof. Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and [Prof. Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from Hunan University (HNU) in 2016. 
+I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) and [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/), advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and Prof. [Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from Hunan University (HNU) in 2016. 
 
 **Research Interest**: Video streaming, Network transport protocol, Internet measurements.
 
@@ -44,7 +44,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
-# Awards
+# Honors and Awards
 
 - China National Scholarship for Ph.D., ICT, CAS, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), 2019 (4/138, Rank 2nd in Real-world Evaluations)
@@ -58,11 +58,13 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 # Internships
 
 - Alibaba (Taotian), Hangzhou, China, 2021.06-2022.09  \
-  Research Intern @ Network Technique Team
+  Research Intern @ Network Technique Team  \
+  Mentor: Ms. Yanmei Liu  
 
 
 
-# Teaching
+# Teaching Experiences
 
-- Teaching Assistant, Computer Network, UCAS, Fall 2019
+- Teaching Assistant, Computer Network, UCAS, Fall 2019  \
+  Instructor: Assoc. Prof. [Qinghua Wu](https://people.ucas.ac.cn/~0040408)
 
