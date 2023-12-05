@@ -1,3 +1,15 @@
+---
+permalink: /
+title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+
+
 # About Me
 
 I am currently a Ph.D. candidate at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), advised by [Prof. Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and [Prof. Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from Hunan University, Changsha, China, in 2016. My research interests lie in video streaming, network transport protocol, and Internet measurements.
