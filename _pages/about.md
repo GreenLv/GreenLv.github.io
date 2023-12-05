@@ -1,5 +1,7 @@
 ---
 permalink: /
+title: "Gerui Lv's Home Page"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,27 +10,25 @@ redirect_from:
 
 
 
-# About Me
-
 I am currently a Ph.D. candidate at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), advised by [Prof. Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and [Prof. Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from Hunan University, Changsha, China, in 2016. My research interests lie in video streaming, network transport protocol, and Internet measurements.
 
 
 
 # Publications
 
-- *[MobiCom 2024]* Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)
+- [MobiCom 2024] Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)
 
   **Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie
 
   The 30th Annual International Conference on Mobile Computing and Networking (ACM MobiCom 2024, CCF A)
 
-- *[TMC 2023]* [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426)
+- [TMC 2023] [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426)
 
   **Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie
 
   IEEE Transactions on Mobile Computing (TMC 2023, CCF A)
 
-- *[INFOCOM 2022]* [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/)
+- [INFOCOM 2022] [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/)
 
   **Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie
 
