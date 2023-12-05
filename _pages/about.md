@@ -9,7 +9,9 @@ redirect_from:
 
 
 
-I am currently a Ph.D. candidate at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), advised by [Prof. Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and [Prof. Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from Hunan University, Changsha, China, in 2016. My research interests lie in video streaming, network transport protocol, and Internet measurements.
+I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) and [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/), advised by [Prof. Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and [Prof. Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from Hunan University (HNU) in 2016. 
+
+**Research Interest**: Video streaming, Network transport protocol, Internet measurements.
 
 
 
@@ -48,8 +50,8 @@ I am currently a Ph.D. candidate at the Institute of Computing Technology (ICT),
 - Third Prize in Global AI Transmission Competition (AITrans), 2019 (4/138, Rank 2nd in Real-world Evaluations)
 - First Prize Scholarship, ICT, CAS, 2019
 - The Outstanding Graduates of Hunan, 2016
-- China National Scholarship for Undergraduates, Hunan University, 2015
-- First Prize Scholarship, Hunan University, 2013, 2014
+- China National Scholarship for Undergraduates, HNU, 2015
+- First Prize Scholarship, HNU, 2013, 2014
 
 
 
