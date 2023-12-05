@@ -74,5 +74,5 @@ I am currently a Ph.D. candidate at the Institute of Computing Technology (ICT),
 
 # Teaching
 
-- Teaching Assistant, Computer Network, UCAS, Fall 2019.
+- Teaching Assistant, Computer Network, UCAS, Fall 2019
 
