@@ -15,7 +15,7 @@ I am currently a Ph.D. candidate at the Institute of Computing Technology (ICT),
 
 # Publications
 
-- **[MobiCom 2024]** Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)
+* <span style="color:blue">[MobiCom 2024</span> Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)
   **Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie
   The 30th Annual International Conference on Mobile Computing and Networking (ACM MobiCom 2024, CCF A)
 
