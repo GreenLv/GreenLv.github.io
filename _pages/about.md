@@ -15,19 +15,19 @@ I am currently a Ph.D. candidate at the Institute of Computing Technology (ICT),
 
 # Publications
 
-- [MobiCom 2024] Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)
+- **[MobiCom 2024]** Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)
 
   **Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie
 
   The 30th Annual International Conference on Mobile Computing and Networking (ACM MobiCom 2024, CCF A)
 
-- [TMC 2023] [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426)
+- **[TMC 2023]** [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426)
 
   **Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie
 
   IEEE Transactions on Mobile Computing (TMC 2023, CCF A)
 
-- [INFOCOM 2022] [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/)
+- **[INFOCOM 2022]** [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/)
 
   **Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie
 
