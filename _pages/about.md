@@ -9,7 +9,7 @@ redirect_from:
 
 
 
-I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) and [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/), advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and Prof. [Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from Hunan University (HNU) in 2016. 
+I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) and [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/), advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from Hunan University (HNU) in 2016. 
 
 **Research Interest**: Video streaming, Network transport protocol, Internet measurements.
 
