@@ -25,7 +25,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
   **Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie  \
   IEEE Transactions on Mobile Computing (TMC 2023, CCF A)
 
-- <span style="color:blue">[INFOCOM 2022]</span> Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction [[paper]](https://ieeexplore.ieee.org/abstract/document/9796948/) [[pdf]](https://greenlv.github.io/files/Lumos_INFOCOM22.pdf) [[slides]](https://greenlv.github.io/files/Lumos_INFOCOM22_slides.pdf)  \
+- <span style="color:blue">[INFOCOM 2022]</span> Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction [[paper]](https://ieeexplore.ieee.org/abstract/document/9796948/) [[pdf]](https://greenlv.github.io/files/Lumos_INFOCOM22.pdf) [[slides]](https://greenlv.github.io/files/Lumos_INFOCOM22_slides.pdf) [[dataset]](https://github.com/GreenLv/Lumos) \
   **Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie  \
   IEEE INFOCOM 2022 - IEEE Conference on Computer Communications (CCF A)
 
