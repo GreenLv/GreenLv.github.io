@@ -33,14 +33,14 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 # Patents
 
-- 数据传输方法、系统、设备、存储介质及程序产品. CN115834556A. (已授权)  \
-  **吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖
+- 数据传输方法、系统、设备、存储介质及程序产品. CN115834556A (已授权)  \
+  _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
 - 多路径传输的重注入控制方法、电子设备及存储介质. CN116436865A. (实审中)  \
-  **吕格瑞**, 刘彦梅, 杨馥榕, 陈文韬, 郭虹宇, 陈颖
+  _**吕格瑞**, 刘彦梅, 杨馥榕, 陈文韬, 郭虹宇, 陈颖_
 
 - 一种路径处理方法、装置及电子设备. CN116827853A. (实审中)  \
-  **吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖
+  _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
 
 
@@ -50,21 +50,22 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 - Third Prize in Global AI Transmission Competition (AITrans), 2019 (4/138, Rank 2nd in Real-world Evaluations)
 - First Prize Scholarship, ICT, CAS, 2019
 - The Outstanding Graduates of Hunan, 2016
-- China National Scholarship for Undergraduates, HNU, 2015
-- First Prize Scholarship, HNU, 2013, 2014
+- China National Scholarship for Undergraduates, Hunan University, 2015
+- First Prize Scholarship, Hunan University, 2013, 2014
 
 
 
 # Internships
 
-- Alibaba (Taotian), Hangzhou, China, 2021.06-2022.09  \
+- Alibaba (Taotian), Hangzhou, China, 2021.06 - 2022.09  \
   Research Intern @ Network Technique Team  \
-  Mentor: Ms. Yanmei Liu  
+  Mentor: Ms. Yanmei Liu
 
 
 
 # Teaching Experiences
 
-- Teaching Assistant, Computer Network, UCAS, Fall 2019  \
+- Teaching Assistant, Computer Network  \
+  University of Chinese Academy of Science, Fall 2019  \
   Instructor: Assoc. Prof. [Qinghua Wu](https://people.ucas.ac.cn/~0040408)
 
