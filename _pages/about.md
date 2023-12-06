@@ -19,15 +19,15 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 - Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)  \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
-  <span style="color:Tomato;  font-weight:bold">ACM MobiCom 2024</span>  (CCF A)
+  <span style="color:RoyalBlue;  font-weight:bold">ACM MobiCom 2024</span>  (CCF A)
 
 - [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([pdf](https://greenlv.github.io/files/Lumos_TMC23.pdf))  \
   _**Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
-  <span style="color:Tomato;  font-weight:bold">IEEE Transactions on Mobile Computing (TMC) 2023</span>  (CCF A)
+  <span style="color:RoyalBlue;  font-weight:bold">IEEE Transactions on Mobile Computing (TMC) 2023</span>  (CCF A)
 
 - [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) ([pdf](https://greenlv.github.io/files/Lumos_INFOCOM22.pdf)) ([slides](https://greenlv.github.io/files/Lumos_INFOCOM22_slides.pdf)) ([dataset](https://github.com/GreenLv/Lumos)) \
   _**Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
-  <span style="color:Tomato; font-weight:bold">IEEE INFOCOM 2022</span> (CCF A)
+  <span style="color:RoyalBlue; font-weight:bold">IEEE INFOCOM 2022</span> (CCF A)
 
 
 
