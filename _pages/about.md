@@ -58,7 +58,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 # Internships
 
 - Alibaba (Taotian), Hangzhou, China, 2021.06 - 2022.09  \
-  Research Intern @ Network Technique Team  \
+  Research Intern @ Network Technology Team  \
   Mentor: Ms. Yanmei Liu
 
 
