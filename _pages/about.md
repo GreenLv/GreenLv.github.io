@@ -46,11 +46,12 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 # Honors and Awards
 
-- China National Scholarship for Ph.D., ICT, CAS, 2023
-- Third Prize in Global AI Transmission Competition (AITrans), 2019 (4/138, Rank 2nd in Real-world Evaluations)
+- National Scholarship for Doctoral Students, ICT, CAS, 2023
+- Third Prize in Global AI Transmission Competition (AITrans), 2019 (4/138, Rank 2nd in real-world evaluations)
 - First Prize Scholarship, ICT, CAS, 2019
-- The Outstanding Graduates of Hunan, 2016
-- China National Scholarship for Undergraduates, Hunan University, 2015
+- Outstanding Graduate of Hunan, 2016
+- Outstanding Graduate in Hunan University, 2016
+- National Scholarship for Undergraduates, Hunan University, 2015
 - First Prize Scholarship, Hunan University, 2013, 2014
 
 
