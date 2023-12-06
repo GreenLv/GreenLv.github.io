@@ -17,17 +17,17 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 # Publications
 
-- <span style="color:blue">[MobiCom 2024]</span> Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)  \
-  **Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie  \
-  The 30th Annual International Conference on Mobile Computing and Networking (ACM MobiCom 2024, CCF A)
+- **Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie  \
+  _Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming_ (To appear)  \
+  <span style="color:blue;  font-weight:bold">ACM MobiCom 2024</span>  (CCF A)
 
-- <span style="color:blue">[TMC 2023]</span> [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) [[pdf]](https://greenlv.github.io/files/Lumos_TMC23.pdf)  \
-  **Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie  \
-  IEEE Transactions on Mobile Computing (TMC, CCF A)
+-  **Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie  \
+  _[Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426)_ ([pdf](https://greenlv.github.io/files/Lumos_TMC23.pdf))  \
+  <span style="color:blue;  font-weight:bold">IEEE Transactions on Mobile Computing (TMC) 2023</span>  (CCF A)
 
-- <span style="color:blue">[INFOCOM 2022]</span> [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) [[pdf]](https://greenlv.github.io/files/Lumos_INFOCOM22.pdf) [[slides]](https://greenlv.github.io/files/Lumos_INFOCOM22_slides.pdf) [[dataset]](https://github.com/GreenLv/Lumos) \
-  **Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie  \
-  IEEE INFOCOM 2022 - IEEE Conference on Computer Communications (CCF A)
+- **Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie  \
+  _[Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/)_ ([pdf](https://greenlv.github.io/files/Lumos_INFOCOM22.pdf)) ([slides](https://greenlv.github.io/files/Lumos_INFOCOM22_slides.pdf)) ([dataset](https://github.com/GreenLv/Lumos)) \
+  <span style="color:blue; font-weight:bold">IEEE INFOCOM 2022</span> (CCF A)
 
 
 
