@@ -33,7 +33,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 # Patents
 
-- [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/zh). CN115834556B. (已授权)  \
+- [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/zh). CN115834556B. (2023-05-12已授权)  \
   _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
 - [多路径传输的重注入控制方法、电子设备及存储介质](https://patents.google.com/patent/CN116436865A/zh). CN116436865A. (实审中)  \
@@ -48,11 +48,11 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 - National Scholarship for Doctoral Students, ICT, CAS, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), 2019 (4/138, Rank 2nd in real-world evaluations)
-- First Prize Scholarship, ICT, CAS, 2019
-- Outstanding Graduates of Hunan, 2016
-- Outstanding Graduates in Hunan University, 2016
-- National Scholarship for Undergraduates, Hunan University, 2015
-- First Prize Scholarship, Hunan University, 2013, 2014
+- First Prize Scholarship in ICT, CAS, 2019
+- Outstanding B.S. Graduates of Hunan (湖南省优秀本科毕业生), 2016
+- Outstanding B.S. Graduates in Hunan University, 2016
+- National Scholarship for Undergraduates, Hunan University, 2015 (Top 2%)
+- First Prize Scholarship in Hunan University, 2013, 2014
 
 
 
