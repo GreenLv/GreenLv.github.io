@@ -23,7 +23,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
-# Publications
+## Publications
 
 - Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)  \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
@@ -39,7 +39,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
-# Patents
+## Patents
 
 - [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/zh). CN115834556B. (2023-05-12已授权)  \
   _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
@@ -52,7 +52,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
-# Honors and Awards
+## Honors and Awards
 
 - National Scholarship for Doctoral Students, ICT, CAS, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), 2019 (4/138, Rank 2nd in real-world evaluations)
@@ -64,7 +64,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
-# Internships
+## Internships
 
 - Alibaba (Taotian), Hangzhou, China, 2021.06 - 2022.09  \
   Research Intern @ Network Technology Team  \
@@ -72,7 +72,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
-# Teaching Experiences
+## Teaching Experiences
 
 - Teaching Assistant, Computer Network  \
   University of Chinese Academy of Science, Fall 2019  \
