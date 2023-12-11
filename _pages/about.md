@@ -15,11 +15,24 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
----
-
-[[Curriculum Vitae]](https://greenlv.github.io/files/CV_GeruiLv.pdf)
+[[Curriculum Vitae]](https://greenlv.github.io/files/CV_GeruiLv.pdf) [[Tech Blog (Chinese)]](https://blog.csdn.net/LvGreat)
 
 <span style="color:Tomato;  font-weight:bold; font-style:italic">I am looking for postdoctoral opportunities. If my CV catches your interest, please feel free to contact me.</span>
+
+
+
+
+## Recent News
+
+<div style="background-color: LightCyan; border-color: DarkCyan; color: black; padding: 8px; border-radius: 8px;">
+  <ul>
+      <li>[11/2023] Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
+      <li>[10/2023] I won National Scholarship for Doctoral Students.</li>
+      <li>[09/2023] Paper Lumos accepted to <b>IEEE TMC 2023</b>.</li>
+      <li>[05/2023] Patent CN115834556B was granted.</li>
+  </ul>
+</div>
+
 
 
 
@@ -66,7 +79,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Internships
 
-- Alibaba (Taotian), Hangzhou, China, 2021.06 - 2022.09  \
+- Alibaba (Taotian), Hangzhou, China, 06/2021 - 09/2022  \
   Research Intern @ Network Technology Team  \
   Mentor: Ms. Yanmei Liu
 
