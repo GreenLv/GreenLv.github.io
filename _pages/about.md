@@ -15,7 +15,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
-[[Curriculum Vitae]](https://greenlv.github.io/files/CV_GeruiLv.pdf) [[Tech Blog (Chinese)]](https://blog.csdn.net/LvGreat)
+[[Curriculum Vitae](https://greenlv.github.io/files/CV_GeruiLv.pdf)] [[Tech Blog (Chinese)](https://blog.csdn.net/LvGreat)]
 
 > 🎓<span style="color:Tomato;  font-weight:bold; font-style:italic">I am actively looking for postdoctoral opportunities. Please contact me if you are interested.</span>
 
@@ -24,7 +24,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Recent News
 
-<div style="border:1px solid #000; border-width:2px; border-color:#005DAC; background-color:#C7E8FA; color: black; border-radius: 8px;">
+<div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#C8E1FF; color: black; border-radius: 8px;">
   <ul>
       <li>[11/2023] Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
       <li>[10/2023] I won National Scholarship for Doctoral Students.</li>
@@ -35,20 +35,19 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
-
 ## Publications
 
 - Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)  \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
-  <span style="color:#005DAC;  font-weight:bold">ACM MobiCom 2024</span>  (CCF A)
+  <span style="color:RoyalBlue;  font-weight:bold">ACM MobiCom 2024</span>  (CCF A)
 
 - [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([pdf](https://greenlv.github.io/files/Lumos_TMC23.pdf))  \
   _**Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
-  <span style="color:#005DAC;  font-weight:bold">IEEE Transactions on Mobile Computing (TMC) 2023</span>  (CCF A)
+  <span style="color:RoyalBlue;  font-weight:bold">IEEE Transactions on Mobile Computing (TMC) 2023</span>  (CCF A)
 
 - [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) ([pdf](https://greenlv.github.io/files/Lumos_INFOCOM22.pdf)) ([slides](https://greenlv.github.io/files/Lumos_INFOCOM22_slides.pdf)) ([dataset](https://github.com/GreenLv/Lumos)) \
   _**Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
-  <span style="color:#005DAC; font-weight:bold">IEEE INFOCOM 2022</span> (CCF A)
+  <span style="color:RoyalBlue; font-weight:bold">IEEE INFOCOM 2022</span> (CCF A)
 
 
 
