@@ -24,7 +24,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Recent News
 
-<div style="border:1px solid #000; border-width:2px; border-color: DarkCyan; background-color: LightCyan; color: black; padding: 4px; border-radius: 8px;">
+<div style="border:1px solid #000; border-width:2px; border-color: DarkCyan; background-color: LightCyan; color: black; border-radius: 8px;">
   <ul>
       <li>[11/2023] Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
       <li>[10/2023] I won National Scholarship for Doctoral Students.</li>
@@ -32,7 +32,6 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
       <li>[05/2023] Patent CN115834556B was granted.</li>
   </ul>
 </div>
-
 
 
 
