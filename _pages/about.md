@@ -15,6 +15,14 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
+---
+
+[[Curriculum Vitae]](https://greenlv.github.io/files/CV_GeruiLv.pdf)
+
+<span style="color:Tomato;  font-weight:bold; font-style:italic">I am looking for postdoctoral opportunities. If my CV catches your interest, please feel free to contact me at your convenience.</span>
+
+
+
 # Publications
 
 - Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming (To appear)  \
