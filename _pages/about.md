@@ -18,7 +18,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
-[[Curriculum Vitae](https://greenlv.github.io/files/CV_GeruiLv.pdf)] [[Tech Blog (Chinese)](https://blog.csdn.net/LvGreat)]
+[[Curriculum Vitae](https://greenlv.github.io/files/CV_GeruiLv.pdf)] [[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]
 
 > 🎓 <span style="color:Tomato;  font-weight:bold; font-style:italic">I am actively looking for postdoctoral opportunities. Please contact me if you are interested.</span>
 
