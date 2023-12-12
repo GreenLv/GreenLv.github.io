@@ -31,11 +31,11 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
   <ul>
       <li>[2023-11] Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
       <li>[2023-10] I won the National Scholarship for Doctoral Students.</li>
+      <li>[2023-09] One of my blogs was ranked 1st in <a href="https://greenlv.github.io/files/DASH_standard-Baidu-230927.png">Baidu search results for "DASH标准"</a>.</li>
       <li>[2023-09] Paper Lumos accepted to <b>IEEE TMC 2023</b>.</li>
       <li>[2023-05] Patent CN115834556B was granted.</li>
   </ul>
 </div>
-
 
 
 
