@@ -29,12 +29,13 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
-      <li>[11/2023] Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
-      <li>[10/2023] I won National Scholarship for Doctoral Students.</li>
-      <li>[09/2023] Paper Lumos accepted to <b>IEEE TMC 2023</b>.</li>
-      <li>[05/2023] Patent CN115834556B was granted.</li>
+      <li>[2023-11] Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
+      <li>[2023-10] I won the National Scholarship for Doctoral Students.</li>
+      <li>[2023-09] Paper Lumos accepted to <b>IEEE TMC 2023</b>.</li>
+      <li>[2023-05] Patent CN115834556B was granted.</li>
   </ul>
 </div>
+
 
 
 
