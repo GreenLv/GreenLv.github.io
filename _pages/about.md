@@ -57,17 +57,14 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Patents
 
-- [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/zh)  \
-  _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_  \
-  CN115834556B (Granted: 2023-05-12)
+- [CN115834556B] [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/zh) (Granted: 2023-05-12)  \
+  _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
-- [多路径传输的重注入控制方法、电子设备及存储介质](https://patents.google.com/patent/CN116436865A/zh)  \
-  _**吕格瑞**, 刘彦梅, 杨馥榕, 陈文韬, 郭虹宇, 陈颖_  \
-  CN116436865A
+- [CN116436865A] [多路径传输的重注入控制方法、电子设备及存储介质](https://patents.google.com/patent/CN116436865A/zh)  \
+  _**吕格瑞**, 刘彦梅, 杨馥榕, 陈文韬, 郭虹宇, 陈颖_
 
-- [一种路径处理方法、装置及电子设备](https://patents.google.com/patent/CN116827853A/zh)  \
-  _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_  \
-  CN116827853A
+- [CN116827853A] [一种路径处理方法、装置及电子设备](https://patents.google.com/patent/CN116827853A/zh)  \
+  _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
 
 
