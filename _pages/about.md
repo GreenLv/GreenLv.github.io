@@ -75,7 +75,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 - First Prize Scholarship in ICT, CAS, 2019
 - Outstanding B.S. Graduates of Hunan (湖南省优秀本科毕业生), 2016
 - Outstanding B.S. Graduates in Hunan University, 2016
-- National Scholarship for Undergraduates, Hunan University, 2015 (Top 2%)
+- National Scholarship for Undergraduates, Hunan University, 2015 (1/111)
 
 
 
