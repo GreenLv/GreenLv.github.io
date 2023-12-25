@@ -29,12 +29,12 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
-      <li>[2023-12] I married Willow Yang 💒. </li>
-      <li>[2023-11] Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
-      <li>[2023-10] I won the National Scholarship for Doctoral Students.</li>
-      <li>[2023-09] One of my blogs was ranked 1st in <a href="https://greenlv.github.io/files/DASH_standard-Baidu-230927.png">Baidu search results for "DASH标准"</a>.</li>
-      <li>[2023-09] Paper Lumos accepted to <b>IEEE TMC 2023</b>.</li>
-      <li>[2023-05] Patent CN115834556B was granted.</li>
+      <li>[2023-12] 💒 I married Willow Yang! </li>
+      <li>[2023-11] 📃 Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
+      <li>[2023-10] 🏆 I won the National Scholarship for Doctoral Students.</li>
+      <li>[2023-09] 📊 One of my blogs was ranked 1st in <a href="https://greenlv.github.io/files/DASH_standard-Baidu-230927.png">Baidu search results for "DASH标准"</a>.</li>
+      <li>[2023-09] 📃 Paper Lumos accepted to <b>IEEE TMC 2023</b>.</li>
+      <li>[2023-05] 📑 Patent CN115834556B was granted.</li>
   </ul>
 </div>
 
@@ -71,18 +71,31 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Honors and Awards
 
-- National Scholarship for Doctoral Students, ICT, CAS, 2023
-- Third Prize in Global AI Transmission Competition (AITrans), 2019 (4/138, Rank 2nd in real-world evaluations)
-- First Prize Scholarship in ICT, CAS, 2019
+- National Scholarship for Doctoral Students, University of Chinese Academy of Science, 2023
+
+- Third Prize in Global AI Transmission Competition (AITrans), 2019  \
+  _4/138, Rank 2nd in real-world evaluations_
+
+- First Class Academic Scholarship, University of Chinese Academy of Science, 2019
+
 - Outstanding B.S. Graduates of Hunan (湖南省优秀本科毕业生), 2016
+
 - Outstanding B.S. Graduates in Hunan University, 2016
+
 - National Scholarship for Undergraduates, Hunan University, 2015 (1/111)
+
+
+
+## Talks
+
+- [Coordinating multipath transmission and adaptive video streaming](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q)  \
+  GuoMeng Studio, Beijing, China, 2023-12-10
 
 
 
 ## Internships
 
-- Alibaba (Taotian), Hangzhou, China, 06/2021 - 09/2022  \
+- Alibaba (Taotian), Hangzhou, China, Jun. 2021 - Sep. 2022  \
   Research Intern @ Network Technology Team  \
   Mentor: Ms. Yanmei Liu
 
