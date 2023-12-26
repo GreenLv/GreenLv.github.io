@@ -83,10 +83,10 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Talks
 
-- Coordinating multipath transmission and adaptive video streaming
-  - GuoMeng Studio, Beijing, China, 2023-12-10 ([Event](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q))
-  - BiliBili, Beijing, China, 2023-10-31
-  - Nanjing University, Nanjing, China, 2023-09-02
+- Coordinating multipath transmission and adaptive video streaming  \
+  @ _GuoMeng Studio_, Beijing, China, 2023-12-10 ([Event](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q)) \
+  @ _BiliBili_, Beijing, China, 2023-10-31 \
+  @ _Nanjing University_, Nanjing, China, 2023-09-02
 
 
 
