@@ -93,14 +93,14 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 ## Internships
 
 - Alibaba (Taotian), Hangzhou, China, Jun. 2021 - Sep. 2022  \
-  Research Intern @ Network Technology Team  \
+  _Research Intern @ Network Technology Team_  \
   Mentor: Ms. Yanmei Liu
 
 
 
 ## Teaching Experiences
 
-- Teaching Assistant, Computer Network  \
-  University of Chinese Academy of Science, Fall 2019  \
+- Teaching Assistant, Computer Network, Fall 2019  \
+  _University of Chinese Academy of Science_  \
   Instructor: Assoc. Prof. [Qinghua Wu](https://people.ucas.ac.cn/~0040408)
 
