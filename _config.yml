@@ -5,9 +5,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Google Analytics
-google_analytics: G-98B50LTYDR
-
 # Site Settings
 locale                   : "en-US"
 title                    : "Gerui Lv's Homepage"
