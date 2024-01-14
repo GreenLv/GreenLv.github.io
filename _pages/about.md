@@ -68,6 +68,9 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 - [一种路径处理方法、装置及电子设备](https://patents.google.com/patent/CN116827853A/zh) [CN116827853A]  \
   _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
+- 一种数据驱动的状态最优自适应码率方法  \
+  _**吕格瑞**, 武庆华, 王卫染, 谭清月, 李振宇_
+
 
 
 ## Honors and Awards
