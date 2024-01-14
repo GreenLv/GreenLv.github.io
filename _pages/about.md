@@ -112,8 +112,8 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Teaching Experiences
 
-- Teaching Assistant, Computer Network  \
-  University of Chinese Academy of Science, Fall 2019, Fall 2023 ([Slides](https://greenlv.github.io/files/Lec_Introducing_classical_ABR_algorithms.pdf))  \
+- Teaching Assistant, Computer Network, Fall 2019, Fall 2023 ([Slides](https://greenlv.github.io/files/Lec_Introducing_classical_ABR_algorithms.pdf))  \
+  University of Chinese Academy of Science  \
   Instructor: Assoc. Prof. [Qinghua Wu](https://people.ucas.ac.cn/~0040408)
 
 
