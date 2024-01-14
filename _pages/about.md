@@ -94,7 +94,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
   @ _Huawei_, Beijing, China, 2023-01-13
   
 - Adaptive streaming QoE optimization through accurate throughput prediction  \
-  @ _Huawei_, Beijing, China, 2023-02-07  \
+  @ _BiliBili_, Beijing, China, 2023-02-07  \
   @ _Alibaba_, Hangzhou, China, 2021-08-02
   
 - QoE optimization for low-latency live video streaming  \
