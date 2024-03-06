@@ -14,14 +14,11 @@ redirect_from:
 
 I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) and [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/), advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016. 
 
-**Research Interest**: Video streaming (e.g. adaptive streaming), Network protocol (e.g. multipath transmission), Cross-layer network system, Data-driven optimization, Internet measurements.
+**Research Interest**: Video streaming (e.g. adaptive streaming, low-latency streaming), Network protocol (e.g. multipath transmission), Cross-layer network system, Data-driven optimization, Internet measurements.
 
 
 
 [[Curriculum Vitae (2023-12-14)](https://greenlv.github.io/files/CV_GeruiLv.pdf)] [[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]
-
-> 🎓 <span style="color:OrangeRed;  font-weight:bold; font-style:italic">I am actively looking for postdoctoral opportunities. Please contact me if you are interested.</span>
-
 
 
 
@@ -29,6 +26,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
+      <li>[2024-03] 📃 Paper JitBright accepted to <b>ACM NOSSDAV 2024</b>. </li>
       <li>[2023-12] 💒 I married Willow Yang! </li>
       <li>[2023-11] 📃 Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
       <li>[2023-10] 🏆 I won the National Scholarship for Doctoral Students.</li>
@@ -46,6 +44,10 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
   <span style="color:OrangeRed">The first MobiCom conference paper from ICT, CAS</span>
+
+- JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization (To appear)  \
+  _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Ying Chen, Hongyu Guo, Gaogang Xie_  \
+  <a href="https://nossdav.org/2024/"><b>ACM NOSSDAV 2024</b></a>  (CCF B)
 
 - [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([PDF](https://greenlv.github.io/files/Lumos_TMC23.pdf))  \
   _**Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
@@ -129,5 +131,6 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 ## Reviewing Experiences 
 
 - IEEE INFOCOM (2020, 2023, 2024)
+- ACM CoNEXT (2024)
 - IEEE ICNP (2019, 2020)
 
