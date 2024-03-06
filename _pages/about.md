@@ -30,7 +30,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
       <li>[2023-12] 💒 I married Willow Yang! </li>
       <li>[2023-11] 📃 Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
       <li>[2023-10] 🏆 I won the National Scholarship for Doctoral Students.</li>
-      <li>[2023-09] 📊 One of my tech blogs was ranked <a href="https://greenlv.github.io/files/DASH_standard-Baidu-230927.png">1st in Baidu search results for "DASH标准"</a>.</li>
+      <li>[2023-09] 📊 One of my tech blogs was ranked <a href="https://greenlv.github.io/files/DASH_standard-Baidu-230927.png">1st in Baidu search results for “DASH标准”</a>.</li>
       <li>[2023-09] 📃 Paper Lumos accepted to <b>IEEE TMC 2023</b>.</li>
       <li>[2023-05] 📑 Patent CN115834556B was granted.</li>
   </ul>
@@ -122,9 +122,9 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Technical Impacts
 
-- Patent CN116436865A (part of Chorus [MobiCom 2024]) used in Taobao's RPC system to control multipath reinjection.
-- One of my tech blogs ranked #1 in Google search results for "DASH标准" ([2024-01-09](https://greenlv.github.io/files/DASH_standard-Google-240109.png)).
-- One of my tech blogs ranked #1 in Baidu search results for "DASH视频" ([2023-05-01](https://greenlv.github.io/files/DASH_video-Baidu-230511.png)).
+- Patent CN116436865A (part of Chorus [MobiCom ’24]) used in Taobao’s RPC system to control multipath reinjection.
+- One of my tech blogs ranked #1 in Google search results for “DASH标准” ([2024-01-09](https://greenlv.github.io/files/DASH_standard-Google-240109.png)).
+- One of my tech blogs ranked #1 in Baidu search results for “DASH视频” ([2023-05-01](https://greenlv.github.io/files/DASH_video-Baidu-230511.png)).
 
 
 
