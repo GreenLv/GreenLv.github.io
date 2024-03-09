@@ -26,6 +26,8 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
+      <li>[2023-10] 🏆 Our team won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>.</li>
+      <li>[2024-03] 📃 Paper accepted to <b>ACM MMSys 2024</b>.</li>
       <li>[2024-03] 📃 Paper JitBright accepted to <b>ACM NOSSDAV 2024</b>. </li>
       <li>[2023-12] 💒 I married Willow Yang! </li>
       <li>[2023-11] 📃 Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
@@ -42,20 +44,25 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 - Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf))  \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
-  <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
+  <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  [CCF A]  \
   <span style="color:OrangeRed">The first MobiCom conference paper from ICT, CAS</span>
 
+- Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning (To appear)  \
+  _Qingyue Tan, **Gerui Lv**, Xing Fang, Jiaxing Zhang, Zejun Yang, Yuan Jiang, Qinghua Wu_  \
+  <a href="https://2024.acmmmsys.org/"><b>ACM MMSys 2024</b></a> (Open-source Software and Datasets)  \
+  <span style="color:OrangeRed">Grand Challenge on Offline RL for Bandwidth Estimation in RTC Winner (The 1st place)</span>
+  
 - JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization (To appear)  \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Ying Chen, Hongyu Guo, Gaogang Xie_  \
-  <a href="https://nossdav.org/2024/"><b>ACM NOSSDAV 2024</b></a>  (CCF B)
+  <a href="https://nossdav.org/2024/"><b>ACM NOSSDAV 2024</b></a>  [CCF B]
 
 - [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([PDF](https://greenlv.github.io/files/Lumos_TMC23.pdf))  \
   _**Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
-  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755"><b>IEEE Transactions on Mobile Computing (TMC) 2023</b></a>  (CCF A)
+  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755"><b>IEEE Transactions on Mobile Computing (TMC) 2023</b></a>  [CCF A]
 
 - [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) ([PDF](https://greenlv.github.io/files/Lumos_INFOCOM22.pdf)) ([Slides](https://greenlv.github.io/files/Lumos_INFOCOM22_slides.pdf)) ([Video](https://youtu.be/9-LKcqPmFhA)) <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Luoms</a> \
   _**Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
-  <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a> (CCF A)
+  <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a> [CCF A]
 
 
 
@@ -77,6 +84,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Honors and Awards
 
+- First Place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>, 2024
 - National Scholarship for Doctoral Students, University of Chinese Academy of Science, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), 2019  \
   _4/138, Rank 2nd in real-world evaluations_
