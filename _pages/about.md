@@ -26,7 +26,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
-      <li>[2023-10] 🏆 Our team won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>.</li>
+      <li>[2024-03] 🏆 Our team won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge</a>.</li>
       <li>[2024-03] 📃 Paper accepted to <b>ACM MMSys 2024</b>.</li>
       <li>[2024-03] 📃 Paper JitBright accepted to <b>ACM NOSSDAV 2024</b>. </li>
       <li>[2023-12] 💒 I married Willow Yang! </li>
@@ -37,6 +37,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
       <li>[2023-05] 📑 Patent CN115834556B was granted.</li>
   </ul>
 </div>
+
 
 
 
