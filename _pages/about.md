@@ -26,7 +26,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
-      <li>[2024-03] 🏆 Our team won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge</a>.</li>
+      <li>[2024-03] 🏆 Our team Schaferct won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge</a>.</li>
       <li>[2024-03] 📃 Paper accepted to <b>ACM MMSys 2024</b>.</li>
       <li>[2024-03] 📃 Paper JitBright accepted to <b>ACM NOSSDAV 2024</b>. </li>
       <li>[2023-12] 💒 I married Willow Yang! </li>
@@ -41,6 +41,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 
+
 ## Publications
 
 - Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf))  \
@@ -48,7 +49,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
   <span style="color:OrangeRed">The first MobiCom conference paper from ICT, CAS</span>
 
-- Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning (To appear) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
+- Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning ([PDF](https://greenlv.github.io/files/Schaferct_MMSys24_GC.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
   _Qingyue Tan, **Gerui Lv**, Xing Fang, Jiaxing Zhang, Zejun Yang, Yuan Jiang, Qinghua Wu_  \
   <a href="https://2024.acmmmsys.org/"><b>ACM MMSys 2024</b></a> (Open-source Software and Datasets)  \
   <span style="color:OrangeRed">Grand Challenge on Offline RL for Bandwidth Estimation in RTC Winner (The 1st place)</span>
@@ -85,7 +86,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Honors and Awards
 
-- First Place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>, 2024
+- First Place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>, 2024
 - National Scholarship for Doctoral Students, University of Chinese Academy of Science, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), 2019  \
   _4/138, Rank 2nd in real-world evaluations_
