@@ -86,7 +86,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 ## Honors and Awards
 
-- First Place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>, 2024
+- First Place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>, 2024
 - National Scholarship for Doctoral Students, University of Chinese Academy of Science, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), 2019  \
   _4/138, Rank 2nd in real-world evaluations_
