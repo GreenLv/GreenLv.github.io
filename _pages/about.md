@@ -51,7 +51,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 - Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning ([PDF](https://greenlv.github.io/files/Schaferct_MMSys24_GC.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
   _Qingyue Tan, **Gerui Lv**, Xing Fang, Jiaxing Zhang, Zejun Yang, Yuan Jiang, Qinghua Wu_  \
-  <a href="https://2024.acmmmsys.org/"><b>ACM MMSys 2024</b></a> (Open-source Software and Datasets)  \
+  <a href="https://2024.acmmmsys.org/"><b>ACM MMSys 2024</b></a>, Open-source Software and Datasets  \
   <span style="color:OrangeRed">Grand Challenge on Offline RL for Bandwidth Estimation in RTC Winner (The 1st place)</span>
   
 - JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization ([PDF](https://greenlv.github.io/files/JitBright_NOSSDAV24.pdf))  \
