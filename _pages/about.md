@@ -54,7 +54,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
   <a href="https://2024.acmmmsys.org/"><b>ACM MMSys 2024</b></a>, Open-source Software and Datasets  \
   <span style="color:OrangeRed">Grand Challenge on Offline RL for Bandwidth Estimation in RTC Winner (The 1st place)</span>
   
-- JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization ([PDF](https://greenlv.github.io/files/JitBright_NOSSDAV24.pdf))  \
+- [JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization](https://dl.acm.org/doi/10.1145/3651863.3651881) ([PDF](https://greenlv.github.io/files/JitBright_NOSSDAV24.pdf))  \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Ying Chen, Hongyu Guo, Gaogang Xie_  \
   <a href="https://nossdav.org/2024/"><b>ACM NOSSDAV 2024</b></a>  (CCF B)
 
