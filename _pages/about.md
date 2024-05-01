@@ -26,6 +26,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
+      <li>[2024-04] 🏆 Paper JitBright won the Best Paper Award at <b>ACM NOSSDAV 2024</b>. </li>
       <li>[2024-03] 🏆 Our team Schaferct won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge</a>.</li>
       <li>[2024-03] 📃 Paper accepted to <b>ACM MMSys 2024</b>.</li>
       <li>[2024-03] 📃 Paper JitBright accepted to <b>ACM NOSSDAV 2024</b>. </li>
@@ -37,8 +38,6 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
       <li>[2023-05] 📑 Patent CN115834556B was granted.</li>
   </ul>
 </div>
-
-
 
 
 
@@ -56,7 +55,8 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
   
 - [JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization](https://dl.acm.org/doi/10.1145/3651863.3651881) ([PDF](https://greenlv.github.io/files/JitBright_NOSSDAV24.pdf)) ([Slides](https://greenlv.github.io/files/JitBright_NOSSDAV24_slides.pdf))  \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Ying Chen, Hongyu Guo, Gaogang Xie_  \
-  <a href="https://nossdav.org/2024/"><b>ACM NOSSDAV 2024</b></a>  (CCF B)
+  <a href="https://nossdav.org/2024/"><b>ACM NOSSDAV 2024</b></a>  (CCF B)  \
+  <span style="color:OrangeRed">Best Paper Award</span>
 
 - [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([PDF](https://greenlv.github.io/files/Lumos_TMC23.pdf))  \
   _**Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
@@ -85,7 +85,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 ## Honors and Awards
-
+- Best Paper Award at ACM NOSSDAV 2024
 - First Place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>, 2024
 - National Scholarship for Doctoral Students, University of Chinese Academy of Science, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), 2019  \
