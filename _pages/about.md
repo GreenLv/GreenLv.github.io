@@ -79,7 +79,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 - [一种路径处理方法、装置及电子设备](https://patents.google.com/patent/CN116827853A/zh) [CN116827853A]  \
   _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
-- 一种数据驱动的网络视频流传输方法及装置 [CN202410309214.0]  \
+- [一种数据驱动的网络视频流传输方法及装置](https://patents.google.com/patent/CN118075567A/zh) [CN118075567A]  \
   _**吕格瑞**, 武庆华, 王卫染, 谭清月, 李振宇_
 
 
