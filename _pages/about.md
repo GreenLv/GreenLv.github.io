@@ -140,6 +140,7 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 - IEEE INFOCOM (2020, 2023, 2024)
 - ACM CoNEXT (2024)
-- IEEE ICNP (2019, 2020)
+- IEEE ICNP (2019, 2020, 2024)
+- IEEE MetaCom (2024)
 - ACM MobiCom Artifacts Evaluation (2024)
 
