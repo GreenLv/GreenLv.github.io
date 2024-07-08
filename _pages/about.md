@@ -39,7 +39,6 @@ I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. degree
       <li>[2024-03] 🏆 Our team Schaferct won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge</a>.</li>
       <li>[2024-03] 📃 Paper accepted to <b>ACM MMSys 2024</b>.</li>
       <li>[2024-03] 📃 Paper JitBright accepted to <b>ACM NOSSDAV 2024</b>. </li>
-      <li>[2023-12] 💒 I married Willow Yang! </li>
       <li>[2023-11] 📃 Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
   </ul>
 </div>
