@@ -12,9 +12,17 @@ redirect_from:
 
 
 
-I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) and [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/), advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/). I received my B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016. 
+**Postdoctoral Researcher**
+Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)
+中国科学院计算技术研究所，特别研究助理（博士后研究员）
 
-**Research Interest**: Video streaming (e.g. adaptive streaming, low-latency streaming), Network protocol (e.g. multipath transmission), Cross-layer network system, Data-driven optimization, Internet measurements.
+
+
+---
+
+I am currently an postdoctoral researcher in the [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) and [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/). I received my Ph.D. degree from ICT, CAS / UCAS in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/). 
+
+**Research Interest**: Video streaming (e.g. adaptive streaming, low-latency streaming), Network protocol (e.g. multipath transmission, rate control), Cross-layer network system, Data-driven optimization, Internet measurements.
 
 
 
@@ -26,14 +34,13 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
+      <li>[2024-06] 🎓 I received my Ph.D. degree from ICT, CAS / UCAS.</li>
       <li>[2024-04] 🏆 Paper JitBright won the Best Paper Award at <b>ACM NOSSDAV 2024</b>. </li>
       <li>[2024-03] 🏆 Our team Schaferct won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge</a>.</li>
       <li>[2024-03] 📃 Paper accepted to <b>ACM MMSys 2024</b>.</li>
       <li>[2024-03] 📃 Paper JitBright accepted to <b>ACM NOSSDAV 2024</b>. </li>
       <li>[2023-12] 💒 I married Willow Yang! </li>
       <li>[2023-11] 📃 Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
-      <li>[2023-10] 🏆 I won the National Scholarship for Doctoral Students.</li>
-      <li>[2023-09] 📊 One of my tech blogs was ranked <a href="https://greenlv.github.io/files/DASH_standard-Baidu-230927.png">1st in Baidu search results for “DASH标准”</a>.</li>
   </ul>
 </div>
 
@@ -83,6 +90,8 @@ I am currently a Ph.D. candidate at the [Institute of Computing Technology, Chin
 
 
 ## Honors and Awards
+- Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生), 2024
+- Outstanding Ph.D. Graduates in UCAS, 2024
 - Best Paper Award at ACM NOSSDAV 2024
 - First Place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>, 2024
 - National Scholarship for Doctoral Students, University of Chinese Academy of Science, 2023
