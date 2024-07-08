@@ -105,17 +105,17 @@ I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. degree
 
 ## Talks
 
-- Coordinating multipath transmission and adaptive video streaming  \
+- Multipath adaptive video streaming  \
   @ _GuoMeng Studio_, Beijing, China, 2023-12-10 ([Event](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q)) \
   @ _BiliBili_, Beijing, China, 2023-10-31 \
   @ _Nanjing University_, Nanjing, China, 2023-09-02  \
   @ _Huawei_, Beijing, China, 2023-01-13
   
-- Adaptive streaming QoE optimization through accurate throughput prediction  \
+- Throughput prediction for adaptive streaming   \
   @ _BiliBili_, Beijing, China, 2023-02-07  \
   @ _Alibaba_, Hangzhou, China, 2021-08-02
   
-- QoE optimization for low-latency live video streaming  \
+- QoE optimization for low-latency live streaming  \
   @ _Tencent_, Beijing, China, 2019-12-02
 
 
