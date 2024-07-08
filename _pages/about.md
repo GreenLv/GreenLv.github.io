@@ -20,7 +20,7 @@ redirect_from:
 
 ---
 
-I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. from ICT, CAS / [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/). 
+I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. degree from ICT, CAS / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/), and my B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016.
 
 **Research Interest**: Video streaming (e.g. adaptive streaming, low-latency streaming), Network protocol (e.g. multipath transmission, rate control), Cross-layer network system, Data-driven optimization, Internet measurements.
 
@@ -94,13 +94,13 @@ I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. from I
 - Outstanding Ph.D. Graduates in UCAS, 2024
 - Best Paper Award at ACM NOSSDAV 2024
 - First Place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>, 2024
-- National Scholarship for Doctoral Students, University of Chinese Academy of Science, 2023
+- National Scholarship for Doctoral Students, UCAS, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), 2019  \
   _4/138, Rank 2nd in real-world evaluations_
-- First Class Academic Scholarship, University of Chinese Academy of Science, 2019
+- First Class Academic Scholarship, UCAS, 2019
 - Outstanding B.S. Graduates of Hunan (湖南省优秀本科毕业生), 2016
-- Outstanding B.S. Graduates in Hunan University, 2016
-- National Scholarship for Undergraduates (_1/111_), Hunan University, 2015
+- Outstanding B.S. Graduates in HNU, 2016
+- National Scholarship for Undergraduates (_1/111_), HNU, 2015
 
 
 
