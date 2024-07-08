@@ -12,7 +12,7 @@ redirect_from:
 
 
 
-**Postdoctoral Researcher** \
+***Postdoctoral Researcher*** \
 [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) \
 中国科学院计算技术研究所，特别研究助理（博士后研究员）
 
