@@ -26,7 +26,7 @@ I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. degree
 
 
 
-[[Curriculum Vitae (2023-12-14)](https://greenlv.github.io/files/CV_GeruiLv.pdf)] [[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]
+[[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]
 
 
 
