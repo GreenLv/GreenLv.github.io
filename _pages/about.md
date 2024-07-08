@@ -145,11 +145,3 @@ I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. degree
 
 
 
-## Reviewing Experiences 
-
-- IEEE INFOCOM (2020, 2023, 2024)
-- ACM CoNEXT (2024)
-- IEEE ICNP (2019, 2020, 2024)
-- IEEE MetaCom (2024)
-- ACM MobiCom Artifacts Evaluation (2024)
-
