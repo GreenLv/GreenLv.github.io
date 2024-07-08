@@ -131,8 +131,8 @@ I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. degree
 
 ## Teaching Experiences
 
-- Teaching Assistant, Computer Network, Fall 2019, Fall 2023 ([Slides](https://greenlv.github.io/files/Lec_Introducing_classical_ABR_algorithms.pdf))  \
-  University of Chinese Academy of Science  \
+- Teaching Assistant, Computer Network, UCAS \
+  Fall 2019, Fall 2023 ([Slides](https://greenlv.github.io/files/Lec_Introducing_classical_ABR_algorithms.pdf))  \
   Instructor: Assoc. Prof. [Qinghua Wu](https://people.ucas.ac.cn/~0040408)
 
 
