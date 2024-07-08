@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Gerui Lv's Homepage"
 title_separator          : "-"
 name                     : &name "Gerui Lv"
-description              : &description "Postdoctoral Researcher @ ICT, CAS"
+description              : &description "ICT, CAS"
 url                      : https://greenlv.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "GreenLv/GreenLv.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Gerui Lv (吕格瑞)"
   avatar           : "profile.jpg"
-  bio              : "Postdoctoral Researcher @ ICT, CAS\\中国科学院计算技术研究所，博士后研究员"
+  bio              : "ICT, CAS"
   location         : "Beijing, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
