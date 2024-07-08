@@ -13,14 +13,14 @@ redirect_from:
 
 
 **Postdoctoral Researcher** \
-Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS) \
+[Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) \
 中国科学院计算技术研究所，特别研究助理（博士后研究员）
 
 
 
 ---
 
-I am currently an postdoctoral researcher in the [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) and [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/). I received my Ph.D. degree from ICT, CAS / UCAS in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/). 
+I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. from ICT, CAS / [University of Chinese Academy of Science (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/). 
 
 **Research Interest**: Video streaming (e.g. adaptive streaming, low-latency streaming), Network protocol (e.g. multipath transmission, rate control), Cross-layer network system, Data-driven optimization, Internet measurements.
 
@@ -56,7 +56,7 @@ I am currently an postdoctoral researcher in the [Institute of Computing Technol
 - [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183) ([PDF](https://greenlv.github.io/files/Schaferct_MMSys24_GC.pdf)) ([Slides](https://greenlv.github.io/files/Schaferct_MMSys24_GC_slides.pdf)) ([Poster](https://greenlv.github.io/files/Schaferct_MMSys24_GC_poster.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
   _Qingyue Tan, **Gerui Lv**, Xing Fang, Jiaxing Zhang, Zejun Yang, Yuan Jiang, Qinghua Wu_  \
   <a href="https://2024.acmmmsys.org/"><b>ACM MMSys 2024</b></a>, Open-source Software and Datasets  \
-  <a href="https://greenlv.github.io/files/Schaferct_MMSys24_GC_certificate.pdf" style="color:OrangeRed">Grand Challenge on Offline RL for Bandwidth Estimation in RTC Winner (The 1st place)</a>
+  <a href="https://greenlv.github.io/files/Schaferct_MMSys24_GC_certificate.pdf" style="color:OrangeRed">Grand Challenge on Offline RL for Bandwidth Estimation in RTC Winner (1st place)</a>
 
 - [JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization](https://dl.acm.org/doi/10.1145/3651863.3651881) ([PDF](https://greenlv.github.io/files/JitBright_NOSSDAV24.pdf)) ([Slides](https://greenlv.github.io/files/JitBright_NOSSDAV24_slides.pdf))  \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Ying Chen, Hongyu Guo, Gaogang Xie_  \
@@ -139,7 +139,7 @@ I am currently an postdoctoral researcher in the [Institute of Computing Technol
 
 ## Technical Impacts
 
-- Patent CN116436865A (part of Chorus [MobiCom ’24]) used in Taobao’s RPC system ([XQUIC](https://github.com/alibaba/xquic)) to control multipath reinjection. <a class="github-button" href="https://github.com/alibaba/xquic" data-show-count="true">XQUIC</a>
+- Patent CN116436865A (part of Chorus [MobiCom ’24]) is used in Taobao’s RPC system ([XQUIC](https://github.com/alibaba/xquic)) to control multipath reinjection. <a class="github-button" href="https://github.com/alibaba/xquic" data-show-count="true">XQUIC</a>
 - One of my tech blogs ranked #1 in Google search results for “DASH标准” ([2024-01-09](https://greenlv.github.io/files/DASH_standard-Google-240109.png)).
 - One of my tech blogs ranked #1 in Baidu search results for “DASH视频” ([2023-05-01](https://greenlv.github.io/files/DASH_video-Baidu-230511.png)).
 
