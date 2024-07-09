@@ -64,7 +64,7 @@ I am currently a postdoctoral researcher at ICT, CAS. I received my Ph.D. degree
 
 - [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([PDF](https://greenlv.github.io/files/Lumos_TMC23.pdf))  \
   _**Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
-  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755"><b>IEEE Transactions on Mobile Computing (TMC)</b></a>, 2023  (CCF A)
+  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755"><b>IEEE Transactions on Mobile Computing (TMC)</b></a>, 2023  (CCF A, JCR Q1)
 
 - [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) ([PDF](https://greenlv.github.io/files/Lumos_INFOCOM22.pdf)) ([Slides](https://greenlv.github.io/files/Lumos_INFOCOM22_slides.pdf)) ([Video](https://youtu.be/9-LKcqPmFhA)) <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Luoms</a> \
   _**Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
