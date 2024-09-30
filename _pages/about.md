@@ -108,8 +108,7 @@ I am currently an assistant professor (researcher) at ICT, CAS. I received my Ph
 - Multipath adaptive video streaming  \
   @ _GuoMeng Studio_, Beijing, China, 2023-12-10 ([Event](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q)) \
   @ _BiliBili_, Beijing, China, 2023-10-31 \
-  @ _Nanjing University_, Nanjing, China, 2023-09-02  \
-  @ _Huawei_, Beijing, China, 2023-01-13
+  @ _Nanjing University_, Nanjing, China, 2023-09-02
   
 - Throughput prediction for adaptive streaming   \
   @ _BiliBili_, Beijing, China, 2023-02-07  \
@@ -117,14 +116,6 @@ I am currently an assistant professor (researcher) at ICT, CAS. I received my Ph
   
 - QoE optimization for low-latency live streaming  \
   @ _Tencent_, Beijing, China, 2019-12-02
-
-
-
-## Internships
-
-- Alibaba (Taotian), Hangzhou, China, Jun. 2021 - Sep. 2022  \
-  Research Intern @ Network Technology Team  \
-  Mentor: Ms. Yanmei Liu
 
 
 
@@ -138,7 +129,6 @@ I am currently an assistant professor (researcher) at ICT, CAS. I received my Ph
 
 ## Technical Impacts
 
-- Patent CN116436865A (part of Chorus [MobiCom ’24]) is used in Taobao’s RPC system (XQUIC) to control multipath reinjection. <a class="github-button" href="https://github.com/alibaba/xquic" data-show-count="true">XQUIC</a>
 - One of my tech blogs ranked #1 in Google search results for “DASH标准” ([2024-01-09](https://greenlv.github.io/files/DASH_standard-Google-240109.png)).
 - One of my tech blogs ranked #1 in Baidu search results for “DASH视频” ([2023-05-01](https://greenlv.github.io/files/DASH_video-Baidu-230511.png)).
 
