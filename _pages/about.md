@@ -57,16 +57,16 @@ Studies on video transmission system (from 2021):
         <td align="center"><b>Network</b></td>
     </tr>
     <tr>
-        <td valign="top"><b>Application Layer</b></td>
-        <td valign="top"><b>Bitrate Control</b><br>- MARC [ATC&#39;25]<br>- Schaferct [MMSys’24 GC No.1]<br>- Lumos [TMC’23 / INFOCOM’22]</td>
-        <td valign="top"><b>Buffer Management</b><br>- JitBright [NOSSDAV’24 Best Paper]</td>
-        <td valign="top"><b>CDN Scheduling</b><br>- IMC’24<br>- LiveNet [SIGCOMM’22]<br>- EDGEOPT [TMC’22 / INFOCOM’22]</td>
+        <td style="vertical-align: top"><b>Application Layer</b></td>
+        <td style="vertical-align: top"><b>Bitrate Control</b><br>- MARC [ATC&#39;25]<br>- Schaferct [MMSys’24 GC No.1]<br>- Lumos [TMC’23 / INFOCOM’22]</td>
+        <td style="vertical-align: top"><b>Buffer Management</b><br>- JitBright [NOSSDAV’24 Best Paper]</td>
+        <td style="vertical-align: top"><b>CDN Scheduling</b><br>- IMC’24<br>- LiveNet [SIGCOMM’22]<br>- EDGEOPT [TMC’22 / INFOCOM’22]</td>
     </tr>
     <tr>
-        <td valign="top"><b>Transport Layer</b></td>
-        <td valign="top"><b>Congestion Control</b><br>- Muse [INFOCOM’22]<br>- Antelope [TON’22 / ICNP’21]</td>
-        <td valign="top"><b>Multipath Transmission</b><br>- Chorus [MobiCom’24]<br>- Disco [ICNP’23]<br>- XLINK [SIGCOMM’21]</td>
-        <td valign="top"><b>Edge Assistance</b><br>- TECC [NSDI&#39;24]</td>
+        <td style="vertical-align: top"><b>Transport Layer</b></td>
+        <td style="vertical-align: top"><b>Congestion Control</b><br>- Muse [INFOCOM’22]<br>- Antelope [TON’22 / ICNP’21]</td>
+        <td style="vertical-align: top"><b>Multipath Transmission</b><br>- Chorus [MobiCom’24]<br>- Disco [ICNP’23]<br>- XLINK [SIGCOMM’21]</td>
+        <td style="vertical-align: top"><b>Edge Assistance</b><br>- TECC [NSDI&#39;24]</td>
     </tr>
 </table>
 
