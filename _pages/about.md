@@ -60,7 +60,7 @@ Studies on video transmission system (from 2021):
         <td style="vertical-align: top"><b>Application Layer</b></td>
         <td style="vertical-align: top"><b>Bitrate Control</b><br>- MARC [ATC&#39;25]<br>- Schaferct [MMSys’24 GC No.1]<br>- Lumos [TMC’23 / INFOCOM’22]</td>
         <td style="vertical-align: top"><b>Buffer Management</b><br>- JitBright [NOSSDAV’24 Best Paper]</td>
-        <td style="vertical-align: top"><b>CDN Scheduling</b><br>- IMC’24<br>- LiveNet [SIGCOMM’22]<br>- EDGEOPT [TMC’22 / INFOCOM’22]</td>
+        <td style="vertical-align: top"><b>CDN Scheduling</b><br>- IMC’24<br>- LiveNet [SIGCOMM’22]<br>- EdgeOpt [TMC’22 / INFOCOM’22]</td>
     </tr>
     <tr>
         <td style="vertical-align: top"><b>Transport Layer</b></td>
