@@ -24,7 +24,7 @@ Network Architecture and System Research Group (NAS), Network Reasearch Center \
 
 I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree from ICT, CAS / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/), and my B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016.
 
-**Research Interest**: Video streaming (e.g. adaptive streaming, low-latency streaming), Network protocol (e.g. multipath transmission, rate control), Cross-layer network system, Data-driven optimization, Internet measurements.
+**Research Interest**: Video streaming (e.g. adaptive streaming, RTC), Network protocol (e.g. multipath transmission, rate control), Cross-layer network system, Data-driven optimization, Internet measurements.
 
 
 
@@ -46,6 +46,29 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
   </ul>
 </div>
 
+
+## Research Scope of NAS
+Studies on video transmission system (from 2021):
+
+<table>
+    <tr>
+        <td> </td>
+        <td colspan="2" align="center"><b>Endpoint</b></td>
+        <td align="center"><b>Network</b></td>
+    </tr>
+    <tr>
+        <td valign="top"><b>Application Layer</b></td>
+        <td valign="top"><b>Bitrate Control</b><br>- MARC [ATC&#39;25]<br>- Schaferct [MMSys’24 GC No.1]<br>- Lumos [TMC’23 / INFOCOM’22]</td>
+        <td valign="top"><b>Buffer Management</b><br>- JitBright [NOSSDAV’24 Best Paper]</td>
+        <td valign="top"><b>CDN Scheduling</b><br>- IMC’24<br>- LiveNet [SIGCOMM’22]<br>- EDGEOPT [TMC’22 / INFOCOM’22]</td>
+    </tr>
+    <tr>
+        <td valign="top"><b>Transport Layer</b></td>
+        <td valign="top"><b>Congestion Control</b><br>- Muse [INFOCOM’22]<br>- Antelope [TON’22 / ICNP’21]</td>
+        <td valign="top"><b>Multipath Transmission</b><br>- Chorus [MobiCom’24]<br>- Disco [ICNP’23]<br>- XLINK [SIGCOMM’21]</td>
+        <td valign="top"><b>Edge Assistance</b><br>- TECC [NSDI&#39;24]</td>
+    </tr>
+</table>
 
 
 
@@ -113,7 +136,7 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 
 ## Talks
 
-- RTC transmission \
+- RTC transmission system \
   @ _ByteDance_, Beijing, China, 2024-11-05 \
   @ _BUPT_, Beijing, China, 2024-11-19
 - Multipath adaptive video streaming  \
