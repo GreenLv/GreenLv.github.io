@@ -114,7 +114,7 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 ## Talks
 
 - RTC transmission \
-  @ _BeyteDance_, Beijing, China, 2024-11-05 \
+  @ _ByteDance_, Beijing, China, 2024-11-05 \
   @ _BUPT_, Beijing, China, 2024-11-19
 - Multipath adaptive video streaming  \
   @ _GuoMeng Studio_, Beijing, China, 2023-12-10 ([Event](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q)) \
