@@ -36,6 +36,7 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
+      <li>[2025-04] 📃 Paper MARC accepted to <b>USENIX ATC 2025</b>.</li>
       <li>[2024-06] 🎓 I received my Ph.D. degree from ICT, CAS / UCAS.</li>
       <li>[2024-04] 🏆 Paper JitBright won the Best Paper Award at <b>ACM NOSSDAV 2024</b>. </li>
       <li>[2024-03] 🏆 Our team Schaferct won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge</a>.</li>
@@ -47,7 +48,12 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 
 
 
+
 ## Publications
+
+- MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering \
+  _Yuankang Zhao\*, Furong Yang\*, **Gerui Lv**\*, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
+  <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A)
 
 - [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf)) ([Slides](https://greenlv.github.io/files/Chorus_MobiCom24_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/Chorus_MobiCom24_tech_report.pdf)) \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
@@ -107,16 +113,17 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 
 ## Talks
 
+- RTC transmission \
+  @ _BeyteDance_, Beijing, China, 2024-11-05 \
+  @ _BUPT_, Beijing, China, 2024-11-19
 - Multipath adaptive video streaming  \
   @ _GuoMeng Studio_, Beijing, China, 2023-12-10 ([Event](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q)) \
   @ _BiliBili_, Beijing, China, 2023-10-31 \
-  @ _Nanjing University_, Nanjing, China, 2023-09-02  \
+  @ _NJU_, Nanjing, China, 2023-09-02  \
   @ _Huawei_, Beijing, China, 2023-01-13
-  
 - Throughput prediction for adaptive streaming   \
   @ _BiliBili_, Beijing, China, 2023-02-07  \
   @ _Alibaba_, Hangzhou, China, 2021-08-02
-  
 - QoE optimization for low-latency live streaming  \
   @ _Tencent_, Beijing, China, 2019-12-02
 
@@ -146,3 +153,12 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 
 
 
+## Reviewing Experiences 
+
+- ACM WWW (2025)
+- IEEE INFOCOM (2020, 2023, 2024, 2025)
+- ACM CoNEXT (2024, 2025)
+- IEEE ICNP (2019, 2020, 2024)
+- IEEE MetaCom (2024)
+- IEEE Access (2025)
+- ACM MobiCom Artifacts Evaluation (2024)
