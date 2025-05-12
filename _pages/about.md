@@ -36,14 +36,11 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
-      <li>[2025-05] 📃 Paper Chorus is highlighted by <b>ACM SIGMobile GetMobile</b>.</li>
+      <li>[2025-05] 📃 Paper Chorus highlighted by <b>ACM SIGMOBILE GetMobile</b>.</li>
       <li>[2025-04] 📃 Paper MARC accepted to <b>USENIX ATC 2025</b>.</li>
       <li>[2024-06] 🎓 I received my Ph.D. degree from ICT, CAS / UCAS.</li>
       <li>[2024-04] 🏆 Paper JitBright won the Best Paper Award at <b>ACM NOSSDAV 2024</b>. </li>
-      <li>[2024-03] 🏆 Our team Schaferct won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge</a>.</li>
-      <li>[2024-03] 📃 Paper accepted to <b>ACM MMSys 2024</b>.</li>
-      <li>[2024-03] 📃 Paper JitBright accepted to <b>ACM NOSSDAV 2024</b>. </li>
-      <li>[2023-11] 📃 Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
+      <li>[2024-03] 🏆 Team Schaferct won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge</a>.</li>
   </ul>
 </div>
 
@@ -84,7 +81,7 @@ Studies on video transmission system (from 2021):
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
   <span style="color:OrangeRed">The first MobiCom conference paper from ICT, CAS</span> \
-  <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">ACM SIGMobile GetMobile Highlights</a>
+  <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">Cover Article of ACM SIGMOBILE GetMobile (Vol. 29, No. 1, Mar. 2025)</a>
 
 - [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183) ([PDF](https://greenlv.github.io/files/Schaferct_MMSys24_GC.pdf)) ([Slides](https://greenlv.github.io/files/Schaferct_MMSys24_GC_slides.pdf)) ([Poster](https://greenlv.github.io/files/Schaferct_MMSys24_GC_poster.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
   _Qingyue Tan, **Gerui Lv**, Xing Fang, Jiaxing Zhang, Zejun Yang, Yuan Jiang, Qinghua Wu_  \
