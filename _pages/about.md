@@ -36,6 +36,7 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
+      <li>[2025-05] 📃 Paper Chorus is highlighted by <b>ACM SIGMobile GetMobile</b>.</li>
       <li>[2025-04] 📃 Paper MARC accepted to <b>USENIX ATC 2025</b>.</li>
       <li>[2024-06] 🎓 I received my Ph.D. degree from ICT, CAS / UCAS.</li>
       <li>[2024-04] 🏆 Paper JitBright won the Best Paper Award at <b>ACM NOSSDAV 2024</b>. </li>
@@ -45,6 +46,7 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
       <li>[2023-11] 📃 Paper Chorus accepted to <b>ACM MobiCom 2024</b>. </li>
   </ul>
 </div>
+
 
 
 ## Research Scope of NAS
@@ -78,10 +80,11 @@ Studies on video transmission system (from 2021):
   _Yuankang Zhao\*, Furong Yang\*, **Gerui Lv**\*, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A)
 
-- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf)) ([Slides](https://greenlv.github.io/files/Chorus_MobiCom24_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/Chorus_MobiCom24_tech_report.pdf)) \
+- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf)) ([Slides](https://greenlv.github.io/files/Chorus_MobiCom24_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/Chorus_MobiCom24_tech_report.pdf)) ([GetMobile](https://greenlv.github.io/files/Chorus_GetMobile25.pdf)) \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
   <span style="color:OrangeRed">The first MobiCom conference paper from ICT, CAS</span>
+  <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">ACM SIGMobile GetMobile Highlights</a>
 
 - [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183) ([PDF](https://greenlv.github.io/files/Schaferct_MMSys24_GC.pdf)) ([Slides](https://greenlv.github.io/files/Schaferct_MMSys24_GC_slides.pdf)) ([Poster](https://greenlv.github.io/files/Schaferct_MMSys24_GC_poster.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
   _Qingyue Tan, **Gerui Lv**, Xing Fang, Jiaxing Zhang, Zejun Yang, Yuan Jiang, Qinghua Wu_  \
