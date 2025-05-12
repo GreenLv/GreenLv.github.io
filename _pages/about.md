@@ -13,7 +13,7 @@ redirect_from:
 
 
 ***Assistant Professor (Postdoctoral Researcher)*** \
-Network Architecture and System Research Group (NAS), Network Reasearch Center \
+Network Architecture and System Research Group (NASG), Network Reasearch Center \
 [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) \
 中国科学院计算技术研究所 · 网络技术研究中心 · 网络体系结构与系统课题组 \
 特别研究助理（博士后研究员）
@@ -49,7 +49,7 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 
 
 
-## Research Scope of NAS
+## Research Scope of NASG
 Studies on video transmission system (from 2021):
 
 <table>
@@ -60,15 +60,15 @@ Studies on video transmission system (from 2021):
     </tr>
     <tr>
         <td style="vertical-align: top"><b>Application Layer</b></td>
-        <td style="vertical-align: top"><b>Bitrate Control</b><br>- MARC [ATC&#39;25]<br>- Schaferct [MMSys’24 GC No.1]<br>- Lumos [TMC’23 / INFOCOM’22]</td>
-        <td style="vertical-align: top"><b>Buffer Management</b><br>- JitBright [NOSSDAV’24 Best Paper]</td>
-        <td style="vertical-align: top"><b>CDN Scheduling</b><br>- IMC’24<br>- LiveNet [SIGCOMM’22]<br>- EdgeOpt [TMC’22 / INFOCOM’22]</td>
+        <td style="vertical-align: top"><b>Bitrate Control</b><br>- MARC [ATC’25]<br>- Schaferct [<a href="https://dl.acm.org/doi/10.1145/3625468.3652183">MMSys’24 GC No.1</a>]<br>- Lumos [<a href="https://ieeexplore.ieee.org/abstract/document/10246426">TMC’23</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796948/">INFOCOM’22</a>]</td>
+        <td style="vertical-align: top"><b>Buffer Management</b><br>- JitBright [<a href="https://dl.acm.org/doi/10.1145/3651863.3651881">NOSSDAV’24 Best Paper</a>]</td>
+        <td style="vertical-align: top"><b>CDN Scheduling</b><br>- [<a href="https://dl.acm.org/doi/abs/10.1145/3646547.3689025">IMC’24</a>]<br>- LiveNet [<a href="https://dl.acm.org/doi/abs/10.1145/3544216.3544236">SIGCOMM’22</a>]<br>- EdgeOpt [<a href="https://ieeexplore.ieee.org/abstract/document/9896208/">TMC’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796824">INFOCOM’22</a>]</td>
     </tr>
     <tr>
         <td style="vertical-align: top"><b>Transport Layer</b></td>
-        <td style="vertical-align: top"><b>Congestion Control</b><br>- Muse [INFOCOM’22]<br>- Antelope [TON’22 / ICNP’21]</td>
-        <td style="vertical-align: top"><b>Multipath Transmission</b><br>- Chorus [MobiCom’24]<br>- Disco [ICNP’23]<br>- XLINK [SIGCOMM’21]</td>
-        <td style="vertical-align: top"><b>Edge Assistance</b><br>- TECC [NSDI&#39;24]</td>
+        <td style="vertical-align: top"><b>Congestion Control</b><br>- Muse [<a href="https://ieeexplore.ieee.org/abstract/document/9796880">INFOCOM’22</a>]<br>- Antelope [<a href="https://ieeexplore.ieee.org/abstract/document/9953961">TON’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9651912">ICNP’21</a>]</td>
+        <td style="vertical-align: top"><b>Multipath Transmission</b><br>- Chorus [<a href="https://dl.acm.org/doi/10.1145/3636534.3649359">MobiCom’24</a>]<br>- Disco [<a href="https://ieeexplore.ieee.org/abstract/document/10355608/">ICNP’23</a>]<br>- XLINK [<a ref="https://dl.acm.org/doi/abs/10.1145/3452296.3472893">SIGCOMM’21</a>]</td>
+        <td style="vertical-align: top"><b>Edge Assistance</b><br>- TECC [<a href="https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing">NSDI’24</a>]</td>
     </tr>
 </table>
 
@@ -83,7 +83,7 @@ Studies on video transmission system (from 2021):
 - [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf)) ([Slides](https://greenlv.github.io/files/Chorus_MobiCom24_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/Chorus_MobiCom24_tech_report.pdf)) ([GetMobile](https://greenlv.github.io/files/Chorus_GetMobile25.pdf)) \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
-  <span style="color:OrangeRed">The first MobiCom conference paper from ICT, CAS</span>
+  <span style="color:OrangeRed">The first MobiCom conference paper from ICT, CAS</span> \
   <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">ACM SIGMobile GetMobile Highlights</a>
 
 - [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183) ([PDF](https://greenlv.github.io/files/Schaferct_MMSys24_GC.pdf)) ([Slides](https://greenlv.github.io/files/Schaferct_MMSys24_GC_slides.pdf)) ([Poster](https://greenlv.github.io/files/Schaferct_MMSys24_GC_poster.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
