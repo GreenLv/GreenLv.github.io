@@ -49,7 +49,8 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 ## Research Scope of NASG
 Studies on video transmission system (from 2021):
 
-<table cellspacing="0" style="border: 2px solid #4169E1; border-collapse: collapse">
+<div style="border: 2px solid #4169E1; border-radius: 8px; overflow: hidden">
+<table cellspacing="0" style="border: none; border-collapse: collapse; width: 100%">
     <tr style="background-color: #D2E1FF">
         <th style="border: 2px solid #4169E1; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6; width: 80px"></th>
         <th colspan="2" align="center" style="border-top: 2px solid #4169E1; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Endpoint</b></th>
@@ -68,7 +69,7 @@ Studies on video transmission system (from 2021):
         <td style="vertical-align: top; border-right: 2px solid #4169E1; border-bottom: 2px solid #4169E1"><b>Edge Assistance</b><br>- TECC [<a href="https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing">NSDI’24</a>]</td>
     </tr>
 </table>
-
+</div>
 
 
 
