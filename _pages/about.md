@@ -56,13 +56,13 @@ Studies on video transmission system (from 2021):
         <td align="center"><b>Network</b></td>
     </tr>
     <tr>
-        <td style="vertical-align: top"><b>Application Layer</b></td>
+        <td style="vertical-align: top"><b>Application<br>Layer</b></td>
         <td style="vertical-align: top"><b>Bitrate Control</b><br>- MARC [ATC’25]<br>- Schaferct [<a href="https://dl.acm.org/doi/10.1145/3625468.3652183">MMSys’24 GC No.1</a>]<br>- Lumos [<a href="https://ieeexplore.ieee.org/abstract/document/10246426">TMC’23</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796948/">INFOCOM’22</a>]</td>
         <td style="vertical-align: top"><b>Buffer Management</b><br>- JitBright [<a href="https://dl.acm.org/doi/10.1145/3651863.3651881">NOSSDAV’24 Best Paper</a>]</td>
         <td style="vertical-align: top"><b>CDN Scheduling</b><br>- [<a href="https://dl.acm.org/doi/abs/10.1145/3646547.3689025">IMC’24</a>]<br>- LiveNet [<a href="https://dl.acm.org/doi/abs/10.1145/3544216.3544236">SIGCOMM’22</a>]<br>- EdgeOpt [<a href="https://ieeexplore.ieee.org/abstract/document/9896208/">TMC’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796824">INFOCOM’22</a>]</td>
     </tr>
     <tr>
-        <td style="vertical-align: top"><b>Transport Layer</b></td>
+        <td style="vertical-align: top"><b>Transport<br>Layer</b></td>
         <td style="vertical-align: top"><b>Congestion Control</b><br>- Muse [<a href="https://ieeexplore.ieee.org/abstract/document/9796880">INFOCOM’22</a>]<br>- Antelope [<a href="https://ieeexplore.ieee.org/abstract/document/9953961">TON’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9651912">ICNP’21</a>]</td>
         <td style="vertical-align: top"><b>Multipath Transmission</b><br>- Chorus [<a href="https://dl.acm.org/doi/10.1145/3636534.3649359">MobiCom’24</a>]<br>- Disco [<a href="https://ieeexplore.ieee.org/abstract/document/10355608/">ICNP’23</a>]<br>- XLINK [<a ref="https://dl.acm.org/doi/abs/10.1145/3452296.3472893">SIGCOMM’21</a>]</td>
         <td style="vertical-align: top"><b>Edge Assistance</b><br>- TECC [<a href="https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing">NSDI’24</a>]</td>
