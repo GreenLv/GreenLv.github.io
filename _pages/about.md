@@ -50,19 +50,22 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 Studies on video transmission system (from 2021):
 
 <table cellspacing="0" style="border: 2px solid #595959; border-collapse: collapse">
+    <!-- Title -->
     <tr style="background-color: #f8f8f8">
         <th style="border: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6; width: 80px"></th>
         <th colspan="2" style="vertical-align: middle; text-align: center; border-top: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Endpoint</b></th>
         <th style="vertical-align: middle; text-align: center; border: 2px solid #595959; border-left: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Network</b></th>
     </tr>
+    <!-- 1st Row -->
     <tr style="background-color: #e2f1da">
-        <td style="vertical-align: middle; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6; color: #375d23"><b>Application<br>Layer</b></td>
+        <td style="vertical-align: middle; text-align: center; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6; color: #375d23"><b>Application<br>Layer</b></td>
         <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Bitrate Control</b><br>- MARC [ATC’25]<br>- Schaferct [<a href="https://dl.acm.org/doi/10.1145/3625468.3652183">MMSys’24 GC No.1</a>]<br>- Lumos [<a href="https://ieeexplore.ieee.org/abstract/document/10246426">TMC’23</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796948/">INFOCOM’22</a>]</td>
         <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Buffer Management</b><br>- JitBright [<a href="https://dl.acm.org/doi/10.1145/3651863.3651881">NOSSDAV’24 Best Paper</a>]</td>
         <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 1px solid #a6a6a6"><b>CDN Scheduling</b><br>- [<a href="https://dl.acm.org/doi/abs/10.1145/3646547.3689025">IMC’24</a>]<br>- LiveNet [<a href="https://dl.acm.org/doi/abs/10.1145/3544216.3544236">SIGCOMM’22</a>]<br>- EdgeOpt [<a href="https://ieeexplore.ieee.org/abstract/document/9896208/">TMC’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796824">INFOCOM’22</a>]</td>
     </tr>
+    <!-- 2nd Row -->
     <tr style="background-color: #fef4cf">
-        <td style="vertical-align: middle; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959; color: #846802"><b>Transport<br>Layer</b></td>
+        <td style="vertical-align: middle; text-align: center; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959; color: #846802"><b>Transport<br>Layer</b></td>
         <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959"><b>Congestion Control</b><br>- Muse [<a href="https://ieeexplore.ieee.org/abstract/document/9796880">INFOCOM’22</a>]<br>- Antelope [<a href="https://ieeexplore.ieee.org/abstract/document/9953961">TON’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9651912">ICNP’21</a>]</td>
         <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959"><b>Multipath Transmission</b><br>- Chorus [<a href="https://dl.acm.org/doi/10.1145/3636534.3649359">MobiCom’24</a>]<br>- Disco [<a href="https://ieeexplore.ieee.org/abstract/document/10355608/">ICNP’23</a>]<br>- XLINK [<a href="https://dl.acm.org/doi/abs/10.1145/3452296.3472893">SIGCOMM’21</a>]</td>
         <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 2px solid #595959"><b>Edge Assistance</b><br>- TECC [<a href="https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing">NSDI’24</a>]</td>
