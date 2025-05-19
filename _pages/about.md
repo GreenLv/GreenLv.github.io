@@ -52,8 +52,8 @@ Studies on video transmission system (from 2021):
 <table>
     <tr bgcolor="f8f8f8">
         <th> </th>
-        <th colspan="2" align="center"><b>Endpoint</b></td>
-        <th align="center"><b>Network</b></td>
+        <th colspan="2" align="center"><b>Endpoint</b></th>
+        <th align="center"><b>Network</b></th>
     </tr>
     <tr bgcolor="e2f1da">
         <td style="vertical-align: top"><b>Application<br>Layer</b></td>
