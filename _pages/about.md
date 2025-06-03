@@ -82,7 +82,7 @@ Studies on video transmission system (from 2021):
   _Yuankang Zhao\*, Furong Yang\*, **Gerui Lv**\*, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A)
 
-- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf)) ([Slides](https://greenlv.github.io/files/Chorus_MobiCom24_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/Chorus_MobiCom24_tech_report.pdf)) ([GetMobile](https://greenlv.github.io/files/Chorus_GetMobile25.pdf)) \
+- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf)) ([Slides](https://greenlv.github.io/files/Chorus_MobiCom24_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/Chorus_MobiCom24_tech_report.pdf)) ([Demo Video](https://greenlv.github.io/files/Chorus_demo_video.mp4)) ([GetMobile](https://greenlv.github.io/files/Chorus_GetMobile25.pdf)) \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
   <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">Cover Article of ACM SIGMOBILE GetMobile (Vol. 29, No. 1)</a> \
