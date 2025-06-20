@@ -59,16 +59,29 @@ Studies on video transmission system (from 2021):
     <!-- 1st Row -->
     <tr style="background-color: #e2f1da">
         <td style="vertical-align: middle; text-align: center; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6; color: #375d23; font-size: 1.15em;"><b>Application<br>Layer</b></td>
-        <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Bitrate Control</b><br>- MARC [<a href="https://www.usenix.org/conference/atc25/presentation/zhao-yuankang">ATC’25</a>]<br>- Schaferct [<a href="https://dl.acm.org/doi/10.1145/3625468.3652183">MMSys’24 GC No.1</a>]<br>- Lumos [<a href="https://ieeexplore.ieee.org/abstract/document/10246426">TMC’23</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796948/">INFOCOM’22</a>]</td>
-        <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Buffer Management</b><br>- JitBright [<a href="https://dl.acm.org/doi/10.1145/3651863.3651881">NOSSDAV’24 Best Paper</a>]</td>
-        <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 1px solid #a6a6a6"><b>CDN Scheduling</b><br>- [<a href="https://dl.acm.org/doi/abs/10.1145/3646547.3689025">IMC’24</a>]<br>- LiveNet [<a href="https://dl.acm.org/doi/abs/10.1145/3544216.3544236">SIGCOMM’22</a>]<br>- EdgeOpt [<a href="https://ieeexplore.ieee.org/abstract/document/9896208/">TMC’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796824">INFOCOM’22</a>]</td>
+        <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Bitrate Control</b><br>
+        - MARC [<a href="https://www.usenix.org/conference/atc25/presentation/zhao-yuankang">ATC’25</a>]<br>
+        - Schaferct [<a href="https://dl.acm.org/doi/10.1145/3625468.3652183">MMSys’24 GC No.1</a>]<br>
+        - Lumos [<a href="https://ieeexplore.ieee.org/abstract/document/10246426">TMC’23</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796948/">INFOCOM’22</a>]</td>
+        <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Buffer Management</b><br>
+        - JitBright [TOMM'25 / <a href="https://dl.acm.org/doi/10.1145/3651863.3651881">NOSSDAV’24 Best Paper</a>]</td>
+        <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 1px solid #a6a6a6"><b>CDN Scheduling</b><br>
+        - [<a href="https://dl.acm.org/doi/abs/10.1145/3646547.3689025">IMC’24</a>]<br>
+        - LiveNet [<a href="https://dl.acm.org/doi/abs/10.1145/3544216.3544236">SIGCOMM’22</a>]<br>
+        - EdgeOpt [<a href="https://ieeexplore.ieee.org/abstract/document/9896208/">TMC’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796824">INFOCOM’22</a>]</td>
     </tr>
     <!-- 2nd Row -->
     <tr style="background-color: #fef4cf">
         <td style="vertical-align: middle; text-align: center; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959; color: #846802; font-size: 1.15em;"><b>Transport<br>Layer</b></td>
-        <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959"><b>Congestion Control</b><br>- Muse [<a href="https://ieeexplore.ieee.org/abstract/document/9796880">INFOCOM’22</a>]<br>- Antelope [<a href="https://ieeexplore.ieee.org/abstract/document/9953961">TON’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9651912">ICNP’21</a>]</td>
-        <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959"><b>Multipath Transmission</b><br>- Chorus [<a href="https://dl.acm.org/doi/10.1145/3636534.3649359">MobiCom’24</a>]<br>- Disco [<a href="https://ieeexplore.ieee.org/abstract/document/10355608/">ICNP’23</a>]<br>- XLINK [<a href="https://dl.acm.org/doi/abs/10.1145/3452296.3472893">SIGCOMM’21</a>]</td>
-        <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 2px solid #595959"><b>Edge Assistance</b><br>- TECC [<a href="https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing">NSDI’24</a>]</td>
+        <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959"><b>Congestion Control</b><br>
+        - Muse [<a href="https://ieeexplore.ieee.org/abstract/document/9796880">INFOCOM’22</a>]<br>
+        - Antelope [<a href="https://ieeexplore.ieee.org/abstract/document/9953961">TON’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9651912">ICNP’21</a>]</td>
+        <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959"><b>Multipath Transmission</b><br>
+        - Chorus [<a href="https://dl.acm.org/doi/10.1145/3636534.3649359">MobiCom’24</a>]<br>
+        - Disco [<a href="https://ieeexplore.ieee.org/abstract/document/10355608/">ICNP’23</a>]<br>
+        - XLINK [<a href="https://dl.acm.org/doi/abs/10.1145/3452296.3472893">SIGCOMM’21</a>]</td>
+        <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 2px solid #595959"><b>Edge Assistance</b><br>
+        - TECC [<a href="https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing">NSDI’24</a>]</td>
     </tr>
 </table>
 
@@ -79,8 +92,12 @@ Studies on video transmission system (from 2021):
 ## Publications
 
 - [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/MARC_ATC25.pdf)) \
-  _Yuankang Zhao\*, Furong Yang\*, **Gerui Lv**\*, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
+  _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A)
+
+- Understanding and Taming the Inflated Latency in Mobile Cloud Rendering \
+  _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Hongyu Guo, Ying Chen, Gaogang Xie_  \
+  <a href="https://dl.acm.org/journal/tomm"><b>ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)</b></a>, 2025  (CCF B, JCR Q1)
 
 - [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf)) ([Slides](https://greenlv.github.io/files/Chorus_MobiCom24_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/Chorus_MobiCom24_tech_report.pdf)) ([Demo Video](https://greenlv.github.io/files/Chorus_demo_video.mp4)) ([GetMobile](https://greenlv.github.io/files/Chorus_GetMobile25.pdf)) \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
