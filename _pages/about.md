@@ -203,7 +203,7 @@ Studies on video transmission system (from 2021):
 - ACM WWW (2025)
 - IEEE INFOCOM (2020, 2023, 2024, 2025)
 - ACM CoNEXT (2024, 2025)
-- IEEE ICNP (2019, 2020, 2024)
+- IEEE ICNP (2019, 2020, 2024, 2025)
 - IEEE MetaCom (2024)
 - IEEE Access (2025)
 - ACM MobiCom Artifacts Evaluation (2024)
