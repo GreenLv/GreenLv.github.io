@@ -134,18 +134,23 @@ Studies on video transmission system (from 2021):
 
 ## Patents
 
-- [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/zh) [CN115834556B, ZL202310152689.9] (Granted: 2023-05-12)  \
+- [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/) [CN115834556B, ZL202310152689.9] (Granted: 2023-05-12)  \
   _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
-- [多路径传输的重注入控制方法、电子设备及存储介质](https://patents.google.com/patent/CN116436865A/zh) [CN116436865A]  \
+- [多路径传输的重注入控制方法、电子设备及存储介质](https://patents.google.com/patent/CN116436865A/) [CN116436865A]  \
   _**吕格瑞**, 刘彦梅, 杨馥榕, 陈文韬, 郭虹宇, 陈颖_
 
-- [一种路径处理方法、装置及电子设备](https://patents.google.com/patent/CN116827853A/zh) [CN116827853A]  \
+- [一种路径处理方法、装置及电子设备](https://patents.google.com/patent/CN116827853A/) [CN116827853A]  \
   _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
-- [一种数据驱动的网络视频流传输方法及装置](https://patents.google.com/patent/CN118075567A/zh) [CN118075567A]  \
+- [一种数据驱动的网络视频流传输方法及装置](https://patents.google.com/patent/CN118075567A/) [CN118075567A]  \
   _**吕格瑞**, 武庆华, 王卫染, 谭清月, 李振宇_
 
+- 一种基于用户动作与视频帧映射的实时质量测量方法 \
+  _赵员康, **吕格瑞**, 武庆华, 李振宇_
+
+- 一种数据驱动的动态 QoE 偏好权重参数确定方法 \
+  _赵员康, **吕格瑞**, 武庆华, 李振宇_
 
 
 ## Honors and Awards
