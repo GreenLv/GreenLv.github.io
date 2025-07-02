@@ -67,7 +67,7 @@ Studies on video transmission system (from 2021):
         - Lumos [<a href="https://ieeexplore.ieee.org/abstract/document/10246426">TMC’23</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796948/">INFOCOM’22</a>]</td>
         <!-- Buffer Management -->
         <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Buffer Management</b><br>
-        - JitBright [<a href="https://dl.acm.org/doi/10.1145/3746283">TOMM'25</a> / <a href="https://dl.acm.org/doi/10.1145/3651863.3651881">NOSSDAV’24 Best Paper</a>]</td>
+        - JitBright [<a href="https://dl.acm.org/doi/10.1145/3746283">TOMM’25</a> / <a href="https://dl.acm.org/doi/10.1145/3651863.3651881">NOSSDAV’24 Best Paper</a>]</td>
         <!-- CDN Scheduling -->
         <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 1px solid #a6a6a6"><b>CDN Scheduling</b><br>
         - [<a href="https://dl.acm.org/doi/abs/10.1145/3646547.3689025">IMC’24</a>]<br>
