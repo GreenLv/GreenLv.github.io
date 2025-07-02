@@ -22,9 +22,9 @@ Network Architecture and System Research Group (NASG), Network Reasearch Center 
 
 ---
 
-I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree from ICT, CAS / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/), and my B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016.
+He is currently an assistant professor at ICT, CAS. He received his Ph.D. degree from ICT, CAS / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/), and my B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016.
 
-**Research Interest**: Video streaming (e.g., adaptive streaming, real-time communication), Network protocol (e.g., multipath transmission, rate control), Cross-layer network system, Data-driven optimization, Internet measurements.
+**Research Interest**: Video streaming (e.g., adaptive streaming, real-time communication), Network protocol (e.g., multipath transmission), Cross-layer network system, Data-driven optimization, Internet measurements.
 
 
 
@@ -36,6 +36,7 @@ I am currently an assistant professor at ICT, CAS. I received my Ph.D. degree fr
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
+      <li>[2025-07] 📃 Paper JitBright accepted to <b>ACM TOMM</b>.</li>
       <li>[2025-05] 📃 Paper Chorus highlighted by <b>ACM SIGMOBILE GetMobile</b>.</li>
       <li>[2025-04] 📃 Paper MARC accepted to <b>USENIX ATC 2025</b>.</li>
       <li>[2024-06] 🎓 I received my Ph.D. degree from ICT, CAS / UCAS.</li>
