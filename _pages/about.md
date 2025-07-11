@@ -98,7 +98,7 @@ Studies on video transmission system (from 2021):
 
 ## Publications
 
-- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/MARC_ATC25.pdf)) \
+- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/MARC_ATC25.pdf)) ([Slides](https://greenlv.github.io/files/MARC_ATC25_slides.pdf)) ([Poster](https://greenlv.github.io/files/MARC_ATC25_poster.pdf)) \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A)
 
