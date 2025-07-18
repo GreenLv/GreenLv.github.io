@@ -36,11 +36,12 @@ He is currently an assistant professor at ICT, CAS. He received his Ph.D. degree
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
+      <li>[2025-07] 🎓 My doctoral dissertation was awarded the Excellent Doctoral Dissertations of CAS. </li>
       <li>[2025-07] 📃 Paper JitBright accepted to <b>ACM TOMM</b>.</li>
       <li>[2025-05] 📃 Paper Chorus highlighted by <b>ACM SIGMOBILE GetMobile</b>.</li>
       <li>[2025-04] 📃 Paper MARC accepted to <b>USENIX ATC 2025</b>.</li>
       <li>[2024-06] 🎓 I received my Ph.D. degree from ICT, CAS / UCAS.</li>
-      <li>[2024-04] 🏆 Paper JitBright won the Best Paper Award at <b>ACM NOSSDAV 2024</b>. </li>
+      <li>[2024-04] 🏆 Paper JitBright was awarded the Best Paper Award at <b>ACM NOSSDAV 2024</b>. </li>
       <li>[2024-03] 🏆 Team Schaferct won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge</a>.</li>
   </ul>
 </div>
@@ -154,6 +155,7 @@ Studies on video transmission system (from 2021):
 
 
 ## Honors and Awards
+- Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文), 2025
 - Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生), 2024
 - Outstanding Ph.D. Graduates in UCAS, 2024
 - Best Paper Award at ACM NOSSDAV 2024
