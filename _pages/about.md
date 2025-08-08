@@ -16,7 +16,7 @@ redirect_from:
 Network Architecture and System Research Group (NASG), Network Reasearch Center \
 [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) \
 中国科学院计算技术研究所 · 网络技术研究中心 · 网络体系结构与系统课题组 \
-特别研究助理（博士后研究员）
+助理研究员（博士后）
 
 
 
@@ -28,7 +28,7 @@ He is currently an assistant professor at ICT, CAS. He received his Ph.D. degree
 
 
 
-[[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]
+[[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)] [[View of Technology (In Chinese)](https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2)]
 
 
 
@@ -37,7 +37,7 @@ He is currently an assistant professor at ICT, CAS. He received his Ph.D. degree
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
       <li>[2025-07] 🎓 My doctoral dissertation was awarded the Excellent Doctoral Dissertations of CAS. </li>
-      <li>[2025-07] 📃 Paper JitBright accepted to <b>ACM TOMM</b>.</li>
+      <li>[2025-07] 📃 Paper Co-RTV accepted to <b>IEEE RTSS 2025</b>. </li>
       <li>[2025-05] 📃 Paper Chorus highlighted by <b>ACM SIGMOBILE GetMobile</b>.</li>
       <li>[2025-04] 📃 Paper MARC accepted to <b>USENIX ATC 2025</b>.</li>
       <li>[2024-06] 🎓 I received my Ph.D. degree from ICT, CAS / UCAS.</li>
@@ -49,7 +49,7 @@ He is currently an assistant professor at ICT, CAS. He received his Ph.D. degree
 
 
 ## Research Scope of NASG
-Studies on video transmission system (from 2021):
+Main studies on video transmission system (from 2021):
 
 <table cellspacing="0" style="border: 2px solid #595959; border-collapse: collapse; font-size: 16px">
     <!-- Title -->
@@ -89,6 +89,7 @@ Studies on video transmission system (from 2021):
         - XLINK [<a href="https://dl.acm.org/doi/abs/10.1145/3452296.3472893">SIGCOMM’21</a>]</td>
         <!-- Edge Assistance -->
         <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 2px solid #595959"><b>Edge Assistance</b><br>
+        - Co-RTV [RTSS’25]<br>
         - TECC [<a href="https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing">NSDI’24</a>]</td>
     </tr>
 </table>
@@ -102,6 +103,10 @@ Studies on video transmission system (from 2021):
 - [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/MARC_ATC25.pdf)) ([Slides](https://greenlv.github.io/files/MARC_ATC25_slides.pdf)) ([Poster](https://greenlv.github.io/files/MARC_ATC25_poster.pdf)) \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A)
+
+- Predictable Real-Time Video Latency Control with Frame-level Collaboration \
+  _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
+  <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025 </b></a>  (CCF A)
 
 - [Understanding and Taming the Inflated Latency in Mobile Cloud Rendering](https://dl.acm.org/doi/10.1145/3746283) ([PDF](https://greenlv.github.io/files/JitBright_TOMM25.pdf)) \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Hongyu Guo, Ying Chen, Gaogang Xie_  \
@@ -155,11 +160,11 @@ Studies on video transmission system (from 2021):
 
 
 ## Honors and Awards
-- Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文), 2025
-- Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生), 2024
+- [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025
+- [Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生)](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html), 2024
 - Outstanding Ph.D. Graduates in UCAS, 2024
 - Best Paper Award at ACM NOSSDAV 2024
-- First Place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC</a>, 2024
+- First Place in [MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC](https://2024.acmmmsys.org/gc/ORL-BWE-RTC/), 2024
 - National Scholarship for Doctoral Students, UCAS, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), 2019  \
   _4/138, Rank 2nd in real-world evaluations_
@@ -173,8 +178,8 @@ Studies on video transmission system (from 2021):
 ## Talks
 
 - RTC transmission system \
-  @ _ByteDance_, Beijing, China, 2024-11-05 \
-  @ _BUPT_, Beijing, China, 2024-11-19
+  @ _ByteDance_, Beijing, China, 2024-11-19 \
+  @ _BUPT_, Beijing, China, 2024-11-05
 - Multipath adaptive video streaming  \
   @ _GuoMeng Studio_, Beijing, China, 2023-12-10 ([Event](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q)) \
   @ _BiliBili_, Beijing, China, 2023-10-31 \
