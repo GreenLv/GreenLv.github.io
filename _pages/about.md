@@ -25,7 +25,7 @@ Network Architecture and System Research Group (NASG), Network Reasearch Center 
 He is currently an assistant professor at ICT, CAS. He received his Ph.D. degree from ICT, CAS / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/), and my B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016.
 
 **Research Interest**: 
-- Video streaming: real-time communication (RTC), adaptive streaming
+- Video streaming: real-time communication (RTC), adaptive bitrate (ABR) streaming
 - Network protocol:  content over QUIC, multipath transmission
 - Internet architecture: content delivery network (CDN), edge collaboration
 
