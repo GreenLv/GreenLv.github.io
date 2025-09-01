@@ -113,7 +113,7 @@ Main studies on video transmission system (from 2021):
 
 - [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/cstr/32373.14.issn1000-1239.) \
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
-  <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a> (CCF 中文 A)
+  <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a> (CCF 中文 A, CCF T1)
 
 - [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/MARC_ATC25.pdf)) ([Slides](https://greenlv.github.io/files/MARC_ATC25_slides.pdf)) ([Poster](https://greenlv.github.io/files/MARC_ATC25_poster.pdf)) \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
