@@ -163,7 +163,7 @@ Main studies on video transmission system (from 2021):
 - [一种数据驱动的网络视频流传输方法及装置](https://patents.google.com/patent/CN118075567A/) [CN118075567A]  \
   _**吕格瑞**, 武庆华, 王卫染, 谭清月, 李振宇_
 
-- 一种基于用户动作与视频帧映射的实时质量测量方法 [CN120512563A] \
+- [一种基于用户动作与视频帧映射的实时质量测量方法](https://patents.google.com/patent/CN120512563A/) [CN120512563A] \
   _赵员康, **吕格瑞**, 武庆华, 李振宇_
 
 - 一种数据驱动的动态 QoE 偏好权重参数确定方法 \
