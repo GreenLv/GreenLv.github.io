@@ -55,16 +55,16 @@ He is currently an assistant professor at ICT, CAS. He received his Ph.D. degree
 ## Research Scope of NASG
 Main studies on video transmission system (from 2021):
 
-<table cellspacing="0" style="border: 2px solid #595959; border-collapse: collapse; font-size: 16px">
+<table cellspacing="0" style="border: 2px solid #595959; border-collapse: collapse;">
     <!-- Title -->
     <tr style="background-color: #f8f8f8">
         <th style="border: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6;"></th>
-        <th colspan="2" style="vertical-align: middle; text-align: center; border-top: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6; font-size: 1.25em;"><b>Endpoint</b></th>
-        <th style="vertical-align: middle; text-align: center; border: 2px solid #595959; border-left: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6; font-size: 1.25em;"><b>Network</b></th>
+        <th colspan="2" style="vertical-align: middle; text-align: center; border-top: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6;"><b>Endpoint</b></th>
+        <th style="vertical-align: middle; text-align: center; border: 2px solid #595959; border-left: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6;"><b>Network</b></th>
     </tr>
     <!-- 1st Row -->
     <tr style="background-color: #e2f1da">
-        <td style="vertical-align: middle; text-align: center; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6; color: #375d23; font-size: 1.15em;"><b>Application<br>Layer</b></td>
+        <td style="vertical-align: middle; text-align: center; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6; color: #375d23;"><b>Application<br>Layer</b></td>
         <!-- Bitrate Control -->
         <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 1px solid #a6a6a6"><b>Bitrate Control</b><br>
         - MARC [<a href="https://www.usenix.org/conference/atc25/presentation/zhao-yuankang">ATC’25</a>]<br>
@@ -81,7 +81,7 @@ Main studies on video transmission system (from 2021):
     </tr>
     <!-- 2nd Row -->
     <tr style="background-color: #fef4cf">
-        <td style="vertical-align: middle; text-align: center; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959; color: #846802; font-size: 1.15em;"><b>Transport<br>Layer</b></td>
+        <td style="vertical-align: middle; text-align: center; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959; color: #846802;"><b>Transport<br>Layer</b></td>
         <!-- Congestion Control -->
         <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959"><b>Congestion Control</b><br>
         - Muse [<a href="https://ieeexplore.ieee.org/abstract/document/9796880">INFOCOM’22</a>]<br>
