@@ -100,8 +100,6 @@ Main studies on video transmission system (from 2021):
 
 
 
-
-
 ## Publications
 - RLive: Robust Delivery System for Scaling Live Streaming Services \
   _Yu Tian, **Gerui Lv**, Qinghua Wu, Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Jingxing Liu, Zhenyu Li_ \
@@ -114,6 +112,10 @@ Main studies on video transmission system (from 2021):
 - [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/cstr/32373.14.issn1000-1239.) \
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, CCF T1)
+
+- Bridge the Gap Between QoS and QoE in Mobile Short Video Service: a CDN Perspective \
+  _Chuanqing Lin, Yangguang Liang, Fuhua Zeng, Zhipeng Huang, Xiaodong Li, Jingyu Yang, **Gerui Lv**, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
+  <a href="https://npc-2025.github.io/index.html"><b>IFIP NPC 2025</b></a>  (CCF C)
 
 - [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/MARC_ATC25.pdf)) ([Slides](https://greenlv.github.io/files/MARC_ATC25_slides.pdf)) ([Poster](https://greenlv.github.io/files/MARC_ATC25_poster.pdf)) \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
