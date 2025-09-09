@@ -113,7 +113,7 @@ Main studies on video transmission system (from 2021):
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, CCF T1)
 
-- Bridge the Gap Between QoS and QoE in Mobile Short Video Service: a CDN Perspective \
+- Bridge the Gap Between QoS and QoE in Mobile Short Video Service: A CDN Perspective \
   _Chuanqing Lin, Yangguang Liang, Fuhua Zeng, Zhipeng Huang, Xiaodong Li, Jingyu Yang, **Gerui Lv**, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
   <a href="https://npc-2025.github.io/index.html"><b>IFIP NPC 2025</b></a>  (CCF C)
 
