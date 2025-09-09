@@ -110,7 +110,7 @@ Main studies on video transmission system (from 2021):
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
   <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025 </b></a>  (CCF A)
 
-- [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550536) \
+- [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550536) ([PDF](https://greenlv.github.io/files/大规模互联网服务的低时延传输技术_计研发25.pdf)) \
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, CCF T1)
 
