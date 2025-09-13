@@ -39,6 +39,8 @@ He is currently an assistant professor at ICT, CAS. He received his Ph.D. degree
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
+      <li>[2025-09] 📃 Paper Oceanus accepted to <b>ACM CoNEXT 2025</b>. </li>
+      <li>[2025-09] 📃 Paper LiveMap accepted to <b>ACM CoNEXT 2025</b>. </li>
       <li>[2025-08] 📃 Paper RLive accepted to <b>ACM EuroSys 2026</b>. </li>
       <li>[2025-07] 🎓 My doctoral dissertation was awarded the Excellent Doctoral Dissertations of CAS. </li>
       <li>[2025-07] 📃 Paper Co-RTV accepted to <b>IEEE RTSS 2025</b>. </li>
@@ -77,6 +79,8 @@ Main studies on video transmission system (from 2021):
         <!-- CDN Scheduling -->
         <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 1px solid #a6a6a6"><b>CDN Scheduling</b><br>
         - RLive [EuroSys’26]<br>
+        - Oceanus [CoNEXT’25]<br>
+        - LiveMap [CoNEXT’25]<br>
         - LiveNet [<a href="https://dl.acm.org/doi/abs/10.1145/3544216.3544236">SIGCOMM’22</a>]<br>
         - EdgeOpt [<a href="https://ieeexplore.ieee.org/abstract/document/9896208/">TMC’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796824">INFOCOM’22</a>]</td>
     </tr>
@@ -105,23 +109,30 @@ Main studies on video transmission system (from 2021):
 ## Publications
 - RLive: Robust Delivery System for Scaling Live Streaming Services \
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, Zhenyu Li_ \
-  <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026 </b></a>  (CCF A)
+  <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A)
+
+- Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs \
+  _Chuanqing Lin, **Gerui Lv**, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie_
+  <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
+
+- Cost-efficient Request Mapping for Large-scale Live Streaming Services \
+  _Yu Tian, Zhenyu Li, Matthew Yang Liu, Zhaoxue Zhong, Qinghua Wu, Ao Li, Jiaxing Zhang, **Gerui Lv**, Chuanqing Lin, Xi Wang, Jian Mao, Gareth Tyson, Jie Xiong, Zhenhua Li, Gaogang Xie_ \
+  <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
 
 - Predictable Real-Time Video Latency Control with Frame-level Collaboration \
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
-  <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025 </b></a>  (CCF A)
+  <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A)
 
 - [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550536) ([PDF](https://greenlv.github.io/files/大规模互联网服务的低时延传输技术_计研发25.pdf)) \
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, CCF T1)
 
-- Bridge the Gap Between QoS and QoE in Mobile Short Video Service: A CDN Perspective \
-  _Chuanqing Lin, Yangguang Liang, Fuhua Zeng, Zhipeng Huang, Xiaodong Li, Jingyu Yang, **Gerui Lv**, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
-  <a href="https://npc-2025.github.io/index.html"><b>IFIP NPC 2025</b></a>  (CCF C)
-
 - [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/MARC_ATC25.pdf)) ([Slides](https://greenlv.github.io/files/MARC_ATC25_slides.pdf)) ([Poster](https://greenlv.github.io/files/MARC_ATC25_poster.pdf)) \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A)
+- Bridge the Gap Between QoS and QoE in Mobile Short Video Service: A CDN Perspective \
+  _Chuanqing Lin, Yangguang Liang, Fuhua Zeng, Zhipeng Huang, Xiaodong Li, Jingyu Yang, **Gerui Lv**, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
+  <a href="https://npc-2025.github.io/index.html"><b>IFIP NPC 2025</b></a>  (CCF C)
 
 - [Understanding and Taming the Inflated Latency in Mobile Cloud Rendering](https://dl.acm.org/doi/10.1145/3746283) ([PDF](https://greenlv.github.io/files/JitBright_TOMM25.pdf)) \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Hongyu Guo, Ying Chen, Gaogang Xie_  \
@@ -235,7 +246,7 @@ Main studies on video transmission system (from 2021):
 ## Reviewing Experiences 
 
 - ACM WWW (2025)
-- IEEE INFOCOM (2020, 2023, 2024, 2025, 2026)
+- IEEE INFOCOM (2020, 2023–2026)
 - ACM CoNEXT (2024, 2025)
 - IEEE ICNP (2019, 2020, 2024, 2025)
 - IEEE MetaCom (2024)
