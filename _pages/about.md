@@ -156,7 +156,7 @@ Main studies on video transmission system (from 2021):
   <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A)
 
 - Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs \
-  _Chuanqing Lin, **Gerui Lv**, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie_
+  _Chuanqing Lin, **Gerui Lv**, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
 
 - Cost-efficient Request Mapping for Large-scale Live Streaming Services \
