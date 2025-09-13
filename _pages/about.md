@@ -164,7 +164,7 @@ Main studies on video transmission system (from 2021):
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
   
 - Bridge the Gap Between QoS and QoE in Mobile Short Video Service: A CDN Perspective \
-  _Chuanqing Lin, Yangguang Liang, Fuhua Zeng, Zhipeng Huang, Xiaodong Li, Jingyu Yang, **Gerui Lv**, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
+  _Chuanqing Lin, Yangguang Liang, Fuhua Zeng, Zhipeng Huang, Xiaodong Li, Jingyu Yang, Yu Tian, **Gerui Lv**, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
   <a href="https://npc-2025.github.io/index.html"><b>IFIP NPC 2025</b></a>  (CCF C)
 
 
