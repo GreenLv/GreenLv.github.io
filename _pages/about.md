@@ -108,7 +108,7 @@ Main studies on video transmission system (from 2021):
 
 ## Publications
 ### Content Transmission Control
-- [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550536) ([PDF](https://greenlv.github.io/files/大规模互联网服务的低时延传输技术_计研发25.pdf)) \
+- [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550536) ([PDF](https://greenlv.github.io/files/2025_计研发_大规模互联网服务的低时延传输技术.pdf)) \
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, CCF T1)
 
@@ -116,35 +116,35 @@ Main studies on video transmission system (from 2021):
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
   <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A)
 
-- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/MARC_ATC25.pdf)) ([Slides](https://greenlv.github.io/files/MARC_ATC25_slides.pdf)) ([Poster](https://greenlv.github.io/files/MARC_ATC25_poster.pdf)) \
+- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/2025_ATC_MARC_paper.pdf)) ([Slides](https://greenlv.github.io/files/2025_ATC_MARC_slides.pdf)) ([Poster](https://greenlv.github.io/files/2025_ATC_MARC_poster.pdf)) \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A)
 
-- [Understanding and Taming the Inflated Latency in Mobile Cloud Rendering](https://dl.acm.org/doi/10.1145/3746283) ([PDF](https://greenlv.github.io/files/JitBright_TOMM25.pdf)) \
+- [Understanding and Taming the Inflated Latency in Mobile Cloud Rendering](https://dl.acm.org/doi/10.1145/3746283) ([PDF](https://greenlv.github.io/files/2025_TOMM_JitBright.pdf)) \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Hongyu Guo, Ying Chen, Gaogang Xie_  \
   <a href="https://dl.acm.org/journal/tomm"><b>ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)</b></a>, 2025  (CCF B, JCR Q1)
 
-- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/Chorus_MobiCom24.pdf)) ([Slides](https://greenlv.github.io/files/Chorus_MobiCom24_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/Chorus_MobiCom24_tech_report.pdf)) ([Demo Video](https://greenlv.github.io/files/Chorus_demo_video.mp4)) ([GetMobile](https://greenlv.github.io/files/Chorus_GetMobile25.pdf)) \
+- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/2024_MobiCom_Chorus_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_MobiCom_Chorus_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/2024_MobiCom_Chorus_tech_report.pdf)) ([Demo Video](https://greenlv.github.io/files/2024_MobiCom_Chorus_demo_video.mp4)) ([GetMobile](https://greenlv.github.io/files/2025_GetMobile_Chorus.pdf)) \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
   <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">Cover Article of ACM SIGMOBILE GetMobile (Vol. 29, No. 1)</a> \
   <span style="color:OrangeRed">The First MobiCom Conference Paper from ICT, CAS</span>
 
-- [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183) ([PDF](https://greenlv.github.io/files/Schaferct_MMSys24_GC.pdf)) ([Slides](https://greenlv.github.io/files/Schaferct_MMSys24_GC_slides.pdf)) ([Poster](https://greenlv.github.io/files/Schaferct_MMSys24_GC_poster.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
+- [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183) ([PDF](https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_slides.pdf)) ([Poster](https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_poster.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
   _Qingyue Tan, **Gerui Lv**, Xing Fang, Jiaxing Zhang, Zejun Yang, Yuan Jiang, Qinghua Wu_  \
   <a href="https://2024.acmmmsys.org/"><b>ACM MMSys 2024</b></a>, Open-source Software and Datasets  \
-  <a href="https://greenlv.github.io/files/Schaferct_MMSys24_GC_certificate.pdf" style="color:OrangeRed">Grand Challenge on Offline RL for Bandwidth Estimation in RTC Winner (1st place)</a>
+  <a href="https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_certificate.pdf" style="color:OrangeRed">Grand Challenge on Offline RL for Bandwidth Estimation in RTC Winner (1st place)</a>
 
-- [JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization](https://dl.acm.org/doi/10.1145/3651863.3651881) ([PDF](https://greenlv.github.io/files/JitBright_NOSSDAV24.pdf)) ([Slides](https://greenlv.github.io/files/JitBright_NOSSDAV24_slides.pdf))  \
+- [JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization](https://dl.acm.org/doi/10.1145/3651863.3651881) ([PDF](https://greenlv.github.io/files/2024_NOSSDAV_JitBright_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_NOSSDAV_JitBright_slides.pdf))  \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Ying Chen, Hongyu Guo, Gaogang Xie_  \
   <a href="https://nossdav.org/2024/"><b>ACM NOSSDAV 2024</b></a>  (CCF B)  \
-  <a href="https://greenlv.github.io/files/JitBright_NOSSDAV24_certificate.pdf" style="color:OrangeRed">Best Paper Award</a>
+  <a href="https://greenlv.github.io/files/2024_NOSSDAV_JitBright_certificate.pdf" style="color:OrangeRed">Best Paper Award</a>
 
-- [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([PDF](https://greenlv.github.io/files/Lumos_TMC23.pdf))  \
+- [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([PDF](https://greenlv.github.io/files/2023_TMC_Lumos.pdf))  \
   _**Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
   <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755"><b>IEEE Transactions on Mobile Computing (TMC)</b></a>, 2023  (CCF A, JCR Q1)
 
-- [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) ([PDF](https://greenlv.github.io/files/Lumos_INFOCOM22.pdf)) ([Slides](https://greenlv.github.io/files/Lumos_INFOCOM22_slides.pdf)) ([Video](https://youtu.be/9-LKcqPmFhA)) <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Luoms</a> \
+- [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) ([PDF](https://greenlv.github.io/files/2022_INFOCOM_Lumos_paper.pdf)) ([Slides](https://greenlv.github.io/files/2022_INFOCOM_Lumos_slides.pdf)) ([Video](https://youtu.be/9-LKcqPmFhA)) <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Luoms</a> \
   _**Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
   <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a> (CCF A)
 
