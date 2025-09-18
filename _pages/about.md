@@ -191,7 +191,7 @@ Main studies on video transmission system (from 2021):
 
 
 ## Honors and Awards
-- [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025
+- [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025 ([Report](https://www.ict.ac.cn/xwgg/jssxw/202509/t20250918_7971405.html))
 - [Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生)](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html), 2024
 - Outstanding Ph.D. Graduates in UCAS, 2024
 - Best Paper Award at ACM NOSSDAV 2024
@@ -212,7 +212,7 @@ Main studies on video transmission system (from 2021):
   @ _ByteDance_, Beijing, China, 2024-11-19 \
   @ _BUPT_, Beijing, China, 2024-11-05
 - Multipath adaptive video streaming  \
-  @ _GuoMeng Studio_, Beijing, China, 2023-12-10 ([Event](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q)) \
+  @ _GuoMeng Studio_, Beijing, China, 2023-12-10 ([Report](https://mp.weixin.qq.com/s/8y8zo96n6Bwq7I7XalsF5Q)) \
   @ _BiliBili_, Beijing, China, 2023-10-31 \
   @ _NJU_, Nanjing, China, 2023-09-02  \
   @ _Huawei_, Beijing, China, 2023-01-13
