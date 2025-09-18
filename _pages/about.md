@@ -242,7 +242,9 @@ Main studies on video transmission system (from 2021):
 
 ## Technical Impacts
 
-- Patent CN116436865A (part of Chorus [MobiCom ’24]) is used in Taobao’s RPC system (XQUIC) to control multipath reinjection. <a class="github-button" href="https://github.com/alibaba/xquic" data-show-count="true">XQUIC</a>
+- MARC [ATC’25] was deployed in **Taobao’s 3D cloud rendering system**. It served over 1 million sessions, reducing session freeze rates by 71% and increasing user interaction time by 20%.
+- JitBright [TOMM’25; NOSSDAV’24 Best Paper] was deployed in **Taobao’s 3D cloud rendering system**. It served over 591,000 sessions and increased the proportion of sessions that met the MTP latency requirement of less than 150 ms by 6%~27%.
+- Patent CN116436865A (part of Chorus [MobiCom’24]) was applied in **Taobao’s RPC system** (XQUIC) to control multipath reinjection. <a class="github-button" href="https://github.com/alibaba/xquic" data-show-count="true">XQUIC</a>
 - One of my tech blogs ranked #1 in Google search results for “DASH标准” ([2024-01-09](https://greenlv.github.io/files/DASH_standard-Google-240109.png)).
 - One of my tech blogs ranked #1 in Baidu search results for “DASH视频” ([2023-05-01](https://greenlv.github.io/files/DASH_video-Baidu-230511.png)).
 
