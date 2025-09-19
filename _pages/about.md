@@ -12,17 +12,17 @@ redirect_from:
 
 
 
-***Assistant Professor (Postdoctoral Researcher)*** \
+***Assistant Professor*** \
 Network Architecture and System Research Group (NASG), Network Reasearch Center \
 [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) \
 中国科学院计算技术研究所 · 网络技术研究中心 · 网络体系结构与系统课题组 \
-助理研究员（博士后）
+助理研究员（特别研究助理）
 
 
 
 ---
 
-He is currently an assistant professor at ICT, CAS. He received his Ph.D. degree from ICT, CAS / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/), and his B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016.
+He is currently an assistant professor (postdoctoral researcher) at ICT, CAS. He received his Ph.D. degree from ICT, CAS / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/), and his B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016.
 
 **Research Interest**: 
 - Video Streaming: real-time communication (RTC), adaptive bitrate (ABR) streaming, etc.
@@ -151,12 +151,12 @@ Main studies on video transmission system (from 2021):
 
 
 ### Content Delivery Network
-- RLive: Robust Delivery System for Scaling Live Streaming Services \
+- RLive: Robust Delivery System for Scaling Live Streaming Services ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf)) \
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, Zhenyu Li_ \
   <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A)
 
 - Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs \
-  _Chuanqing Lin, **Gerui Lv**, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
+  _Chuanqing Lin, **Gerui Lv***, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie*_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
 
 - Cost-efficient Request Mapping for Large-scale Live Streaming Services \
@@ -262,3 +262,4 @@ Main studies on video transmission system (from 2021):
 - IEEE Communications Letters (2025)
 - IEEE Access (2025)
 - ACM MobiCom Artifacts Evaluation (2024)
+
