@@ -112,7 +112,7 @@ Main studies on video transmission system (from 2021):
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, CCF T1)
 
-- Predictable Real-Time Video Latency Control with Frame-level Collaboration \
+- Predictable Real-Time Video Latency Control with Frame-level Collaboration ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) \
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
   <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A)
 
