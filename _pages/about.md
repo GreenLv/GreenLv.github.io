@@ -39,16 +39,12 @@ He is currently an assistant professor (postdoctoral researcher) at ICT, CAS. He
 
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px;">
   <ul>
-      <li>[2025-09] 📃 Paper Oceanus accepted to <b>ACM CoNEXT 2025</b>. </li>
-      <li>[2025-09] 📃 Paper LiveMap accepted to <b>ACM CoNEXT 2025</b>. </li>
+      <li>[2025-09] 📃 Paper Oceanus and LiveMap accepted to <b>ACM CoNEXT 2025</b>. </li>
       <li>[2025-08] 📃 Paper RLive accepted to <b>ACM EuroSys 2026</b>. </li>
       <li>[2025-07] 🎓 My doctoral dissertation was awarded the Excellent Doctoral Dissertations of CAS. </li>
       <li>[2025-07] 📃 Paper Co-RTV accepted to <b>IEEE RTSS 2025</b>. </li>
       <li>[2025-05] 📃 Paper Chorus highlighted by <b>ACM SIGMOBILE GetMobile</b>.</li>
       <li>[2025-04] 📃 Paper MARC accepted to <b>USENIX ATC 2025</b>.</li>
-      <li>[2024-06] 🎓 I received my Ph.D. degree from ICT, CAS / UCAS.</li>
-      <li>[2024-04] 🏆 Paper JitBright was awarded the Best Paper Award at <b>ACM NOSSDAV 2024</b>. </li>
-      <li>[2024-03] 🏆 Team Schaferct won the 1st place in <a href="https://2024.acmmmsys.org/gc/ORL-BWE-RTC/">ACM MMSys ’24 Grand Challenge</a>.</li>
   </ul>
 </div>
 
