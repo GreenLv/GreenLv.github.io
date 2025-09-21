@@ -52,7 +52,7 @@ He is currently an assistant professor (postdoctoral researcher) at ICT, CAS. He
 
 
 ## Research Scope of NASG
-Main studies on video transmission system (from 2021):
+Main studies on media transmission system (from 2021):
 
 <table cellspacing="0" style="border: 2px solid #595959; border-collapse: collapse;">
     <!-- Title -->
