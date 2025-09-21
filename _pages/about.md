@@ -114,11 +114,11 @@ Main studies on video transmission system (from 2021):
 
 - Predictable Real-Time Video Latency Control with Frame-level Collaboration ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) \
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
-  <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A)
+  <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A), Acceptance Rate: 44/200=22%
 
 - [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/2025_ATC_MARC_paper.pdf)) ([Slides](https://greenlv.github.io/files/2025_ATC_MARC_slides.pdf)) ([Poster](https://greenlv.github.io/files/2025_ATC_MARC_poster.pdf)) \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
-  <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A)
+  <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A), Acceptance Rate: 100/634=15.8%
 
 - [Understanding and Taming the Inflated Latency in Mobile Cloud Rendering](https://dl.acm.org/doi/10.1145/3746283) ([PDF](https://greenlv.github.io/files/2025_TOMM_JitBright.pdf)) \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Hongyu Guo, Ying Chen, Gaogang Xie_  \
@@ -146,14 +146,14 @@ Main studies on video transmission system (from 2021):
 
 - [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) ([PDF](https://greenlv.github.io/files/2022_INFOCOM_Lumos_paper.pdf)) ([Slides](https://greenlv.github.io/files/2022_INFOCOM_Lumos_slides.pdf)) ([Video](https://youtu.be/9-LKcqPmFhA)) <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Luoms</a> \
   _**Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
-  <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a> (CCF A)
+  <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a> (CCF A), Acceptance Rate: 225/1129=19.9%
 
 
 
 ### Content Delivery Network
 - RLive: Robust Delivery System for Scaling Live Streaming Services ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf)) \
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, Zhenyu Li_ \
-  <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A)
+  <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A), Acceptance Rate: 79/467=16.9%
 
 - Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs \
   _Chuanqing Lin, **Gerui Lv***, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie*_ \
