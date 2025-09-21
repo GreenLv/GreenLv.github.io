@@ -12,7 +12,7 @@ redirect_from:
 
 
 
-***Assistant Professor*** \
+***Assistant Professor (Special Research Assistant)*** \
 Network Architecture and System Research Group (NASG), Network Reasearch Center \
 [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) \
 中国科学院计算技术研究所 · 网络技术研究中心 · 网络体系结构与系统课题组 \
