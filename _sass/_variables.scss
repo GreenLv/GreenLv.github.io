@@ -14,12 +14,12 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Times, Georgia, serif;
-$sans-serif                 : -apple-system, "Helvetica Neue", Arial, "Roboto", ".SFNSText-Regular", "San Francisco", "Segoe UI", "Lucida Grande", sans-serif;
+$sans-serif                 : -apple-system, Helvetica, "Helvetica Neue", Arial, "Roboto", ".SFNSText-Regular", "San Francisco", "Segoe UI", "Lucida Grande", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : "Helvetica Neue", Helvetica, Arial, sans-serif;
+$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
