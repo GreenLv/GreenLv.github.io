@@ -26,6 +26,14 @@ redirect_from:
   .pub-tag.streaming { background-color: #16a085; }
   .pub-tag.protocol  { background-color: #e67e22; }
   .pub-tag.arch      { background-color: #3498db; }
+  
+  #research-interests {
+    margin-top: -0.5em; /* 关键！用负值抵消上方标题的下边距 */
+  }
+  #research-interests li {
+    line-height: 1;   /* 调整列表项内部的行高 */
+    margin-bottom: 0em; /* 调整列表项之间的间距 */
+  }
 </style>
 
 
@@ -42,9 +50,11 @@ Network Architecture and System Research Group (NASG), Network Research Center \
 He is currently an assistant professor (postdoctoral researcher) at ICT, CAS. He received his Ph.D. degree from ICT, CAS / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/), and his B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016.
 
 **Research Interest**: 
+<div id="research-interests" markdown="1">
 - Video Streaming: real-time communication <span class="pub-tag streaming">RTC</span>, adaptive bitrate  streaming <span class="pub-tag streaming">ABR</span>, live streaming <span class="pub-tag streaming">Live</span>, etc.
 - Network Protocol: content over QUIC <span class="pub-tag protocol">QUIC</span>, multipath transmission <span class="pub-tag protocol">MP</span>, etc.
 - Internet Architecture: content delivery network <span class="pub-tag arch">CDN</span>, edge collaboration <span class="pub-tag arch">Edge</span>, etc.
+</div>
 
 [[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)] [[View of Technology (In Chinese)](https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2)]
 
