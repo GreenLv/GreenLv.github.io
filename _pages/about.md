@@ -54,7 +54,7 @@ He is currently an assistant professor (postdoctoral researcher) at ICT, CAS. He
 
 ## Recent News
 
-<div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px; padding: 12px;">
+<div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px; padding-right: 8px;">
   <ul>
       <li>[2025-09] 📃 Paper <i>Oceanus</i> and <i>LiveMap</i> accepted to <b>ACM CoNEXT 2025</b>. </li>
       <li>[2025-08] 📃 Paper <i>RLive</i> accepted to <b>ACM EuroSys 2026</b>. </li>
