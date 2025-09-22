@@ -13,7 +13,7 @@ redirect_from:
 
 
 ***Assistant Professor (Special Research Assistant)*** \
-Network Architecture and System Research Group (NASG), Network Research Center \
+Network Architecture and System Research Group (NASG), Network Reasearch Center \
 [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) \
 中国科学院计算技术研究所 · 网络技术研究中心 · 网络体系结构与系统课题组 \
 助理研究员（特别研究助理）
@@ -41,7 +41,7 @@ He is currently an assistant professor (postdoctoral researcher) at ICT, CAS. He
   <ul>
       <li>[2025-09] 📃 Paper <i>Oceanus</i> and <i>LiveMap</i> accepted to <b>ACM CoNEXT 2025</b>. </li>
       <li>[2025-08] 📃 Paper <i>RLive</i> accepted to <b>ACM EuroSys 2026</b>. </li>
-      <li>[2025-07] 🎓 My doctoral dissertation was awarded the <b>Excellent Doctoral Dissertations of CAS</b>. </li>
+      <li>[2025-07] 🎓 My doctoral dissertation was awarded the Excellent Doctoral Dissertations of CAS. </li>
       <li>[2025-07] 📃 Paper <i>Co-RTV</i> accepted to <b>IEEE RTSS 2025</b>. </li>
       <li>[2025-05] 📃 Paper <i>Chorus</i> highlighted by <b>ACM SIGMOBILE GetMobile</b>.</li>
       <li>[2025-04] 📃 Paper <i>MARC</i> accepted to <b>USENIX ATC 2025</b>.</li>
