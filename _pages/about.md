@@ -28,10 +28,10 @@ redirect_from:
   .pub-tag.arch      { background-color: #3498db; }
   
   #research-interests {
-    margin-top: -0.5em; /* 关键！用负值抵消上方标题的下边距 */
+    margin-top: -1em; /* 关键！用负值抵消上方标题的下边距 */
   }
   #research-interests li {
-    line-height: 1;   /* 调整列表项内部的行高 */
+    line-height: 1.5;   /* 调整列表项内部的行高 */
     margin-bottom: 0em; /* 调整列表项之间的间距 */
   }
 </style>
