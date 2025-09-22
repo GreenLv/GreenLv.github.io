@@ -209,6 +209,7 @@
       vertical-align: middle;
 
       &:first-child {
+        font-family: $header-font-family;
         font-weight: bold;
 
         a {
