@@ -11,9 +11,26 @@ redirect_from:
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
+<style>
+  .pub-tag {
+    display: inline-block;
+    padding: 3px 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: white;
+    vertical-align: middle;
+    line-height: 1.2;
+  }
+  .pub-tag.streaming { background-color: #16a085; }
+  .pub-tag.protocol  { background-color: #e67e22; }
+  .pub-tag.arch      { background-color: #3498db; }
+</style>
+
 
 ***Assistant Professor (Special Research Assistant)*** \
-Network Architecture and System Research Group (NASG), Network Reasearch Center \
+Network Architecture and System Research Group (NASG), Network Research Center \
 [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](http://www.ict.ac.cn/) \
 中国科学院计算技术研究所 · 网络技术研究中心 · 网络体系结构与系统课题组 \
 助理研究员（特别研究助理）
@@ -25,9 +42,9 @@ Network Architecture and System Research Group (NASG), Network Reasearch Center 
 He is currently an assistant professor (postdoctoral researcher) at ICT, CAS. He received his Ph.D. degree from ICT, CAS / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/) in 2024, advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/), and his B.S. degree in Computer Science from [Hunan University (HNU)](https://www.hnu.edu.cn/) in 2016.
 
 **Research Interest**: 
-- Video Streaming: real-time communication (RTC), adaptive bitrate (ABR) streaming, etc.
-- Network Protocol:  content over QUIC, multipath transmission, etc.
-- Internet Architecture: content delivery network (CDN), edge collaboration, etc.
+- Video Streaming: real-time communication <span class="pub-tag streaming">RTC</span>, adaptive bitrate  streaming <span class="pub-tag streaming">ABR</span>, live streaming <span class="pub-tag streaming">Live</span>, etc.
+- Network Protocol: content over QUIC <span class="pub-tag protocol">QUIC</span>, multipath transmission <span class="pub-tag protocol">MP</span>, etc.
+- Internet Architecture: content delivery network <span class="pub-tag arch">CDN</span>, edge collaboration <span class="pub-tag arch">Edge</span>, etc.
 
 
 
@@ -108,58 +125,58 @@ Main studies on media transmission system (from 2021):
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, CCF T1)
 
-- Predictable Real-Time Video Latency Control with Frame-level Collaboration ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) \
+- Predictable Real-Time Video Latency Control with Frame-level Collaboration ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span> \
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
   <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A), Acceptance Rate: 44/200=22%
 
-- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/2025_ATC_MARC_paper.pdf)) ([Slides](https://greenlv.github.io/files/2025_ATC_MARC_slides.pdf)) ([Poster](https://greenlv.github.io/files/2025_ATC_MARC_poster.pdf)) \
+- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/2025_ATC_MARC_paper.pdf)) ([Slides](https://greenlv.github.io/files/2025_ATC_MARC_slides.pdf)) ([Poster](https://greenlv.github.io/files/2025_ATC_MARC_poster.pdf)) <span class="pub-tag streaming">RTC</span> \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A), Acceptance Rate: 100/634=15.8%
 
-- [Understanding and Taming the Inflated Latency in Mobile Cloud Rendering](https://dl.acm.org/doi/10.1145/3746283) ([PDF](https://greenlv.github.io/files/2025_TOMM_JitBright.pdf)) \
+- [Understanding and Taming the Inflated Latency in Mobile Cloud Rendering](https://dl.acm.org/doi/10.1145/3746283) ([PDF](https://greenlv.github.io/files/2025_TOMM_JitBright.pdf)) <span class="pub-tag streaming">RTC</span> \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Hongyu Guo, Ying Chen, Gaogang Xie_  \
   <a href="https://dl.acm.org/journal/tomm"><b>ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)</b></a>, 2025  (CCF B, JCR Q1)
 
-- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/2024_MobiCom_Chorus_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_MobiCom_Chorus_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/2024_MobiCom_Chorus_tech_report.pdf)) ([Demo Video](https://greenlv.github.io/files/2024_MobiCom_Chorus_demo_video.mp4)) ([GetMobile](https://greenlv.github.io/files/2025_GetMobile_Chorus.pdf)) \
+- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/2024_MobiCom_Chorus_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_MobiCom_Chorus_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/2024_MobiCom_Chorus_tech_report.pdf)) ([Demo Video](https://greenlv.github.io/files/2024_MobiCom_Chorus_demo_video.mp4)) ([GetMobile](https://greenlv.github.io/files/2025_GetMobile_Chorus.pdf)) <span class="pub-tag protocol">MP</span><span class="pub-tag protocol">QUIC</span><span class="pub-tag streaming">ABR</span> \
   _**Gerui Lv**, Qinghua Wu, Yanmei Liu, Zhenyu Li, Qingyue Tan, Furong Yang, Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen, Gaogang Xie_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
   <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">Cover Article of ACM SIGMOBILE GetMobile (Vol. 29, No. 1)</a> \
   <span style="color:OrangeRed">The First MobiCom Conference Paper from ICT, CAS</span>
 
-- [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183) ([PDF](https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_slides.pdf)) ([Poster](https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_poster.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> \
+- [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183) ([PDF](https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_slides.pdf)) ([Poster](https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_poster.pdf)) <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true">Schaferct</a> <span class="pub-tag streaming">RTC</span> \
   _Qingyue Tan, **Gerui Lv**, Xing Fang, Jiaxing Zhang, Zejun Yang, Yuan Jiang, Qinghua Wu_  \
   <a href="https://2024.acmmmsys.org/"><b>ACM MMSys 2024</b></a>, Open-source Software and Datasets  \
   <a href="https://greenlv.github.io/files/2024_MMSys_GC_Schaferct_certificate.pdf" style="color:OrangeRed">Grand Challenge on Offline RL for Bandwidth Estimation in RTC Winner (1st place)</a>
 
-- [JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization](https://dl.acm.org/doi/10.1145/3651863.3651881) ([PDF](https://greenlv.github.io/files/2024_NOSSDAV_JitBright_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_NOSSDAV_JitBright_slides.pdf))  \
+- [JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization](https://dl.acm.org/doi/10.1145/3651863.3651881) ([PDF](https://greenlv.github.io/files/2024_NOSSDAV_JitBright_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_NOSSDAV_JitBright_slides.pdf)) <span class="pub-tag streaming">RTC</span> \
   _Yuankang Zhao, Qinghua Wu, **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, Zhenyu Li, Ying Chen, Hongyu Guo, Gaogang Xie_  \
   <a href="https://nossdav.org/2024/"><b>ACM NOSSDAV 2024</b></a>  (CCF B)  \
   <a href="https://greenlv.github.io/files/2024_NOSSDAV_JitBright_certificate.pdf" style="color:OrangeRed">Best Paper Award</a>
 
-- [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([PDF](https://greenlv.github.io/files/2023_TMC_Lumos.pdf))  \
+- [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426) ([PDF](https://greenlv.github.io/files/2023_TMC_Lumos.pdf)) <span class="pub-tag streaming">ABR</span> \
   _**Gerui Lv**, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
   <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755"><b>IEEE Transactions on Mobile Computing (TMC)</b></a>, 2023  (CCF A, JCR Q1)
 
-- [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) ([PDF](https://greenlv.github.io/files/2022_INFOCOM_Lumos_paper.pdf)) ([Slides](https://greenlv.github.io/files/2022_INFOCOM_Lumos_slides.pdf)) ([Video](https://youtu.be/9-LKcqPmFhA)) <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Luoms</a> \
+- [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/) ([PDF](https://greenlv.github.io/files/2022_INFOCOM_Lumos_paper.pdf)) ([Slides](https://greenlv.github.io/files/2022_INFOCOM_Lumos_slides.pdf)) ([Video](https://youtu.be/9-LKcqPmFhA)) <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Luoms</a> <span class="pub-tag streaming">ABR</span> \
   _**Gerui Lv**, Qinghua Wu, Weiran Wang, Zhenyu Li, Gaogang Xie_  \
   <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a> (CCF A), Acceptance Rate: 225/1129=19.9%
 
 
 
 ### Content Delivery Network
-- RLive: Robust Delivery System for Scaling Live Streaming Services ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf)) \
+- RLive: Robust Delivery System for Scaling Live Streaming Services ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf)) <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span> \
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, Zhenyu Li_ \
   <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A), Acceptance Rate: 79/467=16.9%
 
-- Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs \
+- Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span> \
   _Chuanqing Lin, **Gerui Lv***, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie*_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
 
-- Cost-efficient Request Mapping for Large-scale Live Streaming Services \
+- Cost-efficient Request Mapping for Large-scale Live Streaming Services <span class="pub-tag arch">CDN</span><span class="pub-tag streaming">Live</span> \
   _Yu Tian, Zhenyu Li, Matthew Yang Liu, Zhaoxue Zhong, Qinghua Wu, Ao Li, Jiaxing Zhang, **Gerui Lv**, Chuanqing Lin, Xi Wang, Jian Mao, Gareth Tyson, Jie Xiong, Zhenhua Li, Gaogang Xie_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
   
-- Bridge the Gap Between QoS and QoE in Mobile Short Video Service: A CDN Perspective ([PDF](https://greenlv.github.io/files/2025_NPC_QoE-QoS.pdf)) \
+- Bridge the Gap Between QoS and QoE in Mobile Short Video Service: A CDN Perspective ([PDF](https://greenlv.github.io/files/2025_NPC_QoE-QoS.pdf)) <span class="pub-tag arch">CDN</span> \
   _Chuanqing Lin, Yangguang Liang, Fuhua Zeng, Zhipeng Huang, Xiaodong Li, Jingyu Yang, Yu Tian, **Gerui Lv**, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
   <a href="https://npc-2025.github.io/index.html"><b>IFIP NPC 2025</b></a>  (CCF C)
 
