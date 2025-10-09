@@ -180,7 +180,7 @@ Main studies on media transmission system (from 2021):
   _Chuanqing Lin<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
 
-- Cost-efficient Request Mapping for Large-scale Live Streaming Services <span class="pub-tag arch">CDN</span><span class="pub-tag streaming">Live</span> \
+- Cost-efficient Request Mapping for Large-scale Live Streaming Services ([PDF](https://greenlv.github.io/files/2025_CoNEXT_LiveMap.pdf)) <span class="pub-tag arch">CDN</span><span class="pub-tag streaming">Live</span> \
   _Yu Tian, Zhenyu Li, Matthew Yang Liu, Zhaoxue Zhong, Qinghua Wu, Ao Li, Jiaxing Zhang, **Gerui Lv**, Chuanqing Lin, Xi Wang, Jian Mao, Gareth Tyson, Jie Xiong, Zhenhua Li, Gaogang Xie_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
   
