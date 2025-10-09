@@ -137,7 +137,7 @@ Main studies on media transmission system (from 2021):
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
   <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A), Acceptance Rate: 44/200=22%
 
-- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/2025_ATC_MARC_paper.pdf)) ([Slides](https://greenlv.github.io/files/2025_ATC_MARC_slides.pdf)) ([Poster](https://greenlv.github.io/files/2025_ATC_MARC_poster.pdf)) <span class="pub-tag streaming">RTC</span> \
+- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang) ([PDF](https://greenlv.github.io/files/2025_ATC_MARC_paper.pdf)) ([Slides](https://greenlv.github.io/files/2025_ATC_MARC_slides.pdf)) ([Poster](https://greenlv.github.io/files/2025_ATC_MARC_poster.pdf)) ([Video](https://youtu.be/NJjfIfyDlmo)) <span class="pub-tag streaming">RTC</span> \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, Zhenyu Li, Gaogang Xie_  \
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A), Acceptance Rate: 100/634=15.8%
 
