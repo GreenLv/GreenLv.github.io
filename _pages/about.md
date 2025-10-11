@@ -131,7 +131,7 @@ Main studies on media transmission system (from 2021):
 ### Content Transmission Control
 - [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550536) ([PDF](https://greenlv.github.io/files/2025_计研发_大规模互联网服务的低时延传输技术.pdf)) \
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
-  <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, 计算机技术领域T1)
+  <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, 计算机技术领域T1) \
   <a href="https://mp.weixin.qq.com/s/QfYMtDnz6opCROBn244iRQ" style="color:OrangeRed">Highlights and Perspectives (前沿亮点专栏收录)</a>
 
 - Predictable Real-Time Video Latency Control with Frame-level Collaboration ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span> \
