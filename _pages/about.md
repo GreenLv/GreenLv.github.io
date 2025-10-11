@@ -214,6 +214,7 @@ Main studies on media transmission system (from 2021):
 
 ## Honors and Awards
 - [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025 ([Report](https://www.ict.ac.cn/xwgg/jssxw/202509/t20250918_7971405.html))
+- ACM SIGMOBILE China Doctoral Dissertation Award, 2025
 - [Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生)](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html), 2024
 - Outstanding Ph.D. Graduates in UCAS, 2024
 - Best Paper Award at ACM NOSSDAV 2024
