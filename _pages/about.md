@@ -229,6 +229,18 @@ Main studies on media transmission system (from 2021):
 
 
 
+## Technical Impacts
+
+- RLive [EuroSys’26] has served in **ByteDance’s CDN system** for over 3 years, supporting hundreds of millions of daily live-streaming viewers. RLive has tripled delivery capacity, reduced rebuffering events by 14.9-20.1%, and improved video bitrate by 10.2-11.4%.
+- LiveMap [CoNEXT’25] has been deployed in **BiliBili’s CDN system** since September 2023, serving tens of millions of daily users of both VoD and live streaming. It has saved bandwidth costs by up to 42.18% (equivalent to millions of dollars annually) and decreased access latency by 20.26%.
+- MARC [ATC’25] has been deployed in **Taobao’s 3D cloud rendering system**. It has served over 1 million sessions, reducing session freeze rates by 71% and increasing user interaction time by 20%.
+- JitBright [TOMM’25; NOSSDAV’24 Best Paper] has been deployed in **Taobao’s 3D cloud rendering system**. It has served over 591,000 sessions and increased the proportion of sessions that met the MTP latency requirement of less than 150 ms by 6%-27%.
+- Patent CN116436865A (part of Chorus [MobiCom’24]) has been applied in **Taobao’s RPC system** (XQUIC) to control multipath reinjection. <a class="github-button" href="https://github.com/alibaba/xquic" data-show-count="true">XQUIC</a>
+- One of my tech blogs ranked #1 in Google search results for “DASH标准” ([2024-01-09](https://greenlv.github.io/files/DASH_standard-Google-240109.png)).
+- One of my tech blogs ranked #1 in Baidu search results for “DASH视频” ([2023-05-01](https://greenlv.github.io/files/DASH_video-Baidu-230511.png)).
+
+
+
 ## Talks
 
 - RTC transmission system \
@@ -263,24 +275,11 @@ Main studies on media transmission system (from 2021):
 
 
 
-## Technical Impacts
-
-- RLive [EuroSys’26] has served in **ByteDance’s CDN system** for over 3 years, supporting hundreds of millions of daily live-streaming viewers. RLive has tripled delivery capacity, reduced rebuffering events by 14.9-20.1%, and improved video bitrate by 10.2-11.4%.
-- LiveMap [CoNEXT’25] has been deployed in **BiliBili’s CDN system** since September 2023, serving tens of millions of daily users of both VoD and live streaming. It has saved bandwidth costs by up to 42.18% (equivalent to millions of dollars annually) and decreased access latency by 20.26%.
-- MARC [ATC’25] has been deployed in **Taobao’s 3D cloud rendering system**. It has served over 1 million sessions, reducing session freeze rates by 71% and increasing user interaction time by 20%.
-- JitBright [TOMM’25; NOSSDAV’24 Best Paper] has been deployed in **Taobao’s 3D cloud rendering system**. It has served over 591,000 sessions and increased the proportion of sessions that met the MTP latency requirement of less than 150 ms by 6%-27%.
-- Patent CN116436865A (part of Chorus [MobiCom’24]) has been applied in **Taobao’s RPC system** (XQUIC) to control multipath reinjection. <a class="github-button" href="https://github.com/alibaba/xquic" data-show-count="true">XQUIC</a>
-- One of my tech blogs ranked #1 in Google search results for “DASH标准” ([2024-01-09](https://greenlv.github.io/files/DASH_standard-Google-240109.png)).
-- One of my tech blogs ranked #1 in Baidu search results for “DASH视频” ([2023-05-01](https://greenlv.github.io/files/DASH_video-Baidu-230511.png)).
-
-
-
 ## Reviewing Experiences 
 
-- ACM WWW (2025)
-- IEEE INFOCOM (2020, 2023–2026)
+- IEEE INFOCOM (2023–2026)
 - ACM CoNEXT (2024, 2025)
-- IEEE ICNP (2019, 2020, 2024, 2025)
+- IEEE ICNP (2024, 2025)
 - IEEE MetaCom (2024)
 - IEEE Communications Letters (2025)
 - IEEE Access (2025)
