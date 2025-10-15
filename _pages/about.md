@@ -208,7 +208,7 @@ Main studies on media transmission system (from 2021):
 - [一种基于用户动作与视频帧映射的实时质量测量方法](https://patents.google.com/patent/CN120512563A/) [CN120512563A] \
   _赵员康, **吕格瑞**, 武庆华, 李振宇_
 
-- 一种数据驱动的动态 QoE 偏好权重参数确定方法 \
+- 一种数据驱动的动态 QoE 偏好权重参数确定方法 [CN120786053A] \
   _赵员康, **吕格瑞**, 武庆华, 李振宇_
 
 
