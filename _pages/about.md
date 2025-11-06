@@ -129,7 +129,7 @@ Main studies on media transmission system (from 2021):
 
 ## Publications
 ### Content Transmission Control
-- [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550536) ([PDF](https://greenlv.github.io/files/2025_计研发_大规模互联网服务的低时延传输技术.pdf)) \
+- [Low-Latency Transmission Techniques for Large-Scale Internet Services | 大规模互联网服务的低时延传输技术](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550536) ([PDF](https://greenlv.github.io/files/2025_计研发_大规模互联网服务的低时延传输技术.pdf)) ([Slides](https://greenlv.github.io/files/2025_计研发_大规模互联网服务的低时延传输技术_slides.pdf)) \
   _**Gerui Lv**, Yuankang Zhao, Jiaxing Zhang, Heng Pan, Qinghua Wu, Zhenyu Li_ \
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, 计算机技术领域T1) \
   <a href="https://mp.weixin.qq.com/s/swdgWVMk_i6RMFk4MiueRg" style="color:OrangeRed">Highlights and Perspectives (前沿亮点专栏收录)</a>
