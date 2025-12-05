@@ -100,8 +100,8 @@ Main studies on media transmission system (from 2021):
         <!-- CDN Scheduling -->
         <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 1px solid #a6a6a6"><b>CDN Scheduling</b><br>
         - RLive [EuroSys’26]<br>
-        - Oceanus [CoNEXT’25]<br>
-        - LiveMap [CoNEXT’25]<br>
+        - Oceanus [<a href="https://dl.acm.org/doi/10.1145/3768983">CoNEXT’25</a>]<br>
+        - LiveMap [<a href="https://dl.acm.org/doi/10.1145/3768978">CoNEXT’25</a>]<br>
         - LiveNet [<a href="https://dl.acm.org/doi/abs/10.1145/3544216.3544236">SIGCOMM’22</a>]<br>
         - EdgeOpt [<a href="https://ieeexplore.ieee.org/abstract/document/9896208/">TMC’22</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796824">INFOCOM’22</a>]</td>
     </tr>
@@ -134,7 +134,7 @@ Main studies on media transmission system (from 2021):
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, 计算机技术领域T1) \
   <a href="https://mp.weixin.qq.com/s/swdgWVMk_i6RMFk4MiueRg" style="color:OrangeRed">Highlights and Perspectives (前沿亮点专栏收录)</a>
 
-- Predictable Real-Time Video Latency Control with Frame-level Collaboration ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span> \
+- [Predictable Real-Time Video Latency Control with Frame-level Collaboration](https://2025.rtss.org/program/index.html) ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span> \
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
   <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A), Acceptance Rate: 44/200=22%
 
@@ -171,7 +171,6 @@ Main studies on media transmission system (from 2021):
   <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a> (CCF A), Acceptance Rate: 225/1129=19.9%
 
 
-
 ### Content Delivery Network
 - RLive: Robust Delivery System for Scaling Live Streaming Services ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf)) <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span> \
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, Zhenyu Li_ \
@@ -181,7 +180,7 @@ Main studies on media transmission system (from 2021):
   _Chuanqing Lin<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
 
-- [Cost-efficient Request Mapping for Large-scale Live Streaming Services](https://dl.acm.org/doi/10.1145/3768978) ([PDF](https://greenlv.github.io/files/2025_CoNEXT_LiveMap.pdf)) <span class="pub-tag arch">CDN</span><span class="pub-tag streaming">Live</span> \
+- [Cost-efficient Request Mapping for Large-scale Live Streaming Services](https://dl.acm.org/doi/10.1145/3768978) ([PDF](https://greenlv.github.io/files/2025_CoNEXT_LiveMap.pdf)) ([Slides](https://greenlv.github.io/files/2025_CoNEXT_LiveMap_slides.pdf)) <span class="pub-tag arch">CDN</span><span class="pub-tag streaming">Live</span> \
   _Yu Tian, Zhenyu Li, Matthew Yang Liu, Zhaoxue Zhong, Qinghua Wu, Ao Li, Jiaxing Zhang, **Gerui Lv**, Chuanqing Lin, Xi Wang, Jian Mao, Gareth Tyson, Jie Xiong, Zhenhua Li, Gaogang Xie_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
   
@@ -191,7 +190,7 @@ Main studies on media transmission system (from 2021):
 
 
 
-## Patents
+## Patents & Standards
 
 - [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/) [CN115834556B, ZL202310152689.9] (Granted: 2023-05-12)  \
   _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
@@ -208,8 +207,18 @@ Main studies on media transmission system (from 2021):
 - [一种基于用户动作与视频帧映射的实时质量测量方法](https://patents.google.com/patent/CN120512563A/) [CN120512563A] \
   _赵员康, **吕格瑞**, 武庆华, 李振宇_
 
-- 一种数据驱动的动态 QoE 偏好权重参数确定方法 [CN120786053A] \
+- [一种数据驱动的动态QoE偏好权重参数确定方法](https://patents.google.com/patent/CN120786053A/) [CN120786053A] \
   _赵员康, **吕格瑞**, 武庆华, 李振宇_
+
+- 音视频服务中QoS-QoE映射关系的刻画方法、装置、介质 [CN202511547273.2] \
+  _林川清, 梁阳光, 田语, **吕格瑞**, 武庆华, 李振宇_
+
+- CDN流量调度方法、系统、装置、存储介质 [CN202511547517.7] \
+  _林川清, 梁阳光, 田语, **吕格瑞**, 武庆华, 李振宇_
+
+- [QoE-Driven Application-Transport Cooperation Requirements](https://datatracker.ietf.org/doc/draft-zhang-qoe-driven-transport-requirement/) (IETF Draft) \
+  _Jiaxing Zhang, **Gerui Lv**, Qinghua Wu, Zhenyu Li_
+
 
 
 ## Honors and Awards
