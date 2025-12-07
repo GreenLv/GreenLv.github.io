@@ -176,7 +176,7 @@ Main studies on media transmission system (from 2021):
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Qinghua Wu, Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, Zhenyu Li_ \
   <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A), Acceptance Rate: 79/467=16.9%
 
-- [Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs](https://dl.acm.org/doi/10.1145/3768983) ([PDF](https://greenlv.github.io/files/2025_CoNEXT_Oceanus.pdf)) <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span> \
+- [Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs](https://dl.acm.org/doi/10.1145/3768983) ([PDF](https://greenlv.github.io/files/2025_CoNEXT_Oceanus.pdf)) ([Slides](https://greenlv.github.io/files/2025_CoNEXT_Oceanus_slides.pdf)) <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span> \
   _Chuanqing Lin<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, Qinghua Wu, Zhenyu Li, Gaogang Xie_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
 
