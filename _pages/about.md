@@ -134,7 +134,7 @@ Main studies on media transmission system (from 2021):
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, 计算机技术领域T1) \
   <a href="https://mp.weixin.qq.com/s/swdgWVMk_i6RMFk4MiueRg" style="color:OrangeRed">Highlights and Perspectives (前沿亮点专栏收录)</a>
 
-- [Predictable Real-Time Video Latency Control with Frame-level Collaboration](https://2025.rtss.org/program/index.html) ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span> \
+- [Predictable Real-Time Video Latency Control with Frame-level Collaboration](https://2025.rtss.org/program/index.html) ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) ([Slides](https://greenlv.github.io/files/2025_RTSS_Co-RTV_slides.pdf)) <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span> \
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
   <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A), Acceptance Rate: 44/200=22%
 
