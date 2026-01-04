@@ -120,7 +120,7 @@ Main studies on media transmission system (from 2021):
         - XLINK [<a href="https://dl.acm.org/doi/abs/10.1145/3452296.3472893">SIGCOMM’21</a>]</td>
         <!-- Edge Assistance -->
         <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 2px solid #595959"><b>Edge Assistance</b><br>
-        - Co-RTV [RTSS’25]<br>
+        - Co-RTV [<a href="https://www.computer.org/csdl/proceedings-article/rtss/2025/964200a189/2cTzHjeYbVC">RTSS’25</a>]<br>
         - TECC [<a href="https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing">NSDI’24</a>]</td>
     </tr>
 </table>
@@ -134,7 +134,7 @@ Main studies on media transmission system (from 2021):
   <a href="https://crad.ict.ac.cn/"><b>Journal of Computer Research and Development | 计算机研究与发展</b></a>, 2025 (CCF中文A, 计算机技术领域T1) \
   <a href="https://mp.weixin.qq.com/s/swdgWVMk_i6RMFk4MiueRg" style="color:OrangeRed">Highlights and Perspectives (前沿亮点专栏收录)</a>
 
-- [Predictable Real-Time Video Latency Control with Frame-level Collaboration](https://2025.rtss.org/program/index.html) ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) ([Slides](https://greenlv.github.io/files/2025_RTSS_Co-RTV_slides.pdf)) <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span> \
+- [Predictable Real-Time Video Latency Control with Frame-level Collaboration](https://www.computer.org/csdl/proceedings-article/rtss/2025/964200a189/2cTzHjeYbVC) ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) ([Slides](https://greenlv.github.io/files/2025_RTSS_Co-RTV_slides.pdf)) <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span> \
   _Jiaxing Zhang, Qinghua Wu, **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, Zhenyu Li, Gaogang Xie_ \
   <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A), Acceptance Rate: 44/200=22%
 
