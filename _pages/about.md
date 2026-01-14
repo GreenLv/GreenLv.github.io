@@ -128,15 +128,15 @@ Main studies on media transmission system (from 2021):
 
 
 **Open-source projects:** \
-[![Lumos](https://img.shields.io/github/stars/GreenLv/Lumos?style=flat-square&logo=github&label=Lumos&color=808080&labelColor=595959)](https://github.com/GreenLv/Lumos)
+[![Lumos](https://img.shields.io/github/stars/GreenLv/Lumos?style=flat-square&logo=github&label=Lumos&color=959595&labelColor=595959)](https://github.com/GreenLv/Lumos)
 &nbsp;
-[![Schaferct](https://img.shields.io/github/stars/n13eho/Schaferct?style=flat-square&logo=github&label=Schaferct&color=808080&labelColor=595959)](https://github.com/n13eho/Schaferct)
+[![Schaferct](https://img.shields.io/github/stars/n13eho/Schaferct?style=flat-square&logo=github&label=Schaferct&color=959595&labelColor=595959)](https://github.com/n13eho/Schaferct)
 &nbsp;
-[![Chorus](https://img.shields.io/github/stars/GreenLv/Chorus?style=flat-square&logo=github&label=Chorus&color=808080&labelColor=595959)](https://github.com/GreenLv/Chorus)
+[![Chorus](https://img.shields.io/github/stars/GreenLv/Chorus?style=flat-square&logo=github&label=Chorus&color=959595&labelColor=595959)](https://github.com/GreenLv/Chorus)
 &nbsp;
-[![Solis-WiFi-Trace](https://img.shields.io/github/stars/GreenLv/Solis-WiFi-Trace?style=flat-square&logo=github&label=Solis-WiFi-Trace&color=808080&labelColor=595959)](https://github.com/GreenLv/Solis-WiFi-Trace)
+[![Solis-WiFi-Trace](https://img.shields.io/github/stars/GreenLv/Solis-WiFi-Trace?style=flat-square&logo=github&label=Solis-WiFi-Trace&color=959595&labelColor=595959)](https://github.com/GreenLv/Solis-WiFi-Trace)
 &nbsp;
-[![Pensieve-retrain](https://img.shields.io/github/stars/GreenLv/pensieve_retrain?style=flat-square&logo=github&label=Pensieve-retrain&color=808080&labelColor=595959)](https://github.com/GreenLv/pensieve_retrain)
+[![Pensieve-retrain](https://img.shields.io/github/stars/GreenLv/pensieve_retrain?style=flat-square&logo=github&label=Pensieve-retrain&color=959595&labelColor=595959)](https://github.com/GreenLv/pensieve_retrain)
 
 
 
