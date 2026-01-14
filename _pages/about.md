@@ -127,17 +127,16 @@ Main studies on media transmission system (from 2021):
 </table>
 
 
-**Open-source projects:**
-
-[![Lumos](https://img.shields.io/github/stars/GreenLv/Lumos?style=flat-square&logo=github&label=Lumos&color=007ec6)](https://github.com/GreenLv/Lumos)
-&nbsp;
-[![Schaferct](https://img.shields.io/github/stars/n13eho/Schaferct?style=flat-square&logo=github&label=Schaferct&color=007ec6)](https://github.com/n13eho/Schaferct)
-&nbsp;
-[![Chorus](https://img.shields.io/github/stars/GreenLv/Chorus?style=flat-square&logo=github&label=Chorus&color=007ec6)](https://github.com/GreenLv/Chorus)
-&nbsp;
-[![Solis-WiFi-Trace](https://img.shields.io/github/stars/GreenLv/Solis-WiFi-Trace?style=flat-square&logo=github&label=Solis-WiFi-Trace&color=007ec6)](https://github.com/GreenLv/Solis-WiFi-Trace)
-&nbsp;
-[![Pensieve-retrain](https://img.shields.io/github/stars/GreenLv/pensieve_retrain?style=flat-square&logo=github&label=Pensieve-retrain&color=007ec6)](https://github.com/GreenLv/pensieve_retrain)
+**Open-source projects:** \
+[![Lumos](https://img.shields.io/github/stars/GreenLv/Lumos?style=social)](https://github.com/GreenLv/Lumos)
+&emsp;
+[![Schaferct](https://img.shields.io/github/stars/n13eho/Schaferct?style=social)](https://github.com/n13eho/Schaferct)
+&emsp;
+[![Chorus](https://img.shields.io/github/stars/GreenLv/Chorus?style=social)](https://github.com/GreenLv/Chorus)
+&emsp;
+[![Solis-WiFi-Trace](https://img.shields.io/github/stars/GreenLv/Solis-WiFi-Trace?style=social)](https://github.com/GreenLv/Solis-WiFi-Trace)
+&emsp;
+[![Pensieve-retrain](https://img.shields.io/github/stars/GreenLv/pensieve_retrain?style=social)](https://github.com/GreenLv/pensieve_retrain)
 
 
 
