@@ -125,6 +125,8 @@ Main studies on media transmission system (from 2021):
     </tr>
 </table>
 
+Open-source projects: <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Luoms</a> <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true" aria-label="Star n13eho/Schaferct on GitHub">Schaferct</a> <a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a> <a class="github-button" href="https://github.com/GreenLv/Solis-WiFi-Trace" data-show-count="true" aria-label="GreenLv/Solis-WiFi-Trace on GitHub">Solis-WiFi-Trace</a> <a class="github-button" href="https://github.com/GreenLv/pensieve_retrain" data-show-count="true" aria-label="GreenLv/pensieve_retrain on GitHub">Pensieve-retrain</a>
+
 
 
 ## Publications
@@ -150,7 +152,7 @@ Main studies on media transmission system (from 2021):
   _Yuankang Zhao, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), **Gerui Lv**, Furong Yang, Jiuhai Zhang, Feng Peng, Yanmei Liu, [Zhenyu Li](https://zhenyulee.github.io/), Hongyu Guo, Ying Chen, [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
   <a href="https://dl.acm.org/journal/tomm"><b>ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)</b></a>, 2025  (CCF B, JCR Q1)
 
-- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/2024_MobiCom_Chorus_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_MobiCom_Chorus_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/2024_MobiCom_Chorus_tech_report.pdf)) ([Demo Video](https://greenlv.github.io/files/2024_MobiCom_Chorus_demo_video.mp4)) ([GetMobile](https://greenlv.github.io/files/2025_GetMobile_Chorus.pdf)) <a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true">Chorus</a> <span class="pub-tag protocol">MP</span><span class="pub-tag protocol">QUIC</span><span class="pub-tag streaming">ABR</span> \
+- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359) ([PDF](https://greenlv.github.io/files/2024_MobiCom_Chorus_paper.pdf)) ([Slides](https://greenlv.github.io/files/2024_MobiCom_Chorus_slides.pdf)) ([Tech Report](https://greenlv.github.io/files/2024_MobiCom_Chorus_tech_report.pdf)) ([Demo Video](https://greenlv.github.io/files/2024_MobiCom_Chorus_demo_video.mp4)) ([GetMobile](https://greenlv.github.io/files/2025_GetMobile_Chorus.pdf)) <a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a> <span class="pub-tag protocol">MP</span><span class="pub-tag protocol">QUIC</span><span class="pub-tag streaming">ABR</span> \
   _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Yanmei Liu, [Zhenyu Li](https://zhenyulee.github.io/), Qingyue Tan, Furong Yang, Wentao Chen, [Yunfei Ma](https://yfmascgy.github.io/), Hongyu Guo, Ying Chen, [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
   <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">Cover Article of ACM SIGMOBILE GetMobile (Vol. 29, No. 1)</a> \
