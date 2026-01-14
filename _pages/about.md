@@ -113,6 +113,7 @@ Main studies on media transmission system (from 2021):
         - Breath [WWW’26]<br>
         - Marten [<a href="https://www.computer.org/csdl/journal/nw/5555/01/11048990/27Oqh8Z0hb2">TON’25</a>]<br>
         - Muse [<a href="https://ieeexplore.ieee.org/abstract/document/9796880">INFOCOM’22</a>]<br>
+        </td>
         <!-- Multipath Transport -->
         <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959"><b>Multipath Transport</b><br>
         - Chorus [<a href="https://dl.acm.org/doi/10.1145/3636534.3649359">MobiCom’24</a>]<br>
@@ -124,6 +125,7 @@ Main studies on media transmission system (from 2021):
         - TECC [<a href="https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing">NSDI’24</a>]</td>
     </tr>
 </table>
+
 
 Open-source projects: <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Luoms</a> <a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true" aria-label="Star n13eho/Schaferct on GitHub">Schaferct</a> <a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a> <a class="github-button" href="https://github.com/GreenLv/Solis-WiFi-Trace" data-show-count="true" aria-label="GreenLv/Solis-WiFi-Trace on GitHub">Solis-WiFi-Trace</a> <a class="github-button" href="https://github.com/GreenLv/pensieve_retrain" data-show-count="true" aria-label="GreenLv/pensieve_retrain on GitHub">Pensieve-retrain</a>
 
