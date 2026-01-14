@@ -127,11 +127,12 @@ Main studies on media transmission system (from 2021):
 </table>
 
 
-Open-source projects: \
-<a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Lumos</a>&emsp;
-<a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true" aria-label="Star n13eho/Schaferct on GitHub">Schaferct</a>&emsp;
-<a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a>&emsp;
-<a class="github-button" href="https://github.com/GreenLv/Solis-WiFi-Trace" data-show-count="true" aria-label="GreenLv/Solis-WiFi-Trace on GitHub">Solis-WiFi-Trace</a>&emsp;
+Open-source projects: 
+
+<a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Lumos</a>&nbsp;｜&nbsp;
+<a class="github-button" href="https://github.com/n13eho/Schaferct" data-show-count="true" aria-label="Star n13eho/Schaferct on GitHub">Schaferct</a>&nbsp;｜&nbsp;
+<a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a>&nbsp;｜&nbsp;
+<a class="github-button" href="https://github.com/GreenLv/Solis-WiFi-Trace" data-show-count="true" aria-label="GreenLv/Solis-WiFi-Trace on GitHub">Solis-WiFi-Trace</a>&nbsp;｜&nbsp;
 <a class="github-button" href="https://github.com/GreenLv/pensieve_retrain" data-show-count="true" aria-label="GreenLv/pensieve_retrain on GitHub">Pensieve-retrain</a>
 
 
