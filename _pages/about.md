@@ -209,10 +209,10 @@ Main studies on media transmission system (from 2021):
 
 ## Patents & Standards
 
-- [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/) [CN115834556B, ZL202310152689.9] (Granted: 2023-05-12)  \
+- [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/) [CN115834556B, CN202310152689.9] (Granted: 2023-05-12)  \
   _**吕格瑞**, 刘彦梅, 陈文韬, 杨馥榕, 郭虹宇, 陈颖_
 
-- [多路径传输的重注入控制方法、电子设备及存储介质](https://patents.google.com/patent/CN116436865B/) [CN116436865B, ZL202310336766.6] (Granted: 2026-01-02) \
+- [多路径传输的重注入控制方法、电子设备及存储介质](https://patents.google.com/patent/CN116436865B/) [CN116436865B, CN202310336766.6] (Granted: 2026-01-02) \
   _**吕格瑞**, 刘彦梅, 杨馥榕, 陈文韬, 郭虹宇, 陈颖_
 
 - [一种路径处理方法、装置及电子设备](https://patents.google.com/patent/CN116827853A/) [CN116827853A]  \
