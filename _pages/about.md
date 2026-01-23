@@ -144,8 +144,7 @@ Main studies on media transmission system (from 2021):
 ### Content Transmission Control
 - Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming 
   ([PDF](https://greenlv.github.io/files/2026_WWW_Breath.pdf))
-  <span class="pub-tag streaming">RTC</span>
-  <span class="pub-tag protocol">QUIC</span> \
+  <span class="pub-tag streaming">RTC</span><span class="pub-tag protocol">QUIC</span> \
   _Shiyang Huang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Yuankang Zhao, Jiaxing Zhang, Qingyue Tan, Congkai An, [Huanhuan Zhang](https://huanhuanzhangbupt.github.io/), [Xinyi Zhang](https://cynthiazhang.github.io/zhangxinyi/), [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_ \
   <a href="https://www2026.thewebconf.org/"><b>ACM WWW 2026</b></a>  (CCF A), Acceptance Rate: 676/3370=20.1%
 
@@ -159,9 +158,7 @@ Main studies on media transmission system (from 2021):
 - [Predictable Real-Time Video Latency Control with Frame-level Collaboration](https://www.computer.org/csdl/proceedings-article/rtss/2025/964200a189/2cTzHjeYbVC) 
   ([PDF](https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf)) 
   ([Slides](https://greenlv.github.io/files/2025_RTSS_Co-RTV_slides.pdf)) 
-  <span class="pub-tag streaming">RTC</span>
-  <span class="pub-tag arch">Edge</span>
-  <span class="pub-tag protocol">QUIC</span> \
+  <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span> \
   _Jiaxing Zhang, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), **Gerui Lv**, Wenji Du, Qingyue Tan, Wanghong Yang, Kai Lv, Yuankang Zhao, Yongmao Ren, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_ \
   <a href="https://2025.rtss.org/"><b>IEEE RTSS 2025</b></a>  (CCF A), Acceptance Rate: 44/200=22%
 
@@ -187,9 +184,7 @@ Main studies on media transmission system (from 2021):
   ([Demo Video](https://greenlv.github.io/files/2024_MobiCom_Chorus_demo_video.mp4)) 
   ([GetMobile](https://greenlv.github.io/files/2025_GetMobile_Chorus.pdf)) 
   <a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a> 
-  <span class="pub-tag protocol">MP</span>
-  <span class="pub-tag protocol">QUIC</span>
-  <span class="pub-tag streaming">ABR</span> \
+  <span class="pub-tag protocol">MP</span><span class="pub-tag protocol">QUIC</span><span class="pub-tag streaming">ABR</span> \
   _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Yanmei Liu, [Zhenyu Li](https://zhenyulee.github.io/), Qingyue Tan, Furong Yang, Wentao Chen, [Yunfei Ma](https://yfmascgy.github.io/), Hongyu Guo, Ying Chen, [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
   <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">Cover Article of ACM SIGMOBILE GetMobile (Vol. 29, No. 1)</a> \
@@ -232,26 +227,21 @@ Main studies on media transmission system (from 2021):
 ### Content Delivery Network
 - RLive: Robust Delivery System for Scaling Live Streaming Services 
   ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf)) 
-  <span class="pub-tag arch">CDN</span>
-  <span class="pub-tag arch">Edge</span>
-  <span class="pub-tag streaming">Live</span>
-  <span class="pub-tag protocol">MP</span> \
+  <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span> \
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, [Zhenyu Li](https://zhenyulee.github.io/)_ \
   <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A), Acceptance Rate: 79/467=16.9%
 
 - [Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs](https://dl.acm.org/doi/10.1145/3768983) 
   ([PDF](https://greenlv.github.io/files/2025_CoNEXT_Oceanus.pdf)) 
   ([Slides](https://greenlv.github.io/files/2025_CoNEXT_Oceanus_slides.pdf)) 
-  <span class="pub-tag arch">CDN</span>
-  <span class="pub-tag arch">Edge</span> \
+  <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span> \
   _Chuanqing Lin<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
 
 - [Cost-efficient Request Mapping for Large-scale Live Streaming Services](https://dl.acm.org/doi/10.1145/3768978) 
   ([PDF](https://greenlv.github.io/files/2025_CoNEXT_LiveMap.pdf)) 
   ([Slides](https://greenlv.github.io/files/2025_CoNEXT_LiveMap_slides.pdf)) 
-  <span class="pub-tag arch">CDN</span>
-  <span class="pub-tag streaming">Live</span> \
+  <span class="pub-tag arch">CDN</span><span class="pub-tag streaming">Live</span> \
   _Yu Tian, [Zhenyu Li](https://zhenyulee.github.io/), Matthew Yang Liu, Zhaoxue Zhong, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Ao Li, Jiaxing Zhang, **Gerui Lv**, Chuanqing Lin, Xi Wang, Jian Mao, [Gareth Tyson](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TYSON-GarethJohn/gtyson), Jie Xiong, [Zhenhua Li](https://www.thucloud.com/zhenhua/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_ \
   <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
   
