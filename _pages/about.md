@@ -274,10 +274,10 @@ Main studies on media transmission system (from 2021):
 - [一种数据驱动的动态QoE偏好权重参数确定方法](https://patents.google.com/patent/CN120786053A/) [CN120786053A] \
   _赵员康, **吕格瑞**, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [李振宇](https://zhenyulee.github.io/)_
 
-- 音视频服务中QoS-QoE映射关系的刻画方法、装置、介质 [CN202511547273.2] \
+- [音视频服务中QoS-QoE映射关系的刻画方法、装置、介质](https://patents.google.com/patent/CN121462845A/) [CN121462845A] \
   _林川清, 梁阳光, 田语, **吕格瑞**, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [李振宇](https://zhenyulee.github.io/)_
 
-- CDN流量调度方法、系统、装置、存储介质 [CN202511547517.7] \
+- [CDN流量调度方法、系统、装置、存储介质](https://patents.google.com/patent/CN121442004A/) [CN121442004A] \
   _林川清, 梁阳光, 田语, **吕格瑞**, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [李振宇](https://zhenyulee.github.io/)_
 
 - [QoE-Driven Application-Transport Cooperation Requirements](https://datatracker.ietf.org/doc/draft-zhang-qoe-driven-transport-requirement/) (IETF Draft) \
@@ -309,7 +309,7 @@ Main studies on media transmission system (from 2021):
 - The flow scheduler in Oceanus [CoNEXT’25] has been deployed in the **Alibaba Cloud CDN system**, reducing CDN access latency (RTT) and improving scheduling mapping stability. 
 - MARC [ATC’25] has been deployed in **Taobao 3D cloud rendering system**. It has served over 1 million sessions, reducing session freeze rates by 71% and increasing user interaction time by 20%.
 - JitBright [TOMM’25; NOSSDAV’24 Best Paper] has been deployed in the **Taobao 3D cloud rendering system**. It has served over 591,000 sessions and increased the proportion of sessions that met the MTP latency requirement of less than 150 ms by 6% to 27%.
-- Patent CN116436865A (part of Chorus [MobiCom’24]) has been applied in the **Taobao RPC system** (XQUIC) to control multipath reinjection. <a class="github-button" href="https://github.com/alibaba/xquic" data-show-count="true">XQUIC</a>
+- Patent CN116436865B (part of Chorus [MobiCom’24]) has been applied in the **Taobao RPC system** (XQUIC) to control multipath reinjection. <a class="github-button" href="https://github.com/alibaba/xquic" data-show-count="true">XQUIC</a>
 - One of my tech blogs ranked #1 in Google search results for “DASH标准” ([2024-01-09](https://greenlv.github.io/files/DASH_standard-Google-240109.png)).
 - One of my tech blogs ranked #1 in Baidu search results for “DASH视频” ([2023-05-01](https://greenlv.github.io/files/DASH_video-Baidu-230511.png)).
 
@@ -317,7 +317,10 @@ Main studies on media transmission system (from 2021):
 
 ## Talks
 
-- RTC transmission system \
+- Academic writing \
+  @ _ICT, CAS_, Beijing, China, 2026-01-28
+- Low-latency transmission system \
+  @ _CINC, CAS_, Beijing, China, 2026-01-30 \
   @ _ByteDance_, Beijing, China, 2024-11-19 \
   @ _BUPT_, Beijing, China, 2024-11-05
 - Multipath adaptive video streaming  \
