@@ -110,7 +110,7 @@ Main studies on media transmission system (from 2021):
         <td style="vertical-align: middle; text-align: center; border-left: 2px solid #595959; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959; color: #846802;"><b>Transport<br>Layer</b></td>
         <!-- Transmission Control -->
         <td style="vertical-align: top; border-right: 1px solid #a6a6a6; border-bottom: 2px solid #595959"><b>Transmission Control</b><br>
-        - Breath [WWW’26]<br>
+        - Breath [<a href="https://dl.acm.org/doi/10.1145/3774904.3792265">WWW’26</a>]<br>
         - Marten [<a href="https://www.computer.org/csdl/journal/nw/5555/01/11048990/27Oqh8Z0hb2">TON’25</a>]<br>
         - Muse [<a href="https://ieeexplore.ieee.org/abstract/document/9796880">INFOCOM’22</a>]<br>
         </td>
@@ -142,7 +142,7 @@ Main studies on media transmission system (from 2021):
 
 ## Publications
 ### Content Transmission Control
-- Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming 
+- [Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming](https://dl.acm.org/doi/10.1145/3774904.3792265) 
   ([PDF](https://greenlv.github.io/files/2026_WWW_Breath.pdf))
   <span class="pub-tag streaming">RTC</span><span class="pub-tag protocol">QUIC</span> \
   _Shiyang Huang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Yuankang Zhao, Jiaxing Zhang, Qingyue Tan, Congkai An, [Huanhuan Zhang](https://huanhuanzhangbupt.github.io/), [Xinyi Zhang](https://cynthiazhang.github.io/zhangxinyi/), [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_ \
