@@ -99,7 +99,7 @@ Main studies on media transmission system (from 2021):
         - Lumos [<a href="https://ieeexplore.ieee.org/abstract/document/10246426">TMC’23</a> / <a href="https://ieeexplore.ieee.org/abstract/document/9796948/">INFOCOM’22</a>]</td>
         <!-- CDN Scheduling -->
         <td style="vertical-align: top; border-right: 2px solid #595959; border-bottom: 1px solid #a6a6a6"><b>CDN Scheduling</b><br>
-        - RLive [EuroSys’26]<br>
+        - RLive [<a href="https://dl.acm.org/doi/abs/10.1145/3767295.3769360">EuroSys’26</a>]<br>
         - Oceanus [<a href="https://dl.acm.org/doi/10.1145/3768983">CoNEXT’25</a>]<br>
         - LiveMap [<a href="https://dl.acm.org/doi/10.1145/3768978">CoNEXT’25</a>]<br>
         - LiveNet [<a href="https://dl.acm.org/doi/abs/10.1145/3544216.3544236">SIGCOMM’22</a>]<br>
@@ -226,7 +226,7 @@ Main studies on media transmission system (from 2021):
 
 
 ### Content Delivery Network
-- RLive: Robust Delivery System for Scaling Live Streaming Services 
+- [RLive: Robust Delivery System for Scaling Live Streaming Services](https://dl.acm.org/doi/abs/10.1145/3767295.3769360) 
   ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf)) 
   <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span> \
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, [Zhenyu Li](https://zhenyulee.github.io/)_ \
