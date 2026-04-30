@@ -355,11 +355,13 @@ Main studies on media transmission system (from 2021):
 
 ## Reviewing Experiences 
 
-- IEEE INFOCOM (2023–2026)
-- ACM CoNEXT (2024, 2025)
-- IEEE ICNP (2024, 2025)
-- IEEE MetaCom (2024)
-- IEEE Communications Letters (2025)
-- IEEE Access (2025)
-- ACM MobiCom Artifacts Evaluation (2024)
+- IEEE TMM
+- Taylor&Francis IJHCI
+- IEEE Communications Letters
+- IEEE Access
+- IEEE INFOCOM
+- ACM CoNEXT
+- IEEE ICNP
+- IEEE MetaCom
+- ACM MobiCom Artifacts Evaluation
 
