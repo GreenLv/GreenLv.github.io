@@ -232,6 +232,11 @@ Main studies on media transmission system (from 2021):
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, [Zhenyu Li](https://zhenyulee.github.io/)_ \
   <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A), Acceptance Rate: 79/467=16.9%
 
+- ADePT: Latency Prediction for Edge CDN Traffic Scheduling via Causal Inference 
+  <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span> \
+  _Chuanqing Lin, **Gerui Lv**, Yangguang Liang, Fuhua Zeng, Xiaodong Li, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_ \
+  <a href="https://www.sciencedirect.com/journal/computer-networks"><b>Elsevier Computer Networks (CN)</b></a>, 2026 (CCF B, JCR Q1)
+
 - [Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs](https://dl.acm.org/doi/10.1145/3768983) 
   ([PDF](https://greenlv.github.io/files/2025_CoNEXT_Oceanus.pdf)) 
   ([Slides](https://greenlv.github.io/files/2025_CoNEXT_Oceanus_slides.pdf)) 
