@@ -144,6 +144,7 @@ Main studies on media transmission system (from 2021):
 ### Internet Transmission Control
 - [Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming](https://dl.acm.org/doi/10.1145/3774904.3792265) 
   ([PDF](https://greenlv.github.io/files/2026_WWW_Breath.pdf))
+  ([Slides](https://greenlv.github.io/files/2026_WWW_Breath_slides.pdf))
   <span class="pub-tag streaming">RTC</span><span class="pub-tag protocol">QUIC</span> \
   _Shiyang Huang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Yuankang Zhao, Jiaxing Zhang, Qingyue Tan, Congkai An, [Huanhuan Zhang](https://huanhuanzhangbupt.github.io/), [Xinyi Zhang](https://cynthiazhang.github.io/zhangxinyi/), [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_ \
   <a href="https://www2026.thewebconf.org/"><b>ACM WWW 2026</b></a>  (CCF A), Acceptance Rate: 676/3370=20.1%, Oral Presentation
