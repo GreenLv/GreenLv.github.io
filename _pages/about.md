@@ -30,7 +30,7 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 - Internet Architecture: content delivery network <span class="pub-tag arch">CDN</span>, edge collaboration <span class="pub-tag arch">Edge</span>, etc.
 </div>
 
-**[Full Publication List →](/publications/)** | **[Full CV →](/cv/)**
+**[Full Publication List →](/publications/)** \| **[Full CV →](/cv/)**
 
 
 
