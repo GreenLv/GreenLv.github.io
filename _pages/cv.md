@@ -93,7 +93,7 @@ redirect_from:
 | Name | Period | Research Interests | Main Publications | First Position |
 |------|--------|--------------------|-----------------------|----------------|
 | Chuanqing Lin\* | 2018–2026 | Internet Architecture (CDN) | CN'26, CoNEXT'25 | Huawei |
-| Jiaxing Zhang\# | 2020–2026 | Video Streaming; Network Protocols | NSDI'24, RTSS'25 | Alibaba (AliStar) |
+| Jiaxing Zhang\# | 2020–2026 | Video Streaming; Network Protocols | RTSS'25, NSDI'24 | Alibaba (AliStar) |
 | Yuankang Zhao\* | 2019–2026 | Video Streaming; Network Protocols | ATC'25, TOMM'25, NOSSDAV'24 (Best Paper) | Alibaba (T-Star) |
 
 </div>
