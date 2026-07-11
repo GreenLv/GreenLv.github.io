@@ -120,37 +120,33 @@ Main studies on Internet transmission system (from 2021):
 ## Selected Publications
 <div class="selected-publications" markdown="1">
 
-- [RLive: Robust Delivery System for Scaling Live Streaming Services](https://dl.acm.org/doi/abs/10.1145/3767295.3769360)
-  <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span><br>
-  _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, [Zhenyu Li](https://zhenyulee.github.io/)_<br>
-  <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>
+- [RLive: Robust Delivery System for Scaling Live Streaming Services](https://dl.acm.org/doi/abs/10.1145/3767295.3769360), ACM EuroSys 2026
+  <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span>
 
-- [Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming](https://dl.acm.org/doi/10.1145/3774904.3792265)
-  <span class="pub-tag streaming">RTC</span><span class="pub-tag protocol">QUIC</span><br>
-  _Shiyang Huang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Yuankang Zhao, Jiaxing Zhang, Qingyue Tan, Congkai An, [Huanhuan Zhang](https://huanhuanzhangbupt.github.io/), [Xinyi Zhang](https://cynthiazhang.github.io/zhangxinyi/), [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_<br>
-  <a href="https://www2026.thewebconf.org/"><b>ACM WWW 2026</b></a>
+- [Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming](https://dl.acm.org/doi/10.1145/3774904.3792265), ACM WWW 2026
+  <span class="pub-tag streaming">RTC</span><span class="pub-tag protocol">QUIC</span>
 
-- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang)
-  <span class="pub-tag streaming">RTC</span><br>
-  _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_<br>
-  <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025</b></a>
+- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang), USENIX ATC 2025
+  <span class="pub-tag streaming">RTC</span>
+  
+- [Predictable Real-Time Video Latency Control with Frame-level Collaboration](https://ieeexplore.ieee.org/abstract/document/11315082), IEEE RTSS 2025
+  <span class="pub-tag streaming">RTC</span><span class="pub-tag arch">Edge</span><span class="pub-tag protocol">QUIC</span>
 
-- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359)
-  <a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a>
-  <span class="pub-tag protocol">MP</span><span class="pub-tag protocol">QUIC</span><span class="pub-tag streaming">ABR</span><br>
-  _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Yanmei Liu, [Zhenyu Li](https://zhenyulee.github.io/), Qingyue Tan, Furong Yang, Wentao Chen, [Yunfei Ma](https://yfmascgy.github.io/), Hongyu Guo, Ying Chen, [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_<br>
-  <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>
+- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359), ACM MobiCom 2024
+  <span class="pub-tag protocol">MP</span><span class="pub-tag protocol">QUIC</span><span class="pub-tag streaming">ABR</span>
 
-- [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426)
-  <span class="pub-tag streaming">ABR</span> \
-  _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Qingyue Tan, Weiran Wang, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
-  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755"><b>IEEE Transactions on Mobile Computing (TMC)</b></a>, 2023
+- [JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization](https://dl.acm.org/doi/10.1145/3651863.3651881), ACM NOSSDAV 2024 (Best Paper)
+  <span class="pub-tag streaming">RTC</span>
+  
+- [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183), ACM MMSys 2024 (Grand Challenge Winner)
+  <span class="pub-tag streaming">RTC</span>
 
-- [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/)
-  <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Lumos</a>
-  <span class="pub-tag streaming">ABR</span><br>
-  _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Weiran Wang, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_<br>
-  <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a>
+
+- [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426), IEEE TMC 2023
+  <span class="pub-tag streaming">ABR</span>
+
+- [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/), IEEE INFOCOM 2022
+  <span class="pub-tag streaming">ABR</span>
 
 </div>
 
