@@ -28,15 +28,19 @@ redirect_from:
 
 ## Honors and Awards
 
-- [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025 ([Report](https://ict.cas.cn/xwgg/jssxw/202604/t20260422_8189888.html))
-- ACM SIGMOBILE China Doctoral Dissertation Award, 2025
+- [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025 ([Report](https://ict.cas.cn/xwgg/jssxw/202604/t20260422_8189888.html)) \
+  _One of two awardees at ICT, CAS_
+- ACM SIGMOBILE China Doctoral Dissertation Award, 2025 \
+  _One of three recipients in China_
+- CAS Special Research Assistant Program, 2025 \
+  _One of three awardees at ICT, CAS_
 - [Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生)](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html), 2024
 - Outstanding Ph.D. Graduates in UCAS, 2024
 - Best Paper Award at ACM NOSSDAV 2024
-- First Place in [MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC](https://2024.acmmmsys.org/gc/ORL-BWE-RTC/), 2024
+- First Place Award in the [MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC](https://2024.acmmmsys.org/gc/ORL-BWE-RTC/), organized by Microsoft Research, 2024
 - National Scholarship for Doctoral Students, UCAS, 2023
-- Third Prize in Global AI Transmission Competition (AITrans), 2019  \
-  _4/138, Rank 2nd in real-world evaluations_
+- Third Prize in Global AI Transmission Competition (AITrans), organized by Tsinghua University, 2019  \
+  _4/138; Ranked 2nd in real-world evaluations_
 - First Class Academic Scholarship, UCAS, 2019
 - Outstanding B.S. Graduates of Hunan (湖南省优秀本科毕业生), 2016
 - Outstanding B.S. Graduates in HNU, 2016
