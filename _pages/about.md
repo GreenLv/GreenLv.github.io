@@ -121,43 +121,32 @@ Main studies on Internet transmission system (from 2021):
 <div class="selected-publications" markdown="1">
 
 - [RLive: Robust Delivery System for Scaling Live Streaming Services](https://dl.acm.org/doi/abs/10.1145/3767295.3769360)
-  ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf))
-  ([Slides](https://greenlv.github.io/files/2026_EuroSys_RLive_slides.pdf))
   <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span><br>
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, [Zhenyu Li](https://zhenyulee.github.io/)_<br>
   <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>
 
 - [Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming](https://dl.acm.org/doi/10.1145/3774904.3792265)
-  ([PDF](https://greenlv.github.io/files/2026_WWW_Breath.pdf))
-  ([Slides](https://greenlv.github.io/files/2026_WWW_Breath_slides.pdf))
   <span class="pub-tag streaming">RTC</span><span class="pub-tag protocol">QUIC</span><br>
   _Shiyang Huang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Yuankang Zhao, Jiaxing Zhang, Qingyue Tan, Congkai An, [Huanhuan Zhang](https://huanhuanzhangbupt.github.io/), [Xinyi Zhang](https://cynthiazhang.github.io/zhangxinyi/), [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_<br>
   <a href="https://www2026.thewebconf.org/"><b>ACM WWW 2026</b></a>
 
 - [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang)
-  ([PDF](https://greenlv.github.io/files/2025_ATC_MARC_paper.pdf))
-  ([Slides](https://greenlv.github.io/files/2025_ATC_MARC_slides.pdf))
-  ([Poster](https://greenlv.github.io/files/2025_ATC_MARC_poster.pdf))
-  ([Video](https://youtu.be/NJjfIfyDlmo))
   <span class="pub-tag streaming">RTC</span><br>
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_<br>
   <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025</b></a>
 
 - [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359)
-  ([PDF](https://greenlv.github.io/files/2024_MobiCom_Chorus_paper.pdf))
-  ([Slides](https://greenlv.github.io/files/2024_MobiCom_Chorus_slides.pdf))
-  ([Tech Report](https://greenlv.github.io/files/2024_MobiCom_Chorus_tech_report.pdf))
-  ([Demo Video](https://greenlv.github.io/files/2024_MobiCom_Chorus_demo_video.mp4))
-  ([GetMobile](https://greenlv.github.io/files/2025_GetMobile_Chorus.pdf))
   <a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a>
   <span class="pub-tag protocol">MP</span><span class="pub-tag protocol">QUIC</span><span class="pub-tag streaming">ABR</span><br>
   _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Yanmei Liu, [Zhenyu Li](https://zhenyulee.github.io/), Qingyue Tan, Furong Yang, Wentao Chen, [Yunfei Ma](https://yfmascgy.github.io/), Hongyu Guo, Ying Chen, [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_<br>
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>
 
+- [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426)
+  <span class="pub-tag streaming">ABR</span> \
+  _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Qingyue Tan, Weiran Wang, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
+  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755"><b>IEEE Transactions on Mobile Computing (TMC)</b></a>, 2023
+
 - [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/)
-  ([PDF](https://greenlv.github.io/files/2022_INFOCOM_Lumos_paper.pdf))
-  ([Slides](https://greenlv.github.io/files/2022_INFOCOM_Lumos_slides.pdf))
-  ([Video](https://youtu.be/9-LKcqPmFhA))
   <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Lumos</a>
   <span class="pub-tag streaming">ABR</span><br>
   _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Weiran Wang, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_<br>
