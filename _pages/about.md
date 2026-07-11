@@ -30,7 +30,7 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 - Internet Architecture: content delivery network <span class="pub-tag arch">CDN</span>, edge collaboration <span class="pub-tag arch">Edge</span>, etc.
 </div>
 
-**[Full Publication List →](/publications/)**   \|   **[Full CV →](/cv/)**
+**[Full CV →](/cv/)**
 
 
 
@@ -112,6 +112,31 @@ Main studies on Internet transmission system (from 2021):
 [![Solis-WiFi-Trace](https://img.shields.io/github/stars/GreenLv/Solis-WiFi-Trace?style=flat-square&logo=github&label=Solis-WiFi-Trace&color=959595&labelColor=595959)](https://github.com/GreenLv/Solis-WiFi-Trace)
 &nbsp;
 [![Pensieve-retrain](https://img.shields.io/github/stars/GreenLv/pensieve_retrain?style=flat-square&logo=github&label=Pensieve-retrain&color=959595&labelColor=595959)](https://github.com/GreenLv/pensieve_retrain)
+
+
+
+## Selected Publications
+<div class="selected-publications" markdown="1">
+
+- [RLive: Robust Delivery System for Scaling Live Streaming Services](https://dl.acm.org/doi/abs/10.1145/3767295.3769360), ACM EuroSys 2026
+
+- [Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming](https://dl.acm.org/doi/10.1145/3774904.3792265), ACM WWW 2026
+
+- [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang), USENIX ATC 2025
+  
+- [Predictable Real-Time Video Latency Control with Frame-level Collaboration](https://ieeexplore.ieee.org/abstract/document/11315082), IEEE RTSS 2025
+
+- [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359), ACM MobiCom 2024
+
+- [JitBright: towards Low-Latency Mobile Cloud Rendering through Jitter Buffer Optimization](https://dl.acm.org/doi/10.1145/3651863.3651881), ACM NOSSDAV 2024 (Best Paper)
+  
+- [Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning](https://dl.acm.org/doi/10.1145/3625468.3652183), ACM MMSys 2024 (Grand Challenge Winner)
+
+- [Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426), IEEE TMC 2023
+
+- [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/), IEEE INFOCOM 2022
+
+**[Full Publication List →](/publications/)**   
 
 
 
