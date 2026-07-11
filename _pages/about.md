@@ -32,7 +32,7 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 
 [[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]  [[View of Technology (In Chinese)](https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2)]
 
-**[Full CV →](/CV/)**
+**[Full CV →](/cv/)**
 
 
 
