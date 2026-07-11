@@ -117,7 +117,6 @@ Main studies on Internet transmission system (from 2021):
 
 
 ## Selected Publications
-### Internet Transmission Control
 - [Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming](https://dl.acm.org/doi/10.1145/3774904.3792265)
   ([PDF](https://greenlv.github.io/files/2026_WWW_Breath.pdf))
   ([Slides](https://greenlv.github.io/files/2026_WWW_Breath_slides.pdf))
@@ -155,9 +154,6 @@ Main studies on Internet transmission system (from 2021):
   <span class="pub-tag streaming">ABR</span> \
   _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Weiran Wang, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
   <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a> (CCF A), Acceptance Rate: 225/1129=19.9%
-
-
-### Content Delivery Network
 - [RLive: Robust Delivery System for Scaling Live Streaming Services](https://dl.acm.org/doi/abs/10.1145/3767295.3769360)
   ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf))
   ([Slides](https://greenlv.github.io/files/2026_EuroSys_RLive_slides.pdf))
