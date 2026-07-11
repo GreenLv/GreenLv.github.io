@@ -20,11 +20,15 @@ redirect_from:
 
 [[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]  [[View of Technology (In Chinese)](https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2)]
 
+
+
 ## Education
 
 - Ph.D., [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](https://www.ict.ac.cn/) / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/), 2024 \
   Advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/)
 - B.S. in Computer Science, [Hunan University (HNU)](https://www.hnu.edu.cn/), 2016
+
+
 
 ## Honors and Awards
 
@@ -45,6 +49,8 @@ redirect_from:
 - Outstanding B.S. Graduates of Hunan (湖南省优秀本科毕业生), 2016
 - Outstanding B.S. Graduates in HNU, 2016
 - National Scholarship for Undergraduates (_1/111_), HNU, 2015
+
+
 
 ## Patents & Standards
 
@@ -78,16 +84,20 @@ redirect_from:
 - [QoE-Driven Application-Transport Cooperation Requirements](https://datatracker.ietf.org/doc/draft-zhang-qoe-driven-transport-requirement/) (IETF Draft) \
   _Jiaxing Zhang, **Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_
 
+
+
 ## Alumni
 
-| Name | Period | Research Interests | Publications | First Position |
+| Name | Period | Research Interests | Main Publications | First Position |
 |------|--------|--------------------|-----------------------|----------------|
-| Chuanqing Lin\* | 2018–2026 | Internet Architecture (CDN) | CN'26, CoNEXT'25, NPC'25 | Huawei |
+| Chuanqing Lin\* | 2018–2026 | Internet Architecture (CDN) | CN'26, CoNEXT'25 | Huawei |
 | Jiaxing Zhang\# | 2020–2026 | Video Streaming; Network Protocol | NSDI'24, RTSS'25 | Alibaba (AliStar) |
 | Yuankang Zhao\* | 2019–2026 | Video streaming; Network Protocol | ATC'25, TOMM'25, NOSSDAV'24 (Best Paper) | Alibaba (T-Star) |
 
 - *\* Co-supervised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie), Prof. [Zhenyu Li](https://zhenyulee.github.io/), and Assoc. Prof. [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html).*
 - *\# Co-supervised by Prof. [Zhenyu Li](https://zhenyulee.github.io/) and Assoc. Prof. [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html).*
+
+
 
 ## Talks
 
@@ -108,17 +118,23 @@ redirect_from:
 - QoE optimization for low-latency live streaming  \
   @ _Tencent_, Beijing, China, 2019-12-02
 
+
+
 ## Internships
 
 - Alibaba (Taotian), Hangzhou, China, Jun. 2021 - Sep. 2022  \
   Research Intern @ Network Technology Team  \
   Mentor: Ms. Yanmei Liu
 
+
+
 ## Teaching Experiences
 
 - Teaching Assistant, Computer Network, UCAS \
   Fall 2019, Fall 2023 ([Slides](https://greenlv.github.io/files/Lec_Introducing_classical_ABR_algorithms.pdf))  \
   Instructor: Assoc. Prof. [Qinghua Wu](https://people.ucas.ac.cn/~0040408)
+
+
 
 ## Reviewing Experiences
 
