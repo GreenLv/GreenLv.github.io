@@ -321,6 +321,7 @@ Main studies on media transmission system (from 2021):
 | Yuankang Zhao\* | 2019–2026 | Video streaming; Network Protocol | ATC'25, TOMM'25, NOSSDAV'24 (Best Paper) | Alibaba (T-Star) |
 
 *\* Co-supervised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie), Prof. [Zhenyu Li](https://zhenyulee.github.io/), and Assoc. Prof. [Qinghua Wu]((https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html)).*
+
 *\# Co-supervised by Prof. [Zhenyu Li](https://zhenyulee.github.io/) and Assoc. Prof. [Qinghua Wu]((https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html)).*
 
 
