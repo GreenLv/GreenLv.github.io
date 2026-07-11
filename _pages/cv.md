@@ -92,14 +92,14 @@ redirect_from:
 
 | Name | Period | Research Interests | Main Publications | First Position |
 |------|--------|--------------------|-----------------------|----------------|
-| Chuanqing Lin\* | 2018–2026 | Internet Architecture (CDN) | CN'26, CoNEXT'25 | Huawei |
-| Jiaxing Zhang\# | 2020–2026 | Video Streaming; Network Protocols | RTSS'25, NSDI'24 | Alibaba (AliStar) |
-| Yuankang Zhao\* | 2019–2026 | Video Streaming; Network Protocols | ATC'25, TOMM'25, NOSSDAV'24 (Best Paper) | Alibaba (T-Star) |
+| Chuanqing Lin<sup>\*</sup> | 2018–2026 | Internet Architecture (CDN) | CN'26, CoNEXT'25 | Huawei |
+| Jiaxing Zhang<sup>\#</sup> | 2020–2026 | Video Streaming; Network Protocols | RTSS'25, NSDI'24 | Alibaba (AliStar) |
+| Yuankang Zhao<sup>\*</sup> | 2019–2026 | Video Streaming; Network Protocols | ATC'25, TOMM'25, NOSSDAV'24 (Best Paper) | Alibaba (T-Star) |
 
 </div>
 
-- *\* Co-supervised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie), Prof. [Zhenyu Li](https://zhenyulee.github.io/), and Assoc. Prof. [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html).*
-- *\# Co-supervised by Prof. [Zhenyu Li](https://zhenyulee.github.io/) and Assoc. Prof. [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html).*
+- *<sup>\*</sup> Co-supervised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie), Prof. [Zhenyu Li](https://zhenyulee.github.io/), and Assoc. Prof. [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html).*
+- *<sup>\#</sup> Co-supervised by Prof. [Zhenyu Li](https://zhenyulee.github.io/) and Assoc. Prof. [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html).*
 
 
 
