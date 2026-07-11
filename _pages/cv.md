@@ -66,12 +66,15 @@ redirect_from:
 - [CDN流量调度方法、系统、装置、存储介质](https://patents.google.com/patent/CN121442004A/) [CN121442004A] \
   _林川清, 梁阳光, 田语, **吕格瑞**, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [李振宇](https://zhenyulee.github.io/)_
 
+- 面向低时延视频流的自适应跨帧前向纠错方法、装置 [CN122179059A] \
+  _黄诗扬, **吕格瑞**, 赵员康, 张佳兴, 谭清月, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [李振宇](https://zhenyulee.github.io/)_
+
 - [QoE-Driven Application-Transport Cooperation Requirements](https://datatracker.ietf.org/doc/draft-zhang-qoe-driven-transport-requirement/) (IETF Draft) \
   _Jiaxing Zhang, **Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_
 
 ## Alumni
 
-| Name | Period | Research Interests | Selected Publications | First Position |
+| Name | Period | Research Interests | Publications | First Position |
 |------|--------|--------------------|-----------------------|----------------|
 | Chuanqing Lin\* | 2018–2026 | Internet Architecture (CDN) | CN'26, CoNEXT'25, NPC'25 | Huawei |
 | Jiaxing Zhang\# | 2020–2026 | Video Streaming; Network Protocol | NSDI'24, RTSS'25 | Alibaba (AliStar) |
