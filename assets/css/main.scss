@@ -39,3 +39,43 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Shared publication tags used on the home and publications pages. */
+.pub-tag {
+  display: inline-block;
+  padding: 3px 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 1.2;
+}
+
+.pub-tag.streaming { background-color: #16a085; }
+.pub-tag.protocol  { background-color: #e67e22; }
+.pub-tag.arch      { background-color: #3498db; }
+
+#research-interests {
+  margin-top: -1em;
+}
+
+#research-interests li {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+#research {
+  scroll-margin-top: 6rem;
+}
+
+.research-scope-table {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.research-scope-table table {
+  min-width: 720px;
+}
