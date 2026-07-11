@@ -43,19 +43,65 @@
 /* Shared publication tags used on the home and publications pages. */
 .pub-tag {
   display: inline-block;
-  padding: 3px 8px;
-  margin-right: 8px;
+  padding: 2px 6px;
+  margin-right: 4px;
   border-radius: 4px;
-  font-size: 0.85em;
+  font-size: 0.78em;
   font-weight: 600;
   color: #fff;
   vertical-align: middle;
-  line-height: 1.2;
+  line-height: 1.35;
 }
 
-.pub-tag.streaming { background-color: #16a085; }
-.pub-tag.protocol  { background-color: #e67e22; }
-.pub-tag.arch      { background-color: #3498db; }
+.pub-tag.streaming { background-color: #2a8c7b; }
+.pub-tag.protocol  { background-color: #c77727; }
+.pub-tag.arch      { background-color: #397daa; }
+
+.page__content {
+  line-height: 1.55;
+}
+
+.page__content h2 {
+  margin-top: 1.8em;
+}
+
+.blog-links {
+  color: $gray;
+  font-size: 0.95em;
+}
+
+.blog-links > a,
+.blog-links__item {
+  white-space: nowrap;
+}
+
+.blog-links__separator {
+  margin: 0 0.4em;
+  color: $light-gray;
+}
+
+.news-panel {
+  padding: 0.75em 1em 0.65em 0.8em;
+  border: 1px solid #b8c9dd;
+  border-left: 4px solid $link-color;
+  border-radius: 6px;
+  background-color: #f5f8fc;
+  color: $gray;
+}
+
+.news-panel ul {
+  margin: 0;
+  padding-left: 1.35em;
+}
+
+.news-panel li {
+  margin: 0.25em 0;
+}
+
+.news-date {
+  color: #5e7184;
+  font-variant-numeric: tabular-nums;
+}
 
 #research-interests {
   margin-top: -1em;
@@ -91,6 +137,11 @@
 
 .greedy-nav .masthead__menu-item--active > a {
   font-weight: 700;
+}
+
+.greedy-nav .visible-links a::before {
+  height: 2px;
+  background: $link-color;
 }
 
 .greedy-nav .visible-links .masthead__menu-item--active > a {

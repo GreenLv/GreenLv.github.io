@@ -30,17 +30,17 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 - Internet Architecture: content delivery network <span class="pub-tag arch">CDN</span>, edge collaboration <span class="pub-tag arch">Edge</span>, etc.
 </div>
 
-[[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)] [[View of Technology (In Chinese)](https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2)]
+<p class="blog-links"><a href="https://blog.csdn.net/LvGreat">Tech Blog (In Chinese)</a><span class="blog-links__item"><span class="blog-links__separator" aria-hidden="true">·</span><a href="https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2">View of Technology (In Chinese)</a></span></p>
 
 
 
 ## Recent News
 
 {% assign recent_news = site.data.news | sort: "date" | reverse %}
-<div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px; padding-right: 8px;">
+<div class="news-panel">
   <ul>
     {% for item in recent_news limit: 6 %}
-      <li>[{{ item.date }}] {{ item.icon }} {{ item.content }}</li>
+      <li><span class="news-date">[{{ item.date }}]</span> {{ item.icon }} {{ item.content }}</li>
     {% endfor %}
   </ul>
 </div>

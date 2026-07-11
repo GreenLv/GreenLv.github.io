@@ -43,12 +43,15 @@
 
 .masthead__menu-item {
   display: block;
-  font-family: $header-font-family;
+  font-family: $global-font-family;
+  font-size: 0.95em;
   list-style-type: none;
   white-space: nowrap;
 
   &--lg {
     padding-right: 2em;
+    font-family: $header-font-family;
+    font-size: 1em;
     font-weight: 700;
   }
 }
