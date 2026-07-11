@@ -39,7 +39,7 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 {% assign recent_news = site.data.news | sort: "date" | reverse %}
 <div class="news-panel">
   <ul>
-    {% for item in recent_news limit: 6 %}
+    {% for item in recent_news limit: 7 %}
       <li><span class="news-date">[{{ item.date }}]</span> {{ item.icon }} {{ item.content }}</li>
     {% endfor %}
   </ul>
