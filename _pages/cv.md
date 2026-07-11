@@ -18,6 +18,8 @@ redirect_from:
   <a href="#reviewing-experiences">Reviewing</a>
 </nav>
 
+[[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]  [[View of Technology (In Chinese)](https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2)]
+
 ## Education
 
 - Ph.D., [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](https://www.ict.ac.cn/) / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/), 2024 \

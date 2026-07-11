@@ -30,7 +30,7 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 - Internet Architecture: content delivery network <span class="pub-tag arch">CDN</span>, edge collaboration <span class="pub-tag arch">Edge</span>, etc.
 </div>
 
-[[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]  [[View of Technology (In Chinese)](https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2)]
+**[Full Publication List →](/publications/)**
 
 **[Full CV →](/cv/)**
 
@@ -115,7 +115,6 @@ Main studies on Internet transmission system (from 2021):
 &nbsp;
 [![Pensieve-retrain](https://img.shields.io/github/stars/GreenLv/pensieve_retrain?style=flat-square&logo=github&label=Pensieve-retrain&color=959595&labelColor=595959)](https://github.com/GreenLv/pensieve_retrain)
 
-**[Full Publication List →](/publications/)**
 
 
 ## Technical Impacts
