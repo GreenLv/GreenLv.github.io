@@ -261,11 +261,6 @@ Main studies on media transmission system (from 2021):
   _Chuanqing Lin, Yangguang Liang, Fuhua Zeng, Zhipeng Huang, Xiaodong Li, Jingyu Yang, Yu Tian, **Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_ \
   <a href="https://npc-2025.github.io/index.html"><b>IFIP NPC 2025</b></a>  (CCF C)
 
-- 延迟与拓扑感知的CDN区域性任播宣告与调度策略联合优化
-  <span class="pub-tag arch">CDN</span> \
-  林川清, **吕格瑞**, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [谢高岗](https://people.ucas.ac.cn/~_xie) \
-  <a href="http://www.hitech863.com/gjstxcn/ch/index.aspx"><b>高技术通讯</b></a>, 2026
-
 
 
 ## Patents & Standards
@@ -313,6 +308,20 @@ Main studies on media transmission system (from 2021):
 - Outstanding B.S. Graduates of Hunan (湖南省优秀本科毕业生), 2016
 - Outstanding B.S. Graduates in HNU, 2016
 - National Scholarship for Undergraduates (_1/111_), HNU, 2015
+
+
+
+## Alumni
+
+
+| Name | Period | Research Interests | Selected Publications | First Position |
+|------|--------|--------------------|-----------------------|----------------|
+| Chuanqing Lin\* | 2018–2026 | Internet Architecture (CDN) | CN'26, CoNEXT'25, NPC'25 | Huawei |
+| Jiaxing Zhang\# | 2020–2026 | Video Streaming; Network Protocol | NSDI'24, RTSS'25 | Alibaba (AliStar) |
+| Yuankang Zhao\* | 2019–2026 | Video streaming; Network Protocol | ATC'25, TOMM'25, NOSSDAV'24 (Best Paper) | Alibaba (T-Star) |
+
+*\* Co-supervised by Prof. Gaogang Xie, Prof. Zhenyu Li, and Assoc. Prof. Qinghua Wu.*
+*\# Co-supervised by Prof. Zhenyu Li and Assoc. Prof. Qinghua Wu.*
 
 
 
@@ -372,9 +381,5 @@ Main studies on media transmission system (from 2021):
 - Taylor&Francis IJHCI
 - IEEE Communications Letters
 - IEEE Access
-- IEEE INFOCOM
-- ACM CoNEXT
-- IEEE ICNP
-- IEEE MetaCom
 - ACM MobiCom Artifacts Evaluation
 
