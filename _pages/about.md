@@ -36,14 +36,12 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 
 ## Recent News
 
+{% assign recent_news = site.data.news | sort: "date" | reverse %}
 <div style="border:1px solid #000; border-width:2px; border-color:RoyalBlue; background-color:#D2E1FF; color:#424242; border-radius: 8px; padding-right: 8px;">
   <ul>
-      <li>[2026-01] 📃 Paper <i>Breath</i> accepted to <b>ACM WWW 2026</b>. </li>
-      <li>[2025-09] 📃 Paper <i>Oceanus</i> and <i>LiveMap</i> accepted to <b>ACM CoNEXT 2025</b>. </li>
-      <li>[2025-08] 📃 Paper <i>RLive</i> accepted to <b>ACM EuroSys 2026</b>. </li>
-      <li>[2025-07] 🎓 My doctoral dissertation was awarded the Excellent Doctoral Dissertations of CAS. </li>
-      <li>[2025-07] 📃 Paper <i>Co-RTV</i> accepted to <b>IEEE RTSS 2025</b>. </li>
-      <li>[2025-04] 📃 Paper <i>MARC</i> accepted to <b>USENIX ATC 2025</b>.</li>
+    {% for item in recent_news limit: 6 %}
+      <li>[{{ item.date }}] {{ item.icon }} {{ item.content }}</li>
+    {% endfor %}
   </ul>
 </div>
 
@@ -52,6 +50,7 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 
 ## Research Scope of NASG
 Main studies on Internet transmission system (from 2021):
+<p class="research-scope-hint">Swipe horizontally to view the complete research scope.</p>
 
 <div class="research-scope-table" markdown="1">
 <table cellspacing="0" style="border: 2px solid #595959; border-collapse: collapse;">
@@ -117,12 +116,14 @@ Main studies on Internet transmission system (from 2021):
 
 
 ## Selected Publications
+<div class="selected-publications" markdown="1">
+
 - [Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming](https://dl.acm.org/doi/10.1145/3774904.3792265)
   ([PDF](https://greenlv.github.io/files/2026_WWW_Breath.pdf))
   ([Slides](https://greenlv.github.io/files/2026_WWW_Breath_slides.pdf))
   <span class="pub-tag streaming">RTC</span><span class="pub-tag protocol">QUIC</span> \
   _Shiyang Huang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Yuankang Zhao, Jiaxing Zhang, Qingyue Tan, Congkai An, [Huanhuan Zhang](https://huanhuanzhangbupt.github.io/), [Xinyi Zhang](https://cynthiazhang.github.io/zhangxinyi/), [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_ \
-  <a href="https://www2026.thewebconf.org/"><b>ACM WWW 2026</b></a>  (CCF A), Acceptance Rate: 676/3370=20.1%, Oral Presentation
+  <a href="https://www2026.thewebconf.org/"><b>ACM WWW 2026</b></a>
 
 - [MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering](https://www.usenix.org/conference/atc25/presentation/zhao-yuankang)
   ([PDF](https://greenlv.github.io/files/2025_ATC_MARC_paper.pdf))
@@ -131,7 +132,7 @@ Main studies on Internet transmission system (from 2021):
   ([Video](https://youtu.be/NJjfIfyDlmo))
   <span class="pub-tag streaming">RTC</span> \
   _Yuankang Zhao<sup>1</sup>, Furong Yang<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Yanmei Liu, Jiuhai Zhang, Yutang Peng, Feng Peng, Hongyu Guo, Ying Chen, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
-  <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025 </b></a>  (CCF A), Acceptance Rate: 100/634=15.8%
+  <a href="https://www.usenix.org/conference/atc25"><b>USENIX ATC 2025</b></a>
 
 - [Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming](https://dl.acm.org/doi/10.1145/3636534.3649359)
   ([PDF](https://greenlv.github.io/files/2024_MobiCom_Chorus_paper.pdf))
@@ -142,9 +143,7 @@ Main studies on Internet transmission system (from 2021):
   <a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a>
   <span class="pub-tag protocol">MP</span><span class="pub-tag protocol">QUIC</span><span class="pub-tag streaming">ABR</span> \
   _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Yanmei Liu, [Zhenyu Li](https://zhenyulee.github.io/), Qingyue Tan, Furong Yang, Wentao Chen, [Yunfei Ma](https://yfmascgy.github.io/), Hongyu Guo, Ying Chen, [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
-  <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
-  <a href="https://dl.acm.org/doi/10.1145/3733892.3733900" style="color:OrangeRed">Cover Article of ACM SIGMOBILE GetMobile (Vol. 29, No. 1), 2025</a> (JCR Q1) \
-  <span style="color:OrangeRed">The First MobiCom Conference Paper from ICT, CAS</span>
+  <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>
 
 - [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948/)
   ([PDF](https://greenlv.github.io/files/2022_INFOCOM_Lumos_paper.pdf))
@@ -153,20 +152,23 @@ Main studies on Internet transmission system (from 2021):
   <a class="github-button" href="https://github.com/GreenLv/Lumos" data-show-count="true" aria-label="Star GreenLv/Lumos on GitHub">Lumos</a>
   <span class="pub-tag streaming">ABR</span> \
   _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Weiran Wang, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
-  <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a> (CCF A), Acceptance Rate: 225/1129=19.9%
+  <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a>
+
 - [RLive: Robust Delivery System for Scaling Live Streaming Services](https://dl.acm.org/doi/abs/10.1145/3767295.3769360)
   ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf))
   ([Slides](https://greenlv.github.io/files/2026_EuroSys_RLive_slides.pdf))
   <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span> \
   _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, [Zhenyu Li](https://zhenyulee.github.io/)_ \
-  <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>  (CCF A), Acceptance Rate: 79/467=16.9%
+  <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>
 
 - [Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs](https://dl.acm.org/doi/10.1145/3768983)
   ([PDF](https://greenlv.github.io/files/2025_CoNEXT_Oceanus.pdf))
   ([Slides](https://greenlv.github.io/files/2025_CoNEXT_Oceanus_slides.pdf))
   <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span> \
   _Chuanqing Lin<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_ \
-  <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a> (CCF B)
+  <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a>
+
+</div>
 
 **[Full Publication List →](/publications/)**
 

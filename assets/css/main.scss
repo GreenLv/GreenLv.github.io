@@ -75,3 +75,50 @@
 .research-scope-table table {
   min-width: 720px;
 }
+
+.research-scope-hint {
+  display: none;
+  margin: -0.75em 0 0.75em;
+  color: $gray;
+  font-size: $type-size-6;
+}
+
+@media (max-width: 37.5em) {
+  .research-scope-hint {
+    display: block;
+  }
+}
+
+.greedy-nav .masthead__menu-item--active > a {
+  font-weight: 700;
+}
+
+.greedy-nav .visible-links .masthead__menu-item--active > a {
+  color: $masthead-link-color-hover;
+}
+
+.greedy-nav .visible-links .masthead__menu-item--active > a::before {
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.selected-publications > ul > li {
+  margin-bottom: 0.25em;
+}
+
+.selected-publications > ul > li > p {
+  margin-bottom: 0.5em;
+}
+
+.cv-toc {
+  margin-bottom: 1.5em;
+  padding-bottom: 0.75em;
+  font-size: $type-size-6;
+  line-height: 1.8;
+  border-bottom: 1px solid $border-color;
+}
+
+.cv-toc a {
+  white-space: nowrap;
+}

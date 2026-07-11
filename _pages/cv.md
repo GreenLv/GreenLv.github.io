@@ -7,6 +7,17 @@ redirect_from:
   - /resume
 ---
 
+<nav class="cv-toc" aria-label="CV sections">
+  <a href="#education">Education</a><span aria-hidden="true"> · </span>
+  <a href="#honors-and-awards">Honors</a><span aria-hidden="true"> · </span>
+  <a href="#patents--standards">Patents</a><span aria-hidden="true"> · </span>
+  <a href="#alumni">Alumni</a><span aria-hidden="true"> · </span>
+  <a href="#talks">Talks</a><span aria-hidden="true"> · </span>
+  <a href="#internships">Internships</a><span aria-hidden="true"> · </span>
+  <a href="#teaching-experiences">Teaching</a><span aria-hidden="true"> · </span>
+  <a href="#reviewing-experiences">Reviewing</a>
+</nav>
+
 ## Education
 
 - Ph.D., [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](https://www.ict.ac.cn/) / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/), 2024 \
