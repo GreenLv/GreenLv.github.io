@@ -7,6 +7,28 @@ redirect_from:
   - /resume
 ---
 
+## Education
+
+- Ph.D., [Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)](https://www.ict.ac.cn/) / [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/), 2024 \
+  Advised by Prof. [Gaogang Xie](https://people.ucas.ac.cn/~_xie) and Prof. [Zhenyu Li](https://zhenyulee.github.io/)
+- B.S. in Computer Science, [Hunan University (HNU)](https://www.hnu.edu.cn/), 2016
+
+## Honors and Awards
+
+- [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025 ([Report](https://ict.cas.cn/xwgg/jssxw/202604/t20260422_8189888.html))
+- ACM SIGMOBILE China Doctoral Dissertation Award, 2025
+- [Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生)](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html), 2024
+- Outstanding Ph.D. Graduates in UCAS, 2024
+- Best Paper Award at ACM NOSSDAV 2024
+- First Place in [MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC](https://2024.acmmmsys.org/gc/ORL-BWE-RTC/), 2024
+- National Scholarship for Doctoral Students, UCAS, 2023
+- Third Prize in Global AI Transmission Competition (AITrans), 2019  \
+  _4/138, Rank 2nd in real-world evaluations_
+- First Class Academic Scholarship, UCAS, 2019
+- Outstanding B.S. Graduates of Hunan (湖南省优秀本科毕业生), 2016
+- Outstanding B.S. Graduates in HNU, 2016
+- National Scholarship for Undergraduates (_1/111_), HNU, 2015
+
 ## Patents & Standards
 
 - [数据传输方法、系统、设备、存储介质及程序产品](https://patents.google.com/patent/CN115834556B/) [CN115834556B, CN202310152689.9] (Granted: 2023-05-12)  \
@@ -35,22 +57,6 @@ redirect_from:
 
 - [QoE-Driven Application-Transport Cooperation Requirements](https://datatracker.ietf.org/doc/draft-zhang-qoe-driven-transport-requirement/) (IETF Draft) \
   _Jiaxing Zhang, **Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_
-
-## Honors and Awards
-
-- [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025 ([Report](https://ict.cas.cn/xwgg/jssxw/202604/t20260422_8189888.html))
-- ACM SIGMOBILE China Doctoral Dissertation Award, 2025
-- [Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生)](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html), 2024
-- Outstanding Ph.D. Graduates in UCAS, 2024
-- Best Paper Award at ACM NOSSDAV 2024
-- First Place in [MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC](https://2024.acmmmsys.org/gc/ORL-BWE-RTC/), 2024
-- National Scholarship for Doctoral Students, UCAS, 2023
-- Third Prize in Global AI Transmission Competition (AITrans), 2019  \
-  _4/138, Rank 2nd in real-world evaluations_
-- First Class Academic Scholarship, UCAS, 2019
-- Outstanding B.S. Graduates of Hunan (湖南省优秀本科毕业生), 2016
-- Outstanding B.S. Graduates in HNU, 2016
-- National Scholarship for Undergraduates (_1/111_), HNU, 2015
 
 ## Alumni
 

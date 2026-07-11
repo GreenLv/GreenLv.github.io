@@ -50,10 +50,8 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 
 
 
-<div id="research"></div>
-
 ## Research Scope of NASG
-Main studies on media transmission system (from 2021):
+Main studies on Internet transmission system (from 2021):
 
 <div class="research-scope-table" markdown="1">
 <table cellspacing="0" style="border: 2px solid #595959; border-collapse: collapse;">
