@@ -120,6 +120,13 @@ Main studies on Internet transmission system (from 2021):
 ## Selected Publications
 <div class="selected-publications" markdown="1">
 
+- [RLive: Robust Delivery System for Scaling Live Streaming Services](https://dl.acm.org/doi/abs/10.1145/3767295.3769360)
+  ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf))
+  ([Slides](https://greenlv.github.io/files/2026_EuroSys_RLive_slides.pdf))
+  <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span><br>
+  _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, [Zhenyu Li](https://zhenyulee.github.io/)_<br>
+  <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>
+
 - [Breath: Adaptive Protection Boundary in FEC Encoding for Mobile Real-Time Video Streaming](https://dl.acm.org/doi/10.1145/3774904.3792265)
   ([PDF](https://greenlv.github.io/files/2026_WWW_Breath.pdf))
   ([Slides](https://greenlv.github.io/files/2026_WWW_Breath_slides.pdf))
@@ -155,20 +162,6 @@ Main studies on Internet transmission system (from 2021):
   <span class="pub-tag streaming">ABR</span><br>
   _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Weiran Wang, [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_<br>
   <a href="https://infocom2022.ieee-infocom.org/index.html"><b>IEEE INFOCOM 2022</b></a>
-
-- [RLive: Robust Delivery System for Scaling Live Streaming Services](https://dl.acm.org/doi/abs/10.1145/3767295.3769360)
-  ([PDF](https://greenlv.github.io/files/2026_EuroSys_RLive.pdf))
-  ([Slides](https://greenlv.github.io/files/2026_EuroSys_RLive_slides.pdf))
-  <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><span class="pub-tag streaming">Live</span><span class="pub-tag protocol">MP</span><br>
-  _Yu Tian<sup>1</sup>, **Gerui Lv**<sup>1</sup>, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Ruili Fang, Yajie Peng, Zhichen Xue, Rui Han, Chuanqing Lin, Xiaofei Pang, Ri Lu, [Zhenyu Li](https://zhenyulee.github.io/)_<br>
-  <a href="https://2026.eurosys.org/"><b>ACM EuroSys 2026</b></a>
-
-- [Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs](https://dl.acm.org/doi/10.1145/3768983)
-  ([PDF](https://greenlv.github.io/files/2025_CoNEXT_Oceanus.pdf))
-  ([Slides](https://greenlv.github.io/files/2025_CoNEXT_Oceanus_slides.pdf))
-  <span class="pub-tag arch">CDN</span><span class="pub-tag arch">Edge</span><br>
-  _Chuanqing Lin<sup>1</sup>, **Gerui Lv**<sup>1</sup>, Fuhua Zeng, Hanlin Yang, Junwei Li, Xiaodong Li, Jingyu Yang, Yu Tian, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_<br>
-  <a href="https://conferences.sigcomm.org/co-next/2025/#!/home"><b>ACM CoNEXT 2025</b></a>
 
 </div>
 
