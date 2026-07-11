@@ -173,3 +173,14 @@
 .cv-toc a {
   white-space: nowrap;
 }
+
+.cv-alumni-table {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cv-alumni-table table {
+  min-width: 760px;
+  font-size: 1em;
+}
