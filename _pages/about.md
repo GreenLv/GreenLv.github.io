@@ -30,7 +30,9 @@ He is currently a Special Research Assistant (Postdoctoral Researcher) at ICT, C
 - Internet Architecture: content delivery network <span class="pub-tag arch">CDN</span>, edge collaboration <span class="pub-tag arch">Edge</span>, etc.
 </div>
 
-<p class="blog-links"><a href="https://blog.csdn.net/LvGreat">Tech Blog (In Chinese)</a><span class="blog-links__item"><span class="blog-links__separator" aria-hidden="true">·</span><a href="https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2">View of Technology (In Chinese)</a></span></p>
+[[Tech Blog (In Chinese)](https://blog.csdn.net/LvGreat)]  [[View of Technology (In Chinese)](https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2)]
+
+**[Full CV →](/CV/)**
 
 
 
