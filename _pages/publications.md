@@ -54,6 +54,7 @@ author_profile: true
   ([Demo Video](https://greenlv.github.io/files/2024_MobiCom_Chorus_demo_video.mp4))
   ([GetMobile](https://greenlv.github.io/files/2025_GetMobile_Chorus.pdf))
   <a class="github-button" href="https://github.com/GreenLv/Chorus" data-show-count="true" aria-label="Star GreenLv/Chorus on GitHub">Chorus</a>
+  <a class="github-button" href="https://github.com/GreenLv/Chorus-Android-Player" data-show-count="true" aria-label="Star GreenLv/Chorus-Android-Player on GitHub">Chorus-Android-Player</a>
   <span class="pub-tag protocol">MP</span><span class="pub-tag protocol">QUIC</span><span class="pub-tag streaming">ABR</span> \
   _**Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), Yanmei Liu, [Zhenyu Li](https://zhenyulee.github.io/), Qingyue Tan, Furong Yang, Wentao Chen, [Yunfei Ma](https://yfmascgy.github.io/), Hongyu Guo, Ying Chen, [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_  \
   <a href="https://www.sigmobile.org/mobicom/2024/"><b>ACM MobiCom 2024</b></a>  (CCF A)  \
