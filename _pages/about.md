@@ -109,6 +109,8 @@ Main studies on Internet transmission system (from 2021):
 &nbsp;
 [![Chorus](https://img.shields.io/github/stars/GreenLv/Chorus?style=flat-square&logo=github&label=Chorus&color=959595&labelColor=595959)](https://github.com/GreenLv/Chorus)
 &nbsp;
+[![Chorus-Android-Player](https://img.shields.io/github/stars/GreenLv/Chorus-Android-Player?style=flat-square&logo=github&label=Chorus-Android-Player&color=959595&labelColor=595959)](https://github.com/GreenLv/Chorus-Android-Player)
+&nbsp;
 [![Solis-WiFi-Trace](https://img.shields.io/github/stars/GreenLv/Solis-WiFi-Trace?style=flat-square&logo=github&label=Solis-WiFi-Trace&color=959595&labelColor=595959)](https://github.com/GreenLv/Solis-WiFi-Trace)
 &nbsp;
 [![Pensieve-retrain](https://img.shields.io/github/stars/GreenLv/pensieve_retrain?style=flat-square&logo=github&label=Pensieve-retrain&color=959595&labelColor=595959)](https://github.com/GreenLv/pensieve_retrain)
