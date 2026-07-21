@@ -36,7 +36,7 @@ redirect_from:
   _One of two awardees at ICT, CAS (计算所仅2人)_
 - ACM SIGMOBILE China Doctoral Dissertation Award, 2025 \
   _One of three recipients in China (中国区仅3人)_
-- CAS Special Research Assistant Program, 2025 \
+- CAS Special Research Assistant Program (中国科学院特别研究助理资助项目), 2025 \
   _One of three awardees at ICT, CAS (计算所仅3人)_
 - [Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生)](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html), 2024
 - Outstanding Ph.D. Graduates in UCAS, 2024
