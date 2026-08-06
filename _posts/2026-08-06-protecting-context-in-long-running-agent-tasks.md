@@ -6,7 +6,7 @@ categories:
   - blogs
 excerpt: "Context Guard keeps a private, verifiable ledger of active requirements and completion evidence so long-running Codex tasks can survive compaction without silently changing their contract."
 header:
-  teaser: blogs/context-guard-open-source-en.png
+  teaser: blogs/context-guard-open-source-en.webp
   teaser_alt: "A glowing workflow passes through guarded checkpoints in a cover illustration for Context Guard"
 chinese_url: https://blog.csdn.net/LvGreat/article/details/163534498
 author_profile: true
@@ -19,7 +19,7 @@ related: false
 <p class="blog-post-source">Also available as the <a href="{{ page.chinese_url }}">original Chinese article</a>.</p>
 
 <figure class="blog-cover">
-  <img src="{{ '/images/blogs/context-guard-open-source-en.png' | relative_url }}" alt="A glowing workflow passes through guarded checkpoints, illustrating context protection in long-running agent tasks">
+  <img src="{{ '/images/blogs/context-guard-open-source-en.webp' | relative_url }}" alt="A glowing workflow passes through guarded checkpoints, illustrating context protection in long-running agent tasks">
   <figcaption>Context Guard protects the requirements and evidence that determine whether a long-running task is actually complete.</figcaption>
 </figure>
 

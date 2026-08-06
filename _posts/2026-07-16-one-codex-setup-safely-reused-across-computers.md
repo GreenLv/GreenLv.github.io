@@ -6,7 +6,7 @@ categories:
   - blogs
 excerpt: "codex-profile-sync applies a private, portable Codex profile across macOS, Windows, and Linux with change previews, conflict detection, backups, and explicit runtime boundaries."
 header:
-  teaser: blogs/codex-profile-sync-open-source-en.png
+  teaser: blogs/codex-profile-sync-open-source-en.webp
   teaser_alt: "A private Codex profile connects macOS, Windows, and Linux in the codex-profile-sync cover illustration"
 chinese_url: https://blog.csdn.net/LvGreat/article/details/162945653
 author_profile: true
@@ -19,7 +19,7 @@ related: false
 <p class="blog-post-source">Also available as the <a href="{{ page.chinese_url }}">original Chinese article</a>.</p>
 
 <figure class="blog-cover">
-  <img src="{{ '/images/blogs/codex-profile-sync-open-source-en.png' | relative_url }}" alt="A private Codex source bundle safely connects macOS, Windows, and Linux">
+  <img src="{{ '/images/blogs/codex-profile-sync-open-source-en.webp' | relative_url }}" alt="A private Codex source bundle safely connects macOS, Windows, and Linux">
   <figcaption>codex-profile-sync separates the public synchronization engine, a private portable profile, and local Codex runtime state.</figcaption>
 </figure>
 
