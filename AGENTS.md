@@ -18,9 +18,12 @@ explicitly requests a broader redesign.
   homepage sorts them in descending order and displays the latest six.
 - `_pages/publications.md`: complete publication list. Do not replace it with a
   collection loop or force it to share a content source with the homepage.
+- `_pages/blogs.md`: English blog index, sourced from posts in the `blogs`
+  category and sorted by publication date.
 - `_pages/cv.md`: HTML CV.
 - `_data/navigation.yml`: top navigation. The site title is the Home link; the
-  navigation contains only standalone pages (`Publications` and `CV`).
+  navigation contains only standalone pages (`Publications`, `CV`, and
+  `Blogs`).
 - `_config.yml`: canonical site metadata, author identity, URL, timezone, and
   Jekyll configuration.
 - `_sass/_variables.scss`: global typography and color variables.
@@ -97,6 +100,43 @@ reviewing belong on the CV page rather than the homepage.
 - Do not add a standalone Research page or Research navigation item unless the
   user reverses the current information-architecture decision.
 
+## Blog publishing contract
+
+Use this workflow for new or revised English blog posts:
+
+1. Treat the Chinese article and its repository documentation as source
+   material. Preserve the argument order, facts, commands, version numbers,
+   platform scope, limitations, and project names. Write natural English
+   rather than translating sentence by sentence, but do not add capabilities
+   or strengthen claims.
+2. Prefer the English `README.md` and English project documentation when the
+   English post links to a repository. Keep a link to the canonical Chinese
+   article in `chinese_url`. Check every external URL and remove source-platform
+   markup such as CSDN's `@[toc]`.
+3. Store posts in `_posts/`, assign the `blogs` category, set an explicit
+   trailing-slash `permalink` under `/blogs/`, and provide `excerpt`,
+   `header.teaser`, `header.teaser_alt`, and `chinese_url`. Keep comments,
+   related posts, legacy sharing controls, and reading-time labels disabled
+   unless the user explicitly requests them.
+4. Put blog images in `images/blogs/`. Covers must be English, 16:9, and free of
+   misspelled or malformed generated text. Inspect every label at full size;
+   regenerate an image instead of covering incorrect text with HTML, SVG, or
+   CSS.
+5. Publish covers as responsive WebP files. Use 1280x720 by default, target
+   less than 200 KB, and do not exceed 300 KB without a documented visual
+   reason. Preserve the source aspect ratio, avoid upscaling, and verify the
+   optimized file visually against the source. Provide specific English `alt`
+   text for both teaser and article images.
+6. Keep the blog index and article styling within the existing `.blog-*`
+   selectors in `assets/css/main.scss`. Maintain the current academic visual
+   language and verify that titles, covers, excerpts, and navigation align at
+   desktop and roughly 390px mobile widths.
+
+Before publishing, compare the English post section by section with its source,
+search for stale Chinese-document and obsolete image references, run the normal
+Jekyll validation below, and review the staged diff. Do not commit source cover
+files, temporary generated variants, dependency caches, or `_site/`.
+
 ## Build and local preview
 
 Install dependencies when needed:
@@ -130,7 +170,8 @@ For ordinary page or style changes:
 
 1. Run `git diff --check`.
 2. Run `bundle exec jekyll build`.
-3. Verify `/`, `/publications/`, `/cv/`, and `/404.html`.
+3. Verify `/`, `/publications/`, `/cv/`, `/blogs/`, every changed blog route,
+   and `/404.html`.
 4. Check desktop and a roughly 390px-wide mobile viewport.
 5. Confirm there is no page-level horizontal overflow.
 6. Confirm the mobile navigation collapses and the NASG table scrolls within
