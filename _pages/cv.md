@@ -20,14 +20,17 @@ redirect_from:
 
 <aside class="cv-writing-links" aria-label="Writing profiles">
   <span class="cv-writing-links__label">Writing</span>
-  <span class="cv-writing-links__group">
-    <span class="cv-writing-links__language">English:</span>
-    <a href="/blogs/">Blogs</a>
-  </span>
-  <span class="cv-writing-links__group">
-    <span class="cv-writing-links__language">Chinese:</span>
-    <a href="https://blog.csdn.net/LvGreat">Tech Blog</a><span aria-hidden="true">, </span>
-    <a href="https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2">View of Technology</a>
+  <span class="cv-writing-links__languages">
+    <span class="cv-writing-links__group">
+      <span class="cv-writing-links__language">English:</span>
+      <a href="/blogs/">Blogs</a>
+    </span>
+    <span class="cv-writing-links__separator" aria-hidden="true">·</span>
+    <span class="cv-writing-links__group">
+      <span class="cv-writing-links__language">Chinese:</span>
+      <a href="https://blog.csdn.net/LvGreat">Tech Blog</a><span aria-hidden="true">, </span>
+      <a href="https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2">View of Technology</a>
+    </span>
   </span>
 </aside>
 
