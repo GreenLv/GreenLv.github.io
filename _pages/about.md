@@ -115,7 +115,6 @@ Main studies on Internet transmission system (from 2021):
 &nbsp;
 [![Pensieve-retrain](https://img.shields.io/github/stars/GreenLv/pensieve_retrain?style=flat-square&logo=github&label=Pensieve-retrain&color=959595&labelColor=595959)](https://github.com/GreenLv/pensieve_retrain)
 &nbsp;
-[![Codex-profile-sync](https://img.shields.io/github/stars/GreenLv/codex-profile-sync?style=flat-square&logo=github&label=Codex-profile-sync&color=959595&labelColor=595959)](https://github.com/GreenLv/codex-profile-sync)
 
 
 
