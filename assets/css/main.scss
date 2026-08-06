@@ -154,6 +154,16 @@
           transform: scaleX(1);
 }
 
+.greedy-nav .visible-links a:focus {
+  outline: 0;
+}
+
+.greedy-nav .visible-links a:focus-visible {
+  outline: 2px solid $link-color;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 .selected-publications > ul > li {
   margin-bottom: 0.75em;
 }
@@ -261,11 +271,15 @@
 
 .blog-list__summary {
   grid-area: summary;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
   min-width: 0;
 }
 
 .blog-list__links {
-  margin: 0.65em 0 0;
+  margin: auto 0 0;
+  padding-top: 0.65em;
 }
 
 .blog-list__links span {
@@ -386,6 +400,7 @@
   .blog-list__links {
     grid-area: links;
     margin: 0;
+    padding-top: 0;
   }
 
   .cv-writing-links {
