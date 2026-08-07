@@ -65,6 +65,17 @@
   margin-top: 1.8em;
 }
 
+/* Replace the theme's orange click outline with a consistent keyboard focus ring. */
+a:focus {
+  outline: 0;
+}
+
+a:focus-visible {
+  outline: 2px solid $link-color;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 .blog-links {
   color: $gray;
   font-size: 0.95em;
@@ -152,16 +163,6 @@
   -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
           transform: scaleX(1);
-}
-
-.greedy-nav .visible-links a:focus {
-  outline: 0;
-}
-
-.greedy-nav .visible-links a:focus-visible {
-  outline: 2px solid $link-color;
-  outline-offset: 3px;
-  border-radius: 2px;
 }
 
 .selected-publications > ul > li {
@@ -323,6 +324,12 @@
 
 .blog-post-body h3 {
   margin-top: 1.6em;
+}
+
+.blog-post-body div.highlighter-rouge .highlight,
+.blog-post-body figure.highlight .highlight {
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .cv-writing-links {
