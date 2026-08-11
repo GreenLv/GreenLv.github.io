@@ -48,8 +48,6 @@ As Codex compares train services, hotels, reservation rules, and daily routes, t
 
 The model has not forgotten the whole task. It still remembers the destination, but it has lost a few constraints that determine whether the plan can actually be used.
 
-> Current release: [v0.4.9](https://github.com/GreenLv/codex-context-guard/releases/tag/v0.4.9)
-
 ## 1. What problem does it solve?
 
 For the Beijing trip, Context Guard focuses on the task contract that develops over time rather than the complete conversation:
@@ -95,6 +93,8 @@ Each active requirement is checked for successful evidence
                          v
 Complete when all requirements pass; otherwise continue or await a decision
 ```
+
+Unfinished work is not collapsed into one ambiguous state. `continue` means authorized agent work should continue; `user_wait` means the next action requires user input, confirmation, or authorization; `external_wait` means an external system or person must respond; and `deferred` means the item is explicitly postponed or outside the current scope. Whole-task completion still requires all active requirements to pass validation.
 
 Three parts of this design matter most to me.
 
@@ -156,6 +156,7 @@ And run:
 
 ```text
 context-guard status
+context-guard diagnose
 ```
 
 To validate the complete recovery path, create a task with several requirements and prohibited actions, run `/compact`, and then verify that continuation restores the same active requirements.
@@ -175,9 +176,11 @@ Context Guard is most useful for tasks that last for a while, may receive revise
 
 For a small change completed within a single conversation, enabling the full protection workflow is usually unnecessary.
 
+Context Guard adds prompt and recovery context to protected tasks. In a small, anonymized sample of five completed, tool-heavy desktop tasks using 0.6.1, the weighted observation including plugin-triggered status checks was about 1.5%, with individual tasks at roughly 0.2%–2.1%. For similar long-running work, about 1%–2% is a useful order-of-magnitude estimate rather than a guaranteed rate; token share is not the same as cost share.
+
 ## 6. Current validation status and boundaries
 
-Version 0.4.9 has passed source-to-install-cache parity checks, regression tests, installation lifecycle tests, trust checks for all eight hook types, and real manual requirement recovery after `/compact` on macOS and Windows. The public repository's Ubuntu, macOS, and Windows CI matrix also passes. Linux validation remains bounded to CI and isolated lifecycle tests.
+The project currently has scoped native acceptance on macOS and Windows. Linux is claimed only for source CI; native desktop installation and hook behavior are not claimed. See [Compatibility](https://github.com/GreenLv/codex-context-guard/blob/main/docs/COMPATIBILITY.md) and [Local release acceptance](https://github.com/GreenLv/codex-context-guard/blob/main/docs/LOCAL_ACCEPTANCE.md) for the current evidence boundaries.
 
 Context Guard is not a semantic correctness prover, security sandbox, cloud synchronization service, complete conversation backup, or second agent scheduler. It protects the task contract, revision relationships, a limited plan mirror, agent results with explicit provenance, and completion evidence.
 
@@ -192,7 +195,7 @@ The central idea behind Context Guard is simple:
 If you use Codex for long-running work and have seen requirements drift after compaction, a task stop after only partial validation, or unclear authorization boundaries in multi-agent collaboration, you are welcome to try it:
 
 **GitHub: [GreenLv/codex-context-guard](https://github.com/GreenLv/codex-context-guard)**<br>
-**Release: [Context Guard v0.4.9](https://github.com/GreenLv/codex-context-guard/releases/tag/v0.4.9)**
+**Latest release: [GitHub Releases](https://github.com/GreenLv/codex-context-guard/releases/latest)**
 
 If the project is useful to you, consider starring it, opening an issue, or sharing a reproducible context failure from a long-running task. Reproducible failures are a better basis for the roadmap than a longer feature list.
 
