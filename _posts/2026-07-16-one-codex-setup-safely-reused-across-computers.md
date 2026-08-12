@@ -41,7 +41,7 @@ It is a cross-platform configuration synchronization tool for Codex. It safely a
 
 > Project: [https://github.com/GreenLv/codex-profile-sync](https://github.com/GreenLv/codex-profile-sync)
 >
-> Current release: v0.1.0 (Alpha)
+> Current status: Alpha; [see the latest release](https://github.com/GreenLv/codex-profile-sync/releases/latest)
 
 ## 1. What problem does it solve?
 
@@ -130,12 +130,16 @@ Git transports the private configuration between devices. `codex-profile-sync` a
 
 The project requires Python 3.11 or later.
 
-First, clone and install it:
+First, install it from PyPI:
 
 ```shell
-git clone https://github.com/GreenLv/codex-profile-sync.git
-cd codex-profile-sync
-pipx install .
+pipx install codex-profile-sync
+```
+
+Or use `uv`:
+
+```shell
+uv tool install codex-profile-sync
 ```
 
 Then create a private Source Bundle outside the public engine repository:
@@ -178,7 +182,7 @@ In that case, `codex-profile-sync` can turn configuration scattered across sever
 
 ## 6. Current status
 
-`codex-profile-sync` is currently at version 0.1.0 Alpha. It supports cross-platform application of base configuration, named profiles, and optional skills, together with change previews, conflict detection, backups, and recovery from failed writes.
+`codex-profile-sync` is currently in Alpha, is available from [PyPI](https://pypi.org/project/codex-profile-sync/), and supports cross-platform application of base configuration, named profiles, and optional skills, together with change previews, conflict detection, backups, and recovery from failed writes.
 
 The Source Bundle schema is versioned. Before 1.0, the CLI may continue to add safe, backward-compatible checks.
 
