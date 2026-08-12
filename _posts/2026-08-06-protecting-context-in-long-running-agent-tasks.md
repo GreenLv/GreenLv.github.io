@@ -73,38 +73,32 @@ Context Guard therefore does not try to make summaries longer. It prevents the t
 
 ## 2. How does it work with Codex?
 
-Context Guard does not reimplement Codex's native Plan, Goal, compaction, subagents, worktrees, or memories. Their responsibilities can be summarized in six steps:
+Context Guard does not reimplement Codex's native Plan, Goal, compaction, subagents, worktrees, or memories. The figure below shows the working path it protects:
 
-```text
-The user provides requirements and acceptance criteria
-                         |
-                         v
-Context Guard stores a private checklist and revision relationships
-                         |
-                         v
-Codex executes the task, calls tools, and collaborates normally
-                         |
-                         v
-Compaction or recovery reinjects the active task boundaries
-                         |
-                         v
-Each active requirement is checked for successful evidence
-                         |
-                         v
-Complete when all requirements pass; otherwise continue or await a decision
-```
+<figure class="blog-diagram">
+  <img src="{{ '/images/blogs/context-guard-state-flow-en.png' | relative_url }}" alt="Context Guard preserves the task boundary, supports work and evidence collection, and then separates finishing, continuing, and pausing safely">
+  <figcaption>Context Guard records completion state separately from the decision to continue working or pause safely.</figcaption>
+</figure>
 
-Unfinished work is not collapsed into one ambiguous state. `continue` means authorized agent work should continue; `user_wait` means the next action requires user input, confirmation, or authorization; `external_wait` means an external system or person must respond; and `deferred` means the item is explicitly postponed or outside the current scope. Whole-task completion still requires all active requirements to pass validation.
+Unfinished work is not collapsed into one ambiguous state. `user_wait` means the next action requires user input, confirmation, or authorization; `external_wait` means an external system or person must respond; and `deferred` means the item is explicitly postponed or outside the current scope. The legacy `continue` value remains accepted for compatibility, but it is advisory only: agent work continues through tool calls before a terminal reply, rather than by reopening a reply that has already ended the turn. Whole-task completion still requires all active requirements to pass validation.
 
-Three parts of this design matter most to me.
+Four parts of this design matter most to me.
 
-### 2.1 Later revisions do not erase history
+### 2.1 A finished turn is not pulled back into a loop
+
+Context Guard treats two questions separately: “Is the whole task complete?” and “Should the agent keep working in this turn?” If the next step belongs to the user, depends on an external result, or has been intentionally postponed, the agent can stop normally while keeping every unfinished item pending. If more agent work is needed, it should happen through tool calls before the terminal reply. A wording guess alone cannot pull an already finished reply back into another turn.
+
+The plugin also distinguishes a real control command from the same words appearing in documentation or search text, reducing false control triggers. During an upgrade or recovery, it keeps the durable task ledger and discards only an outdated, unfinished control attempt.
+
+The same principle applies to installation: a versioned cache already used by a running task is never silently overwritten. If a cache no longer matches its trusted archive, Context Guard repairs it from the verified copy or stops safely instead of guessing.
+
+### 2.2 Later revisions do not erase history
 
 Long tasks rarely keep the same requirements from beginning to end. A user may add a constraint or explicitly replace an older requirement with a new one. Context Guard records that revision relationship instead of directly overwriting the old record.
 
 After compaction and recovery, it can therefore answer two different questions: what was originally requested, and which requirements are active now. When a negation or replacement is ambiguous, the plugin keeps the original requirement and waits for confirmation rather than guessing.
 
-### 2.2 Finding information does not mean satisfying a requirement
+### 2.3 Finding information does not mean satisfying a requirement
 
 Successfully opening a web page proves only that the search ran. It does not prove that the page is official, that its information is current, or that a reservation has been completed. A budget calculation that exits successfully does not prove that local transportation and other necessary expenses are included.
 
@@ -112,7 +106,7 @@ Context Guard prefers structured state, exit codes, and explicit completion mark
 
 This does not mean the plugin can understand the full semantics of every piece of evidence. It can check whether each active requirement is bound to successful evidence, but it cannot prove that the evidence is logically sufficient. Codex and the user still own the design of the final validation.
 
-### 2.3 Subagents have explicit provenance but cannot change the root task
+### 2.4 Subagents have explicit provenance but cannot change the root task
 
 In a multi-agent task, a subagent receives a bounded delegation, not new authorization from the user. Context Guard records the agent's start, finish, result, and provenance, but a subagent cannot create, cancel, or replace a root-task requirement.
 
@@ -185,6 +179,10 @@ The project currently has scoped native acceptance on macOS and Windows. Linux i
 Context Guard is not a semantic correctness prover, security sandbox, cloud synchronization service, complete conversation backup, or second agent scheduler. It protects the task contract, revision relationships, a limited plan mirror, agent results with explicit provenance, and completion evidence.
 
 I want the project to remain focused. The immediate priorities are preventing silent requirement loss, making revisions traceable, refusing unsupported completion claims, and keeping private state out of Git. Reproducible problems, rather than feature accumulation, should drive future work.
+
+Published releases and their exact validation notes are available on [GitHub Releases](https://github.com/GreenLv/codex-context-guard/releases/latest).
+
+Context Guard is also listed in [awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins) under **Development & Workflow**.
 
 ## 7. Summary
 

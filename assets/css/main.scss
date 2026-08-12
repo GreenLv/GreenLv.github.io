@@ -315,6 +315,27 @@ a:focus-visible {
   line-height: 1.45;
 }
 
+.blog-diagram {
+  margin: 1.7em 0;
+}
+
+.blog-diagram img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #dce2ea;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.blog-diagram figcaption {
+  margin-top: 0.55em;
+  color: $gray;
+  font-family: $caption-font-family;
+  font-size: $type-size-7;
+  line-height: 1.45;
+}
+
 .blog-post-body {
   max-width: 46rem;
 }
