@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">GL monogram</title>
+  <desc id="desc">A Royal Blue geometric GL monogram for Gerui Lv.</desc>
+  <path
+    d="M354 158 A130 130 0 1 0 242 372 H272"
+    fill="none"
+    stroke="#4169E1"
+    stroke-width="54"
+    stroke-linecap="butt"
+  />
+  <g fill="#4169E1">
+    <path d="M232 223 H363 V271 H232 Z"/>
+    <path d="M307 223 H363 V399 H307 Z"/>
+    <path d="M307 356 H432 V399 H307 Z"/>
+  </g>
+</svg>
