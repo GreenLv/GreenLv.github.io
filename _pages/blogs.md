@@ -6,6 +6,14 @@ author_profile: true
 ---
 
 <p class="blog-index-intro">Notes on building reliable networked systems and practical tools for research and engineering.</p>
+<p class="blog-index-profiles">
+  <span class="blog-index-profiles__label">Other writing profiles:</span>
+  <a href="https://greenlv.medium.com/">Medium</a>
+  <span aria-hidden="true">·</span>
+  <a href="https://blog.csdn.net/LvGreat">CSDN</a>
+  <span aria-hidden="true">·</span>
+  <a href="https://juejin.cn/user/3999369124122387">Juejin</a>
+</p>
 
 {% assign blog_posts = site.categories.blogs %}
 <div class="blog-list">

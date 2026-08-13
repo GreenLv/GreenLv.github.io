@@ -354,6 +354,17 @@ a:focus-visible {
   line-height: 1.6;
 }
 
+.blog-index-profiles {
+  margin-top: -0.35em;
+  color: $gray;
+  font-size: $type-size-6;
+}
+
+.blog-index-profiles__label {
+  color: #424242;
+  font-weight: 600;
+}
+
 .cv-writing-links {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);

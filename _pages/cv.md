@@ -19,16 +19,22 @@ redirect_from:
 </nav>
 
 <aside class="cv-writing-links" aria-label="Writing profiles">
-  <span class="cv-writing-links__label">Writing</span>
+  <span class="cv-writing-links__label">Writing profiles</span>
   <span class="cv-writing-links__languages">
     <span class="cv-writing-links__group">
       <span class="cv-writing-links__language">English:</span>
-      <a href="/blogs/">Blogs</a>
+      <a href="/blogs/">Personal Site</a><span aria-hidden="true">, </span>
+      <a href="https://greenlv.medium.com/">Medium</a>
     </span>
     <span class="cv-writing-links__separator" aria-hidden="true">·</span>
     <span class="cv-writing-links__group">
       <span class="cv-writing-links__language">Chinese:</span>
-      <a href="https://blog.csdn.net/LvGreat">Tech Blog</a><span aria-hidden="true">, </span>
+      <a href="https://blog.csdn.net/LvGreat">CSDN</a><span aria-hidden="true">, </span>
+      <a href="https://juejin.cn/user/3999369124122387">Juejin</a>
+    </span>
+    <span class="cv-writing-links__separator" aria-hidden="true">·</span>
+    <span class="cv-writing-links__group">
+      <span class="cv-writing-links__language">Featured essay:</span>
       <a href="https://mp.weixin.qq.com/s/XfRoXm49F5C85zWL2YsTRw?scene=2">View of Technology</a>
     </span>
   </span>
