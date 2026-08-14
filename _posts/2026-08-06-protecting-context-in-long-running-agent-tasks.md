@@ -104,7 +104,9 @@ Successfully opening a web page proves only that the search ran. It does not pro
 
 Context Guard prefers structured state, exit codes, and explicit completion markers. Ambiguous output is recorded as `unknown` and cannot directly support a completion claim. In the travel example, the itinerary, budget summary, and dated official sources are separate pieces of evidence. A generic search result cannot automatically replace them.
 
-This does not mean the plugin can understand the full semantics of every piece of evidence. It can check whether each active requirement is bound to successful evidence, but it cannot prove that the evidence is logically sufficient. Codex and the user still own the design of the final validation.
+When a verification obligation can be constructed deterministically, Context Guard also binds the evidence to the exact requirement or acceptance item, subject, file or UI surface, visual input or result readback, and complete requested scope. A successful command for the wrong object, surface, or subset cannot close the item. If those boundaries cannot be established reliably, the item remains an auditable `legacy_fallback` rather than being treated as semantically proved.
+
+This still does not mean the plugin can understand the full semantics of every piece of evidence. For enforced contracts, it checks only deterministic bindings and scope; for unsupported cases, `legacy_fallback` retains the compatible provenance and outcome gate. It cannot prove that evidence is logically sufficient, interpret arbitrary pixels, or establish that a source is official. Codex and the user still own the design of the final validation.
 
 ### 2.4 Subagents have explicit provenance but cannot change the root task
 
@@ -176,7 +178,7 @@ Context Guard adds prompt and recovery context to protected tasks. In a small, a
 
 The project currently has scoped native acceptance on macOS and Windows. Linux is claimed only for source CI; native desktop installation and hook behavior are not claimed. See [Compatibility](https://github.com/GreenLv/codex-context-guard/blob/main/docs/COMPATIBILITY.md) and [Local release acceptance](https://github.com/GreenLv/codex-context-guard/blob/main/docs/LOCAL_ACCEPTANCE.md) for the current evidence boundaries.
 
-Context Guard is not a semantic correctness prover, security sandbox, cloud synchronization service, complete conversation backup, or second agent scheduler. It protects the task contract, revision relationships, a limited plan mirror, agent results with explicit provenance, and completion evidence.
+Context Guard is not a semantic correctness prover, security sandbox, cloud synchronization service, complete conversation backup, or second agent scheduler. Its proof protocol enforces only deterministic obligations; it does not interpret arbitrary natural language or pixels or establish official-source validity. It protects the task contract, revision relationships, a limited plan mirror, agent results with explicit provenance, and completion evidence.
 
 I want the project to remain focused. The immediate priorities are preventing silent requirement loss, making revisions traceable, refusing unsupported completion claims, and keeping private state out of Git. Reproducible problems, rather than feature accumulation, should drive future work.
 
