@@ -1,13 +1,13 @@
 ---
-title: "Protecting Context in Long-Running Agent Tasks: Introducing Context Guard"
+title: "Why Can't Agents Remember Your Requirements Even with a 1M-Token Context Window?"
 date: 2026-08-06 13:52:08 +0800
 permalink: /blogs/protecting-context-in-long-running-agent-tasks/
 categories:
   - blogs
-excerpt: "Context Guard keeps a private, verifiable ledger of active requirements and completion evidence so long-running Codex tasks can survive compaction without silently changing their contract."
+excerpt: "Why a 1M-token context window still does not keep an agent's requirements active—and how Context Guard preserves the task contract and completion evidence through long-running Codex work."
 header:
   teaser: blogs/context-guard-open-source-en.webp
-  teaser_alt: "A glowing workflow passes through guarded checkpoints in a cover illustration for Context Guard"
+  teaser_alt: "A guarded context path illustrating why a larger context window does not by itself preserve an agent's requirements"
 chinese_url: https://blog.csdn.net/LvGreat/article/details/163534498
 author_profile: true
 read_time: false
@@ -19,112 +19,136 @@ related: false
 <p class="blog-post-source">Also available as the <a href="{{ page.chinese_url }}">original Chinese article</a>.</p>
 
 <figure class="blog-cover">
-  <img src="{{ '/images/blogs/context-guard-open-source-en.webp' | relative_url }}" alt="A glowing workflow passes through guarded checkpoints, illustrating context protection in long-running agent tasks">
-  <figcaption>Context Guard protects the requirements and evidence that determine whether a long-running task is actually complete.</figcaption>
+  <img src="{{ '/images/blogs/context-guard-open-source-en.webp' | relative_url }}" alt="A guarded context path illustrating why a larger context window does not by itself preserve an agent's requirements">
+  <figcaption>A 1M-token context window can carry more material, but it does not automatically preserve the requirements that determine whether a long-running task is complete.</figcaption>
 </figure>
 
 <div class="blog-post-body" markdown="1">
 
-AI agents are changing the basic unit of work. In the past, we often understood one model call as one question-and-answer exchange or one local code change. Today, agents such as Codex are beginning to take on tasks that last for hours, days, or even longer. They call tools, coordinate multiple agents, and receive new requirements from users while the work is already in progress. [OpenAI's introduction to the Codex app](https://openai.com/index/introducing-the-codex-app/) describes this shift from targeted edits to longer-running collaboration across design, implementation, delivery, and maintenance.
+You may have seen this happen.
 
-In these long-running, dynamic tasks, the emerging practice of loop engineering reflects a continuous way of working: the agent executes one round, inspects the result, receives revisions, and continues. [The Codex agent loop](https://openai.com/index/unrolling-the-codex-agent-loop/) coordinates the user, model, and tools throughout that process.
+At the start, you tell an agent: “Do not change the existing format.” “Do not invent missing data.” “Keep the total under $2,000.” It follows those instructions for several rounds and repeatedly confirms that it understands them.
 
-Once a task enters this loop, the main correctness problem changes. It is no longer enough to ask how well the model performed in the latest turn. We also need to ensure two things:
+Then the task keeps running. Tokens keep burning, time disappears into searches, tool calls, and revisions, and you wait for a result that will finally justify the effort. What comes back is nowhere near what you expected: the format has changed, missing data has been confidently invented, or the budget cap that mattered most has vanished. The result is unusable, and you find yourself furiously typing into the chat box: “Didn't I say this at the very beginning?”
 
-1. **The task contract remains stable.** Goals, constraints, acceptance criteria, and later revisions confirmed by the user must not be silently rewritten after context compaction or task recovery.
-2. **Completion claims remain traceable to evidence.** Every active requirement should have corresponding successful evidence. Unverified, unauthorized, or unfinished work must not be presented as complete.
+The most frustrating part is that the agent has not forgotten the entire task. It still knows what you asked it to produce and can often repeat most of the background. It has lost one requirement that determines whether the result is usable.
 
-The goal is not to make the agent remember the entire conversation, nor to build another planning and scheduling system. The goal is to preserve the small amount of state that determines whether the result is correct: which requirements are currently active, which have been verified, and which still require work.
+A result like this is easy to blame on the model simply not being smart enough. But that diagnosis is incomplete. Model capability certainly affects performance, yet this exposes a different failure mode: understanding a requirement once does not guarantee that the requirement will continue to govern every later action. Even a capable model still needs an explicit way to maintain active requirements, later revisions, and completion evidence throughout a long-running task.
 
-To address this problem, I built and open-sourced [Context Guard](https://github.com/GreenLv/codex-context-guard). It is a local correctness sidecar for Codex that uses lifecycle hooks to maintain a private, verifiable ledger of requirements and evidence.
+Users of [Claude Code](https://github.com/anthropics/claude-code/issues/32659) and [Cursor](https://forum.cursor.com/t/critical-rules-do-not-survive-context-compression-events/157249) have reported the same pattern: a constraint is acknowledged early, then stops reliably shaping later actions as the session grows or is compressed. These reports do not prove a single cause. They describe the same practical failure: a requirement that has been present all along, and can still be restated accurately, ultimately fails to reliably constrain the agent's actions and final deliverable.
 
-A familiar travel-planning example shows what Context Guard does. A user begins with a simple request:
+It is tempting to reduce this to a context-capacity problem. Some models now offer windows on the order of one million tokens. [OpenAI lists GPT-5.6 Sol with a 1,050,000-token context window](https://developers.openai.com/api/docs/models/gpt-5.6-sol). That is a meaningful improvement: an agent can retain more code, tool output, and conversation history before older material has to be compacted. But a larger container does not guarantee that every important instruction remains active.
 
-> I want to travel from Wuhan to Beijing next week for seven days. Please plan the trip for me.
+The harder question is not only how much an agent can see. It is whether the agent can keep track of which requirements still apply, which revision superseded an earlier instruction, and what evidence is needed before the task can honestly be called complete.
 
-After Codex starts checking transportation, hotels, and attractions, the user adds more details: the trip is for the user and their mother; the mother has knee problems and cannot walk too much each day; both directions must use high-speed rail; the total budget for two people must stay below RMB 8,000; Wednesday from 15:00 to 19:00 is reserved for meeting a friend in Haidian; they want to visit the Forbidden City; and every reservation-dependent item must be checked against an official source before it can be described as booked.
+## 1. What a 1M-token window solves—and what it does not
 
-As Codex compares train services, hotels, reservation rules, and daily routes, the conversation grows. If context compaction happens at this point, the summary may still remember that the task is a seven-day trip from Wuhan to Beijing, yet omit the mother's walking constraint or schedule another attraction on Wednesday afternoon. It may also find an outdated travel guide and treat unverified opening hours or ticket availability as confirmed.
+### 1.1 A context window is a capacity limit, not a priority list
 
-The model has not forgotten the whole task. It still remembers the destination, but it has lost a few constraints that determine whether the plan can actually be used.
+A context window answers one question: how much input can participate in a model call. It does not assign permanent priority to a sentence such as “never modify the appendix,” or turn that sentence into an invariant across dozens of later actions.
 
-## 1. What problem does it solve?
+A long-running task can contain the original request, later corrections, tool results, error logs, source material, and several drafts at once. Even when all of it still fits, the model has to decide what matters before every action. In multi-document question answering and key-value retrieval experiments, [*Lost in the Middle*](https://arxiv.org/abs/2307.03172) found that performance was generally strongest when relevant information appeared near the beginning or end and degraded when it appeared in the middle, including for models explicitly designed for long contexts. The information is present, but presence alone does not ensure reliable use.
 
-For the Beijing trip, Context Guard focuses on the task contract that develops over time rather than the complete conversation:
+This distinction becomes more important as the window grows. One million tokens is not a curated requirements document. It is a very large workspace in which a few decisive constraints can be surrounded by a much larger volume of process material. Adding capacity does not perform the work of selecting and maintaining task state.
+
+### 1.2 Following a requirement is harder than retrieving a sentence
+
+Many long-context evaluations use a single-needle task: place one fact inside a large input and ask the model to retrieve it. Real requirements rarely look like one isolated needle. They are distributed across turns and often contain conditions, exceptions, and negation:
+
+- “Do not change the table format, but update these three columns.”
+- “Keep the total under $2,000, including local transportation.”
+- “Do not schedule anything on Wednesday afternoon,” rather than merely remembering that a meeting exists.
+- “Describe a reservation as booked only after checking a current official source.”
+
+The agent must retrieve these statements, combine them, map them to the current action, and check the result before delivery. That is a multi-step constraint problem, not a lookup.
+
+[A recent study of five models with advertised million-token windows](https://arxiv.org/abs/2605.02173) makes the distinction visible. The strongest models still reached 100% on single-needle retrieval at 1M tokens, but every model declined when the task required a three-hop chain across different parts of the context. Some remained above 80% through 512K and degraded modestly at 1M; others fell sharply between 512K and 1M. The corpus was classical Chinese, not agent instructions, but the result supports a narrower point that applies here: nominal window length does not measure how reliably a model can combine everything inside that window.
+
+### 1.3 Conversation history is not current task state
+
+Real tasks also change. A user may begin with “keep it under $2,500” and later revise the limit to $2,000. They may add a fixed appointment, remove an earlier deliverable, or clarify that an instruction applies to only one file.
+
+The full conversation now contains both the old and new versions. The agent still has to determine which requirement is active, which one was superseded, where a constraint applies, and which conflict needs clarification. Conversation history records what was said over time. Task state represents what should happen now. They are not the same data structure.
+
+More history can therefore preserve a conflict without resolving it. Unless revisions are represented explicitly, the agent may continue following the old instruction or treat a local correction as a global replacement.
+
+### 1.4 Remembering a requirement is not satisfying it
+
+Even correct retrieval does not complete the task. An agent may remember that it must check an official source and successfully open a page. That proves the lookup ran. It does not prove that the source is official, that the information is current, or that a reservation was completed. The agent may also produce a seven-day itinerary and a budget total while still placing an activity inside a fixed appointment.
+
+A long task therefore has at least three kinds of state: active requirements, work already performed, and evidence that the requirements were satisfied. Conversation history records much of what happened, but it does not automatically establish a requirement-to-evidence relationship. Without that relationship, “I ran a search,” “the command exited,” or “the file exists” can be mistaken for proof that the full requirement passed.
+
+### 1.5 Compaction is not the root cause, but it amplifies the problem
+
+One million tokens is still finite. As a task grows, an agent may compact earlier material or resume from a summary. Compaction is lossy by design. A summary tends to retain the main storyline while dropping a negative constraint, an acceptance condition, an unresolved conflict, or a recent revision. “Plan a seven-day New York trip” survives; “limit walking” and “do not call an unverified reservation booked” may not.
+
+Public Codex issues show two concrete versions of this failure. In [issue #19910](https://github.com/openai/codex/issues/19910), mid-turn compaction reportedly failed to carry forward the completion-audit requirement attached to the active goal, and local verification was treated as whole-goal completion. In [issue #35226](https://github.com/openai/codex/issues/35226), the agent retained the broad project objective but lost execution progress, repeatedly reread the same files, and restarted the same analysis. These are two public cases, not evidence of how frequently the problem occurs. They do illustrate the same distinction: preserving the main objective is not the same as preserving task state.
+
+A larger window delays compaction and lets the agent access more original material. Using the entire window also costs more. Under [GPT-5.6 Sol's current API pricing](https://developers.openai.com/api/docs/models/gpt-5.6-sol), once the input exceeds 272K tokens, the entire request—not only the excess—is charged at twice the input rate and 1.5 times the output rate. Long context is better treated as a resource than as a target to fill by default.
+
+A 1M-token window therefore relieves capacity pressure without automatically solving priority, revision, progress, or acceptance. The state that needs the strongest protection is usually much smaller than the conversation: the active requirements, their revision relationships, and the evidence needed to close them. That is the design premise of Context Guard.
+
+## 2. What Context Guard protects
+
+<figure class="blog-diagram">
+  <img src="{{ '/images/blogs/context-guard-body-leading-en.jpg' | relative_url }}" alt="A large context stream carries task records while Context Guard checkpoints protect critical requirements from drifting away">
+  <figcaption>Context Guard protects the requirements that determine whether a long-running task can be completed honestly.</figcaption>
+</figure>
+
+[Context Guard](https://github.com/GreenLv/codex-context-guard) is a local correctness layer I built for Codex. It does not store the whole conversation or try to replace model memory. It uses [lifecycle hooks](https://github.com/GreenLv/codex-context-guard/blob/main/docs/ARCHITECTURE.md) to maintain a private, verifiable ledger of requirements and evidence.
+
+Consider an everyday planning task. You begin with a simple request:
+
+> I am taking my mother from Boston to New York next week for seven days. Please plan the trip.
+
+After the assistant starts comparing trains, hotels, and attractions, you add the details that make the plan usable: your mother has knee pain and cannot walk long distances; both directions must be by train, with no flights; the total budget for two must stay below $2,000; Wednesday from 3:00 p.m. to 7:00 p.m. is reserved for meeting a friend in Queens; you want to visit the Statue of Liberty; and anything that depends on a reservation must be checked against a current official source before it can be described as booked.
+
+As the agent compares schedules, hotels, reservation rules, and daily routes, the conversation grows. After compaction, the summary may still remember “a seven-day New York trip from Boston” while dropping the walking constraint or scheduling an attraction on Wednesday afternoon. It may also rely on an outdated travel guide and describe unverified hours or ticket availability as confirmed.
+
+The whole task has not disappeared. A few conditions that determine whether the plan can be used have.
+
+Context Guard focuses on the contract that develops over time:
 
 ```text
-[ ] Seven-day round trip from Wuhan to Beijing next week
-[ ] Two travelers, the user and their mother; total budget below RMB 8,000
-[ ] High-speed rail in both directions; no flights
-[ ] The mother has knee problems: limit walking and avoid consecutive strenuous days
-[ ] Meet a friend in Haidian on Wednesday from 15:00 to 19:00; this slot is fixed
-[ ] Visit the Forbidden City
+[ ] Seven-day round trip from Boston to New York next week
+[ ] Two travelers: the user and their mother; total budget below $2,000
+[ ] Train in both directions; no flights
+[ ] The mother has knee pain: limit walking and avoid strenuous days back to back
+[ ] Meet a friend in Queens on Wednesday, 3:00–7:00 p.m.; keep this slot free
+[ ] Include a visit to the Statue of Liberty
 [ ] Verify reservations, opening hours, prices, and transportation with current official sources
 [ ] Mark every unverified or unbooked item as pending confirmation
 ```
 
-Codex still performs the searches, compares alternatives, builds the itinerary, calculates the budget, and coordinates subagents. Context Guard records only the information directly related to correctness: the user's requirements, later additions or revisions, usable evidence returned by tools, and any remaining work.
+Codex still performs the searches, compares options, builds the itinerary, calculates the budget, and coordinates subagents. Context Guard records only the information tied directly to correctness: the user's requirements, later additions or revisions, usable evidence returned by tools, and remaining work.
 
-After `/compact` or task recovery, the checklist returns to the context. Suppose Codex has created a seven-day itinerary and calculated the budget, but Wednesday afternoon still contains an attraction, or the requirement to verify the Forbidden City reservation against an official source has no successful evidence. Context Guard will not accept the conclusion that the trip has been fully planned. Codex must resolve the schedule conflict and clearly mark any unverified item as pending.
+After `/compact` or task recovery, the checklist returns to context. If no check has established that the Wednesday time slot remains free, or the official-source check for Statue of Liberty tickets has no corresponding successful evidence, Context Guard keeps those requirements open instead of accepting that the trip is fully planned merely because an itinerary was generated. Codex, a checking tool, or the user must still determine whether the itinerary actually satisfies the walking and scheduling constraints.
 
-The completion evidence is also straightforward. The seven-day schedule must satisfy the activity and time constraints for every day. The budget total must stay within the limit. Train services, opening hours, and reservation requirements need sources and query dates. An unfinished reservation must never be presented as successful.
+The point is not to make the summary longer. It is to stop the task contract from being quietly rewritten inside the summary.
 
-Context Guard therefore does not try to make summaries longer. It prevents the task contract from being quietly rewritten inside a summary.
+## 3. How it works
 
-## 2. How does it work with Codex?
-
-Context Guard does not reimplement Codex's native Plan, Goal, compaction, subagents, worktrees, or memories. The figure below shows the working path it protects:
+Context Guard does not replace Codex's native Plan, Goal, compaction, or subagents. It maintains a smaller correctness state: which requirements are active, how they were revised, which evidence succeeded, and what remains unfinished.
 
 <figure class="blog-diagram">
-  <img src="{{ '/images/blogs/context-guard-state-flow-en.png' | relative_url }}" alt="Context Guard preserves the task boundary, supports work and evidence collection, and then separates finishing, continuing, and pausing safely">
-  <figcaption>Context Guard records completion state separately from the decision to continue working or pause safely.</figcaption>
+  <img src="{{ '/images/blogs/context-guard-state-flow-en.png' | relative_url }}" alt="Context Guard carries the task boundary into work and evidence collection, then decides whether to finish, continue, or pause safely">
+  <figcaption>Context Guard carries the task boundary into work and evidence collection, then separates finishing, continuing, and pausing safely.</figcaption>
 </figure>
 
-Unfinished work is not collapsed into one ambiguous state. `user_wait` means the next action requires user input, confirmation, or authorization; `external_wait` means an external system or person must respond; and `deferred` means the item is explicitly postponed or outside the current scope. The legacy `continue` value remains accepted for compatibility, but it is advisory only: agent work continues through tool calls before a terminal reply, rather than by reopening a reply that has already ended the turn. Whole-task completion still requires all active requirements to pass validation.
+It has four main jobs:
 
-Four parts of this design matter most to me.
+- **Preserve active requirements.** After compaction or recovery, it restores the current task contract rather than the full transcript.
+- **Track revisions.** A new instruction can add to or replace an older one. If the replacement is ambiguous, the original requirement remains active until the conflict is resolved.
+- **Constrain completion with evidence.** Opening a page or running a command proves that an action occurred. Evidence must still match the right requirement, subject, and scope; ambiguous output cannot close the task.
+- **Separate delegated work from root authority.** A subagent can finish a bounded assignment, but it cannot rewrite the user's root requirements, and local success does not become whole-task success.
 
-### 2.1 A finished turn is not pulled back into a loop
+To avoid becoming noisy itself, Context Guard does not trigger the completion gate on every occurrence of “complete.” Questions, quotations, hypotheticals, and explicit negations are not treated as completion claims, while whole-task statements such as “all requirements are complete” still require supporting evidence.
 
-Context Guard treats two questions separately: “Is the whole task complete?” and “Should the agent keep working in this turn?” If the next step belongs to the user, depends on an external result, or has been intentionally postponed, the agent can stop normally while keeping every unfinished item pending. If more agent work is needed, it should happen through tool calls before the terminal reply. A wording guess alone cannot pull an already finished reply back into another turn.
+When the next step requires user confirmation, an external system, or an explicit deferral, Context Guard keeps the unfinished item open rather than confusing “safe to stop now” with “the whole task is complete.” Under the project's [privacy and retention design](https://github.com/GreenLv/codex-context-guard/blob/main/docs/PRIVACY.md), its runtime ledger stays local by default, outside the project Git history, and does not copy the full transcript.
 
-The plugin also distinguishes a real control command from the same words appearing in documentation or search text, reducing false control triggers. During an upgrade or recovery, it keeps the durable task ledger and discards only an outdated, unfinished control attempt.
+## 4. Installation and fit
 
-The same principle applies to installation: a versioned cache already used by a running task is never silently overwritten. If a cache no longer matches its trusted archive, Context Guard repairs it from the verified copy or stops safely instead of guessing.
-
-### 2.2 Later revisions do not erase history
-
-Long tasks rarely keep the same requirements from beginning to end. A user may add a constraint or explicitly replace an older requirement with a new one. Context Guard records that revision relationship instead of directly overwriting the old record.
-
-After compaction and recovery, it can therefore answer two different questions: what was originally requested, and which requirements are active now. When a negation or replacement is ambiguous, the plugin keeps the original requirement and waits for confirmation rather than guessing.
-
-### 2.3 Finding information does not mean satisfying a requirement
-
-Successfully opening a web page proves only that the search ran. It does not prove that the page is official, that its information is current, or that a reservation has been completed. A budget calculation that exits successfully does not prove that local transportation and other necessary expenses are included.
-
-Context Guard prefers structured state, exit codes, and explicit completion markers. Ambiguous output is recorded as `unknown` and cannot directly support a completion claim. In the travel example, the itinerary, budget summary, and dated official sources are separate pieces of evidence. A generic search result cannot automatically replace them.
-
-When a verification obligation can be constructed deterministically, Context Guard also binds the evidence to the exact requirement or acceptance item, subject, file or UI surface, visual input or result readback, and complete requested scope. A successful command for the wrong object, surface, or subset cannot close the item. If those boundaries cannot be established reliably, the item remains an auditable `legacy_fallback` rather than being treated as semantically proved.
-
-This still does not mean the plugin can understand the full semantics of every piece of evidence. For enforced contracts, it checks only deterministic bindings and scope; for unsupported cases, `legacy_fallback` retains the compatible provenance and outcome gate. It cannot prove that evidence is logically sufficient, interpret arbitrary pixels, or establish that a source is official. Codex and the user still own the design of the final validation.
-
-### 2.4 Subagents have explicit provenance but cannot change the root task
-
-In a multi-agent task, a subagent receives a bounded delegation, not new authorization from the user. Context Guard records the agent's start, finish, result, and provenance, but a subagent cannot create, cancel, or replace a root-task requirement.
-
-This prevents a common source of confusion: completing a local subtask does not complete the whole task, and a subagent's suggestion does not mean that the user changed the original requirements.
-
-## 3. Why keep the state private?
-
-A requirements ledger may contain unpublished travel details, code paths, document constraints, or other task context. It should not enter the project's Git history.
-
-The public Context Guard repository contains only the plugin code, hooks, schema, documentation, and tests. Runtime data is written to Codex-managed `PLUGIN_DATA` and remains local by default. The plugin does not store chain-of-thought, copy the complete transcript, or initiate network requests.
-
-Users can explicitly run `context-guard export` or `rollover` to create a redacted handoff or a bounded successor pack. The export process omits common credentials, authorization headers, URL query parameters, original prompt files, and private plugin paths. Automatic redaction is not a substitute for review, however. Any handoff intended for sharing should still be inspected before it leaves the machine.
-
-## 4. Installation and first validation
-
-The project requires Python 3.10 or later. The currently validated minimum baseline for the Codex CLI is `0.146.0`.
+Under the current [published requirements](https://github.com/GreenLv/codex-context-guard/blob/main/README.md#requirements), the project requires Python 3.10 or later, and the validated minimum baseline for the Codex CLI is `0.146.0`.
 
 On macOS and Linux:
 
@@ -140,63 +164,50 @@ On Windows:
 py -3.10 scripts\manage_plugin.py --apply
 ```
 
-After installation, start a new Codex task and inspect the eight hook definitions under `/hooks`. Trust them only after confirming that their commands match the repository contents; plugin installation does not bypass hook trust automatically.
-
-Then enter:
+After installation, use the following controls in a Codex conversation to activate Context Guard, inspect its status, or run diagnostics:
 
 ```text
 $context-guard
-```
-
-And run:
-
-```text
 context-guard status
 context-guard diagnose
 ```
 
-To validate the complete recovery path, create a task with several requirements and prohibited actions, run `/compact`, and then verify that continuation restores the same active requirements.
-
-For complete installation, upgrade, and removal instructions, see the project's [English README](https://github.com/GreenLv/codex-context-guard/blob/main/README.md).
-
-## 5. Which tasks benefit from it?
-
-Context Guard is most useful for tasks that last for a while, may receive revised requirements, and need tool results to demonstrate completion. Examples include:
+Context Guard is most useful when a task runs for a while, receives revised requirements, and needs tool results to demonstrate completion. Examples include:
 
 - planning a complex trip while adding budget, companion, fixed-time, or transportation constraints;
 - writing or editing a document while preserving a template, terminology, numbers, and protected scope;
 - refactoring code while maintaining existing interfaces, data formats, or compatibility behavior;
 - running experiments or processing files in batches without presenting partial success as complete;
-- coordinating multiple subagents while distinguishing root-task authorization from bounded delegation;
-- handing a task to a successor without copying the complete conversation.
+- coordinating multiple subagents while distinguishing root-task authorization from bounded delegation.
 
-For a small change completed within a single conversation, enabling the full protection workflow is usually unnecessary.
+For a small change completed in one conversation, the full workflow is usually unnecessary. In the project's [published sample of five completed, tool-heavy desktop tasks](https://github.com/GreenLv/codex-context-guard/blob/main/README.md#observed-token-overhead) using 0.6.1, the observed additional token share ranged from about 0.2% to 2.1%, with a weighted value of about 1.5%. This is a small-sample order of magnitude, not a guarantee for every workload.
 
-Context Guard adds prompt and recovery context to protected tasks. In a small, anonymized sample of five completed, tool-heavy desktop tasks using 0.6.1, the weighted observation including plugin-triggered status checks was about 1.5%, with individual tasks at roughly 0.2%–2.1%. For similar long-running work, about 1%–2% is a useful order-of-magnitude estimate rather than a guaranteed rate; token share is not the same as cost share.
+The project has scoped native acceptance on macOS and Windows. Linux is currently claimed only for source CI. Context Guard is not a semantic correctness prover, security sandbox, cloud sync service, or complete conversation backup. See the [English README](https://github.com/GreenLv/codex-context-guard/blob/main/README.md), [Compatibility](https://github.com/GreenLv/codex-context-guard/blob/main/docs/COMPATIBILITY.md), and [Local release acceptance](https://github.com/GreenLv/codex-context-guard/blob/main/docs/LOCAL_ACCEPTANCE.md) for the full installation and evidence boundaries.
 
-## 6. Current validation status and boundaries
-
-The project currently has scoped native acceptance on macOS and Windows. Linux is claimed only for source CI; native desktop installation and hook behavior are not claimed. See [Compatibility](https://github.com/GreenLv/codex-context-guard/blob/main/docs/COMPATIBILITY.md) and [Local release acceptance](https://github.com/GreenLv/codex-context-guard/blob/main/docs/LOCAL_ACCEPTANCE.md) for the current evidence boundaries.
-
-Context Guard is not a semantic correctness prover, security sandbox, cloud synchronization service, complete conversation backup, or second agent scheduler. Its proof protocol enforces only deterministic obligations; it does not interpret arbitrary natural language or pixels or establish official-source validity. It protects the task contract, revision relationships, a limited plan mirror, agent results with explicit provenance, and completion evidence.
-
-I want the project to remain focused. The immediate priorities are preventing silent requirement loss, making revisions traceable, refusing unsupported completion claims, and keeping private state out of Git. Reproducible problems, rather than feature accumulation, should drive future work.
-
-Published releases and their exact validation notes are available on [GitHub Releases](https://github.com/GreenLv/codex-context-guard/releases/latest).
-
-Context Guard is also listed in [awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins) under **Development & Workflow**.
-
-## 7. Summary
+## 5. Summary
 
 The central idea behind Context Guard is simple:
 
-> Do not infer the task contract from a compacted summary. Maintain a private, verifiable ledger of requirements and evidence locally, restore the active requirements after compaction, and then decide whether the task is complete.
+> Do not infer the task contract from a compacted summary. Keep a private, verifiable ledger of active requirements and completion evidence locally, restore it after compaction, and then decide whether the task is complete.
 
-If you use Codex for long-running work and have seen requirements drift after compaction, a task stop after only partial validation, or unclear authorization boundaries in multi-agent collaboration, you are welcome to try it:
+A 1M-token context window lets an agent carry more material. “Can carry more” and “will not lose a critical requirement” are still different claims. In a long-running task, the information that needs the strongest protection is often not the whole conversation. It is the small set of constraints that determine whether the result can be delivered, together with the evidence that those constraints were met.
 
-**GitHub: [GreenLv/codex-context-guard](https://github.com/GreenLv/codex-context-guard)**<br>
+If you use Codex for long-running work and have seen requirements drift after compaction, a task stop after partial validation, or unclear authorization boundaries in multi-agent collaboration, you are welcome to try it:
+
+**GitHub: [GreenLv/codex-context-guard](https://github.com/GreenLv/codex-context-guard)**
+
 **Latest release: [GitHub Releases](https://github.com/GreenLv/codex-context-guard/releases/latest)**
 
-If the project is useful to you, consider starring it, opening an issue, or sharing a reproducible context failure from a long-running task. Reproducible failures are a better basis for the roadmap than a longer feature list.
+If the project is useful to you, consider starring it, opening an issue, or sharing a reproducible context failure.
+
+## References
+
+- [GPT-5.6 Sol model page](https://developers.openai.com/api/docs/models/gpt-5.6-sol)
+- [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
+- [Codex issue #19910: active goal and audit requirements can be lost after compaction](https://github.com/openai/codex/issues/19910)
+- [Codex issue #35226: auto-compaction can lose progress and repeat file reads](https://github.com/openai/codex/issues/35226)
+- [Retrieval and Multi-Hop Reasoning in 1M-Token Context Windows](https://arxiv.org/abs/2605.02173)
+- [Claude Code issue #32659: context amnesia in long sessions — constraints silently dropped as context grows](https://github.com/anthropics/claude-code/issues/32659)
+- [Cursor forum: “Rules” do not survive context compression events](https://forum.cursor.com/t/critical-rules-do-not-survive-context-compression-events/157249)
 
 </div>
