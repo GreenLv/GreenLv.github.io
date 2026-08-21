@@ -66,7 +66,10 @@ In plain English: `native` means it lands in the target's own format with nothin
 So a new machine and a new agent are the same job: keep one copy of the skills. New machine? Pull it down and set it up. New agent? Same copy, installed in that tool's own format.
 
 <figure class="blog-diagram">
-  <img src="{{ '/images/blogs/skillferry-portability-flow-en.svg' | relative_url }}" alt="SkillFerry turns a target-neutral workspace into a portability plan and native Codex, Claude Code, and DeepSeek Harness configurations while secret values resolve only on the local machine">
+  <picture>
+    <source media="(max-width: 700px)" srcset="{{ '/images/blogs/skillferry-portability-flow-en-mobile.svg' | relative_url }}">
+    <img src="{{ '/images/blogs/skillferry-portability-flow-en.svg' | relative_url }}" alt="SkillFerry turns a target-neutral workspace into a portability plan and native Codex, Claude Code, and DeepSeek Harness configurations while secret values resolve only on the local machine">
+  </picture>
   <figcaption>SkillFerry makes portability grades and local-only secret resolution visible before configuration is applied.</figcaption>
 </figure>
 
