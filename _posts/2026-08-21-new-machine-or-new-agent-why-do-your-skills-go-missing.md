@@ -6,8 +6,9 @@ categories:
   - blogs
 excerpt: "SkillFerry turns one versioned workspace into Codex, Claude Code, and DeepSeek Harness configurations while grading portability, keeping secrets local, and surfacing conflicts instead of silently overwriting edits."
 header:
-  teaser: blogs/skillferry-open-source-en.webp
+  teaser: blogs/skillferry-portable-agent-workflows-card-en.webp
   teaser_alt: "A digital ferry carries portable agent capabilities while credential lockboxes remain on each machine"
+og_image: blogs/skillferry-portable-agent-workflows-cover-en.webp
 author_profile: true
 read_time: false
 comments: false
@@ -15,14 +16,9 @@ share: false
 related: false
 ---
 
-<figure class="blog-cover">
-  <img src="{{ '/images/blogs/skillferry-open-source-en.webp' | relative_url }}" alt="A digital ferry carries portable agent capabilities while credential lockboxes remain on each machine">
-  <figcaption>SkillFerry treats skills, rules, and MCP definitions as portable capabilities while credentials and runtime state stay local.</figcaption>
-</figure>
-
 <div class="blog-post-body" markdown="1">
 
-<figure class="blog-diagram">
+<figure class="blog-diagram blog-leading">
   <img src="{{ '/images/blogs/skillferry-portable-agent-workflows-en.webp' | relative_url }}" alt="A digital ferry carries skill, rules, and MCP modules between agent environments while credential lockboxes remain on each machine">
   <figcaption>The article's leading visual: a portable workspace carries capabilities between agents without copying credentials.</figcaption>
 </figure>
@@ -67,12 +63,12 @@ MCP github
 
 In plain English: `native` means it lands in the target's own format with nothing lost. `translated` means it works after a conversion—like the three MCP entries above. `degraded` means it runs with known limits. `manual` means you get instructions and a step to do yourself. `unsupported` means the target has no equivalent at all. Every grade traces back to capability evidence, not a generic "compatible" checkbox.
 
+So a new machine and a new agent are the same job: keep one copy of the skills. New machine? Pull it down and set it up. New agent? Same copy, installed in that tool's own format.
+
 <figure class="blog-diagram">
   <img src="{{ '/images/blogs/skillferry-portability-flow-en.svg' | relative_url }}" alt="SkillFerry turns a target-neutral workspace into a portability plan and native Codex, Claude Code, and DeepSeek Harness configurations while secret values resolve only on the local machine">
   <figcaption>SkillFerry makes portability grades and local-only secret resolution visible before configuration is applied.</figcaption>
 </figure>
-
-So a new machine and a new agent are the same job: keep one copy of the skills. New machine? Pull it down and set it up. New agent? Same copy, installed in that tool's own format.
 
 ## Four boundaries behind what it will promise
 

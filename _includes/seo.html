@@ -4,7 +4,16 @@
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
-{% assign seo_url = seo_url | default: site.github.url %}
+{% assign seo_url = seo_url | default: site.url %}
+
+{% assign seo_image = page.og_image | default: page.header.image | default: page.header.overlay_image | default: site.og_image %}
+{% if seo_image %}
+  {% if seo_image contains "://" %}
+    {% assign seo_image_url = seo_image %}
+  {% else %}
+    {% assign seo_image_url = seo_image | prepend: "/images/" | prepend: seo_url %}
+  {% endif %}
+{% endif %}
 
 {% if page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
@@ -59,14 +68,11 @@
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
 
-  {% if page.header.image %}
+  {% if seo_image_url %}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+    <meta name="twitter:image" content="{{ seo_image_url }}">
   {% else %}
     <meta name="twitter:card" content="summary">
-    {% if site.og_image %}
-      <meta name="twitter:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
-    {% endif %}
   {% endif %}
 
   {% if seo_author_twitter %}
@@ -84,12 +90,8 @@
   {% endif %}
 {% endif %}
 
-{% if page.header.image %}
-  <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
-{% elsif page.header.overlay_image %}
-  <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
-{% elsif site.og_image %}
-  <meta property="og:image" content="{{ site.og_image | prepend: "/images/" | prepend: seo_url }}">
+{% if seo_image_url %}
+  <meta property="og:image" content="{{ seo_image_url }}">
 {% endif %}
 
 {% if page.date %}
