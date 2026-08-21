@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1472" height="720" viewBox="0 0 1472 720" role="img" aria-labelledby="title desc">
+  <title id="title">SkillFerry target-neutral portability flow</title>
+  <desc id="desc">A target-neutral workspace becomes a portability plan and then native configurations for Codex, Claude Code, and DeepSeek Harness. Secret references resolve locally.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a2d"/><stop offset="1" stop-color="#0b3650"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#64d7e8"/></marker>
+    <style>
+      .h{font:700 30px Inter,'Helvetica Neue',Arial,sans-serif;fill:#f7fbff}.s{font:500 20px Inter,'Helvetica Neue',Arial,sans-serif;fill:#bceef4}.b{font:600 22px Inter,'Helvetica Neue',Arial,sans-serif;fill:#f7fbff}.n{font:500 18px Inter,'Helvetica Neue',Arial,sans-serif;fill:#b8d5e4}.g{font:700 16px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#071a2d}
+    </style>
+  </defs>
+  <rect width="1472" height="720" rx="36" fill="url(#bg)"/>
+  <text x="736" y="70" text-anchor="middle" class="h">One capability definition, several honest target outcomes</text>
+  <text x="736" y="108" text-anchor="middle" class="s">The workspace is the source of truth; agents are render targets</text>
+
+  <rect x="50" y="174" width="380" height="374" rx="28" fill="#102f47" stroke="#4cc8d9" stroke-width="2"/>
+  <text x="240" y="226" text-anchor="middle" class="b">Target-neutral workspace</text>
+  <rect x="92" y="266" width="296" height="58" rx="14" fill="#19425c"/><text x="240" y="303" text-anchor="middle" class="n">Skills · SKILL.md</text>
+  <rect x="92" y="342" width="296" height="58" rx="14" fill="#19425c"/><text x="240" y="379" text-anchor="middle" class="n">Global instructions / rules</text>
+  <rect x="92" y="418" width="296" height="58" rx="14" fill="#19425c"/><text x="240" y="455" text-anchor="middle" class="n">Non-secret MCP templates</text>
+  <rect x="92" y="494" width="296" height="38" rx="12" fill="#f2ad3d"/><text x="240" y="520" text-anchor="middle" class="g">secret:env/NAME</text>
+
+  <path d="M446 360 H526" stroke="#64d7e8" stroke-width="6" marker-end="url(#arrow)"/>
+  <rect x="550" y="205" width="370" height="310" rx="28" fill="#12364e" stroke="#f2ad3d" stroke-width="2"/>
+  <text x="735" y="258" text-anchor="middle" class="b">plan: explain before writing</text>
+  <rect x="620" y="300" width="230" height="42" rx="21" fill="#78e1bf"/><text x="735" y="327" text-anchor="middle" class="g">native</text>
+  <rect x="620" y="357" width="230" height="42" rx="21" fill="#65d8e9"/><text x="735" y="384" text-anchor="middle" class="g">translated</text>
+  <rect x="620" y="414" width="230" height="42" rx="21" fill="#f2ad3d"/><text x="735" y="441" text-anchor="middle" class="g">degraded / manual</text>
+  <text x="735" y="490" text-anchor="middle" class="n">paths · origins · losses · conflicts</text>
+
+  <path d="M936 360 H1028" stroke="#64d7e8" stroke-width="6" marker-end="url(#arrow)"/>
+  <rect x="1050" y="166" width="352" height="392" rx="28" fill="#102f47" stroke="#4cc8d9" stroke-width="2"/>
+  <text x="1226" y="218" text-anchor="middle" class="b">Native target configs</text>
+  <rect x="1094" y="257" width="264" height="70" rx="16" fill="#19425c"/><text x="1226" y="301" text-anchor="middle" class="b">Codex</text>
+  <rect x="1094" y="345" width="264" height="70" rx="16" fill="#19425c"/><text x="1226" y="389" text-anchor="middle" class="b">Claude Code</text>
+  <rect x="1094" y="433" width="264" height="70" rx="16" fill="#19425c"/><text x="1226" y="477" text-anchor="middle" class="b">DeepSeek Harness</text>
+  <text x="736" y="632" text-anchor="middle" class="s">Secret values resolve locally at apply time; sessions, caches, memory, and auth stay outside the workspace</text>
+</svg>
