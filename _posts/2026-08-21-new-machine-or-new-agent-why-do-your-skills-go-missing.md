@@ -110,7 +110,7 @@ skillferry doctor
 
 Already on Codex? Start with `import --from codex` and review the generated workspace instead of writing the schema by hand. Coming from [codex-profile-sync](https://github.com/GreenLv/codex-profile-sync)? There is a `migrate --from codex-profile-sync` command for that. The repo also ships a runnable starter workspace and two seed skills, so you can inspect all three target renderings in an isolated directory before committing to anything.
 
-## Who it's for—and where v1 draws the line
+## Who it's for—and where it draws the line
 
 If you use one agent on one machine and have not accumulated skills or rules yet, manual setup may still be simpler.
 
@@ -122,7 +122,7 @@ SkillFerry earns its keep when:
 - you want a preview before applying, and explicit disclosure when semantics are lost;
 - you want Git to carry shareable definitions without credentials or runtime state.
 
-Version 1 deliberately skips GUI, SSH targets, a team layer, session or memory sync, provider management, and lossless conversion of arbitrary plugins. macOS and Windows each have independent native acceptance records—the Windows machine had no Claude Code installed, so it verified the rendered config shape without starting the process. CI is a separate automated gate, not native acceptance. The full boundary is in the [portability contract](https://github.com/GreenLv/skillferry/blob/main/docs/PORTABILITY_CONTRACT.md), the [capability evidence matrix](https://github.com/GreenLv/skillferry/blob/main/docs/AGENT_MATRIX.md), and the [0.1.0 release acceptance record](https://github.com/GreenLv/skillferry/blob/main/docs/acceptance/release-0.1.0.md).
+It deliberately skips GUI, SSH targets, a team layer, session or memory sync, provider management, and lossless conversion of arbitrary plugins. macOS and Windows each have independent native acceptance records—the Windows machine had no Claude Code installed, so it verified the rendered config shape without starting the process. CI is a separate automated gate, not native acceptance. The full boundary is in the [portability contract](https://github.com/GreenLv/skillferry/blob/main/docs/PORTABILITY_CONTRACT.md), the [capability evidence matrix](https://github.com/GreenLv/skillferry/blob/main/docs/AGENT_MATRIX.md), and the [documentation and acceptance records](https://github.com/GreenLv/skillferry/blob/main/docs/README.md).
 
 ## Let your way of working follow you
 
