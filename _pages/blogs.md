@@ -33,7 +33,11 @@ author_profile: true
         <p class="blog-list__links">
           <a href="{{ post.url | relative_url }}">Read article</a>
           <span aria-hidden="true">&middot;</span>
-          <a href="{{ post.chinese_url }}">Read the Chinese original</a>
+          {% if post.chinese_url %}
+            <a href="{{ post.chinese_url }}">Read the Chinese original</a>
+          {% else %}
+            <span class="blog-list__pending">Chinese edition pending</span>
+          {% endif %}
         </p>
       </div>
     </article>
