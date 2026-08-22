@@ -5,6 +5,7 @@ permalink: /blogs/new-machine-or-new-agent-why-do-your-skills-go-missing/
 categories:
   - blogs
 excerpt: "SkillFerry turns one versioned workspace into Codex, Claude Code, and DeepSeek Harness configurations while grading portability, keeping secrets local, and surfacing conflicts instead of silently overwriting edits."
+chinese_url: https://blog.csdn.net/LvGreat/article/details/163969269
 header:
   teaser: blogs/skillferry-portable-agent-workflows-card-en.webp
   teaser_alt: "A digital ferry carries portable agent capabilities while credential lockboxes remain on each machine"
