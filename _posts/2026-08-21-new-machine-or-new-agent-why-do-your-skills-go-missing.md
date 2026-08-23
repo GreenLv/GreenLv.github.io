@@ -26,7 +26,7 @@ related: false
 
 You may know the frustration. The agent on your work computer is finally set up the way you want it: Codex knows which skills to load and which rules to follow, and your usual MCP tools are already connected. Then you get home and switch computers—or decide to try Claude Code or DeepSeek Harness (DSH). Suddenly, none of that familiar setup is there.
 
-So you install the skills again, copy the rules, reconnect MCP, and tune each agent one setting at a time. Copying the old computer's entire configuration sounds quicker, but it can also carry sign-in details, past conversations, and paths that only make sense on that machine. Even then, the same configuration does not work unchanged in Codex, Claude Code, and DSH—and it may overwrite changes you already made on the new computer.
+So you install the skills again, copy the rules, reconnect MCP, and tune each agent one setting at a time. Some people copy the old computer's entire configuration directory. That can bring along sign-in details, past conversations, and paths that make sense only on the old machine. Codex, Claude Code, and DSH also use different configuration shapes, so some copied settings fail to load while others overwrite work already done on the new computer.
 
 What you really want to carry is the familiar way your agents work: the same skills should be discovered, the same rules should apply, and the same MCP tools should be reconnectable.
 
@@ -38,15 +38,15 @@ That's why I built [SkillFerry](https://github.com/GreenLv/skillferry):
 
 [Agent Skills](https://agentskills.io/home) provides a shared way to save how an agent performs a task. MCP gives different agents a common way to connect to outside tools. With those foundations in place, reusing capabilities across Codex, Claude Code, and DSH—or carrying them to a new machine—should be much easier.
 
-But saving something in a shared format is not the same as making it work in every agent. Codex, Claude Code, and DSH still store skills, read rules, and connect MCP servers in different ways. The same skill may work immediately in one agent, need conversion in another, lose part of its behavior, or have to be rebuilt by hand. Add the differences between macOS, Windows, and Linux, and the problem quickly grows again.
+Shared formats solve how the content is stored. Deployment still depends on each agent. Codex, Claude Code, and DSH store skills, read rules, and connect MCP servers in different ways. A skill may work immediately in one agent, need conversion in another, lose part of its behavior, or require manual setup. Paths and commands add another layer of variation across macOS, Windows, and Linux.
 
-This is not a hypothetical. The MCP community has filed client-config portability as an open standardization problem ([MCP IG #2761](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/2761)), and users have reported skills failing to follow them to a new machine in both the Claude Code and Codex trackers ([Claude Code #36693](https://github.com/anthropics/claude-code/issues/36693), [Codex #26691](https://github.com/openai/codex/issues/26691)). Those issues establish that the problem exists; they do not establish its prevalence or priority rank.
+Public discussions already contain examples of this experience. The MCP community has filed client-config portability as an open standardization problem ([MCP IG #2761](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/2761)), and users have reported skills failing to follow them to a new machine in both the Claude Code and Codex trackers ([Claude Code #36693](https://github.com/anthropics/claude-code/issues/36693), [Codex #26691](https://github.com/openai/codex/issues/26691)). These reports show that the problem occurs. They cannot establish how common or urgent it is.
 
-So the real question is not "how do I copy this to more directories." It's: what is the source of truth across tools and machines? What can be translated automatically, and what meaning is lost? What must never leave the machine? And how do you apply changes without stomping on existing local work?
+A reliable solution has to answer four questions. Which copy is the source of truth across tools and machines? What can be translated automatically, and what meaning might be lost? Which data must stay on the machine? How can changes be applied without damaging existing local work?
 
 ## One workspace; every agent is a render target
 
-SkillFerry's approach is plain: skills, global rules, and secret-free MCP templates live in one reviewable, Git-friendly workspace. Codex, Claude Code, and DSH are all render targets. No "primary agent" is in charge; the workspace is the source of truth.
+SkillFerry keeps skills, global rules, and secret-free MCP templates in one workspace: a reviewable directory that can be stored in Git. You maintain the content there once. When you create a plan, SkillFerry generates the configuration shape required by Codex, Claude Code, or DSH. Those agents receive rendered results, while the workspace remains the shared source of truth.
 
 Say the workspace holds a `release-checklist` skill, a set of global release rules, and a GitHub MCP template. The token never enters the workspace—the template only stores a reference like `secret:env/GITHUB_PERSONAL_ACCESS_TOKEN`. Run `plan` and it tells you, line by line, what each target will receive:
 
@@ -62,7 +62,7 @@ MCP github
   dsh     translated   inserted as dsh-mcp-client entries
 ```
 
-In plain English: `native` means it lands in the target's own format with nothing lost. `translated` means it works after a conversion—like the three MCP entries above. `degraded` means it runs with known limits. `manual` means you get instructions and a step to do yourself. `unsupported` means the target has no equivalent at all. Every grade traces back to capability evidence, not a generic "compatible" checkbox.
+The grades describe what happens during that conversion. `native` uses the target's own format and preserves the full meaning. `translated` works after conversion, as the three MCP entries above do. `degraded` runs with known limits. `manual` provides instructions for a step you must complete. `unsupported` means the target has no equivalent capability. Each grade traces back to capability evidence, so a generic "compatible" label is not enough.
 
 So a new machine and a new agent are the same job: keep one copy of the skills. New machine? Pull it down and set it up. New agent? Same copy, installed in that tool's own format.
 
@@ -76,13 +76,13 @@ So a new machine and a new agent are the same job: keep one copy of the skills. 
 
 ## Four boundaries behind what it will promise
 
-**Capabilities travel; state stays.** Skills, rules, and MCP server definitions are a reproducible way of working. Tokens, login state, sessions, caches, and generated memory are identity or runtime state. SkillFerry manages only the explicitly declared parts of the former, and it never treats a whole `~/.codex` or `~/.claude` directory as a sync unit. That is also why it is not a dotfiles synchronizer, a provider switcher, or an agent orchestration system.
+**Let capabilities travel while state stays local.** Skills, rules, and MCP server definitions describe a reproducible way of working. Tokens, login state, sessions, caches, and generated memory belong to identity or runtime state. SkillFerry manages only explicitly declared capability definitions and never treats a whole `~/.codex` or `~/.claude` directory as a sync unit. Dotfiles synchronization, provider switching, and agent orchestration remain outside its scope.
 
-**A file landing is not a feature loading.** Putting a file in a destination directory proves only that the file exists, not that the target loads it with equivalent semantics. The current release renders stdio MCP servers into all three native shapes; HTTP/SSE MCP stays `manual`, and plugins or extensions can be declared but are never auto-installed. Knowing which step still needs a human beats an undifferentiated "sync succeeded."
+**After a file lands, check how the feature loads.** A file in the destination directory proves that the write completed. The target agent may still interpret it differently. The current release renders stdio MCP servers into all three native shapes; HTTP/SSE MCP stays `manual`, while plugins and extensions can be declared but require separate installation. The plan exposes those manual steps before anything is written.
 
-**Sync capabilities, not credentials.** The workspace schema rejects literal secrets in MCP environments and accepts only references like `secret:env/...` or `secret:file/...`. Real values resolve locally at `apply` time, never into JSON reports, and are never expanded into the shareable copy created by `skillferry export <destination>`. SkillFerry is not a secret manager—OS and directory permissions still protect local values. It just stops credentials from being mistaken for shareable capability definitions.
+**Keep credentials local while capabilities move.** The workspace schema rejects literal secrets in MCP environments and accepts references such as `secret:env/...` or `secret:file/...`. Real values resolve locally at `apply` time. They stay out of JSON reports and the shareable copy created by `skillferry export <destination>`. OS and directory permissions still protect local values; SkillFerry prevents credentials from entering shareable capability definitions.
 
-**Your hand edits are not drift to clean up.** An ownership ledger records the paths and hashes SkillFerry last wrote. If a managed file has since been edited by hand, the next `plan` or `apply` reports a conflict (exit code 3) instead of overwriting it. You choose `adopt`, `overwrite`, or `keep-local`; files are backed up before writes, and a failed multi-file group rolls back what it already wrote.
+**Respect changes made by hand.** An ownership ledger records the paths and hashes SkillFerry last wrote. If a managed file changes later, the next `plan` or `apply` reports a conflict (exit code 3) and stops before overwriting it. You choose `adopt`, `overwrite`, or `keep-local`; files are backed up before writes, and a failed multi-file group rolls back the writes it already completed.
 
 ## import → plan → apply → doctor
 
@@ -127,7 +127,7 @@ It deliberately skips GUI, SSH targets, a team layer, session or memory sync, pr
 
 ## Let your way of working follow you
 
-Open formats solved content reuse. The directory differences, config shapes, platform quirks, secret boundaries, and local edits still need someone to handle them honestly. SkillFerry's choice is to put those differences on the table instead of hiding them behind "sync complete."
+Open formats make the content reusable. Deployment still has to account for discovery directories, configuration shapes, operating systems, secret references, and local edits. SkillFerry shows those differences before applying a plan, including what each target can receive, where meaning is lost, and which steps remain manual.
 
 If you are re-installing skills, rewriting rules, or maintaining several copies of the same MCP config, run one isolated `import → plan` first. See which capabilities travel natively, which need translation, and which should never leave the local machine.
 
