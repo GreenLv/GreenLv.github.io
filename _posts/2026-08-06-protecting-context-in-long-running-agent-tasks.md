@@ -142,13 +142,26 @@ It has four main jobs:
 - **Constrain completion with evidence.** Opening a page or running a command proves that an action occurred. Evidence must still match the right requirement, subject, and scope; ambiguous output cannot close the task.
 - **Separate delegated work from root authority.** A subagent can finish a bounded assignment, but it cannot rewrite the user's root requirements, and local success does not become whole-task success.
 
+Context Guard can also record an execution contract. Once adopted, it records task sources by role:
+
+| Source | What it decides | Boundary |
+| --- | --- | --- |
+| User instructions | Task goals and write authority | Cannot be expanded by other sources |
+| `AGENTS.md` and selected Skills | Workflow and safety constraints | Conflicts resolve in favor of user requirements |
+| Codex Plan | Revisable execution steps | Codex may revise it, but the completion gate does not depend on it |
+| Tool, file, image, and public-readback results | Which facts are established | Can correct factual assumptions, but cannot expand authority |
+
+Everything stays inside Codex's own permission, sandbox, and Hook-trust boundaries.
+
+The contract is dormant by default: only the user who started the root task can adopt it explicitly (`context-guard adopt <project-relative-json>`), after which Context Guard records, restores, and checks it at completion. If an adopted Skill or the Codex Plan later changes, the old binding is marked for review instead of being followed silently. Context Guard does not rewrite Codex Plan, intercept tools, publish automatically, or grant new authority.
+
 To avoid becoming noisy itself, Context Guard does not trigger the completion gate on every occurrence of “complete.” Questions, quotations, hypotheticals, and explicit negations are not treated as completion claims, while whole-task statements such as “all requirements are complete” still require supporting evidence.
 
 When the next step requires user confirmation, an external system, or an explicit deferral, Context Guard keeps the unfinished item open rather than confusing “safe to stop now” with “the whole task is complete.” Under the project's [privacy and retention design](https://github.com/GreenLv/codex-context-guard/blob/main/docs/PRIVACY.md), its runtime ledger stays local by default, outside the project Git history, and does not copy the full transcript.
 
 ## 4. Installation and fit
 
-Under the current [published requirements](https://github.com/GreenLv/codex-context-guard/blob/main/README.md#requirements), the project requires Python 3.10 or later, and the validated minimum baseline for the Codex CLI is `0.146.0`.
+Under the current [published requirements](https://github.com/GreenLv/codex-context-guard/blob/main/README.md#install), the project requires Python 3.10 or later, and the validated minimum baseline for the Codex CLI is `0.146.0`.
 
 On macOS and Linux:
 
