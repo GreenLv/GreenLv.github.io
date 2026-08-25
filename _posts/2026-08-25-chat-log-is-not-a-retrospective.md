@@ -7,9 +7,9 @@ categories:
 excerpt: "dsh-session-insights turns DeepSeek Harness session snapshots into local, evidence-backed HTML retrospectives with project scoping, privacy modes, deterministic fallback, and clearly stated verification scope."
 chinese_url: https://blog.csdn.net/LvGreat/article/details/164067146
 header:
-  teaser: blogs/chat-log-is-not-a-retrospective-card-en.webp
+  teaser: blogs/chat-log-is-not-a-retrospective-card-en.jpg
   teaser_alt: "Session trails converge through an analysis lens into structured evidence cards and a clear report"
-og_image: blogs/chat-log-is-not-a-retrospective-cover-en.webp
+og_image: blogs/chat-log-is-not-a-retrospective-cover-en.jpg
 author_profile: true
 read_time: false
 comments: false
@@ -20,7 +20,7 @@ related: false
 <div class="blog-post-body" markdown="1">
 
 <figure class="blog-diagram blog-leading">
-  <img src="{{ '/images/blogs/chat-log-is-not-a-retrospective-en.webp' | relative_url }}" alt="Scattered session trails pass through an analysis lens and resolve into structured evidence cards and a clear report">
+  <img src="{{ '/images/blogs/chat-log-is-not-a-retrospective-en.jpg' | relative_url }}" alt="Scattered session trails pass through an analysis lens and resolve into structured evidence cards and a clear report">
   <figcaption>The article's leading visual: scattered session trails pass through an analysis lens and resolve into structured evidence cards and a clear report.</figcaption>
 </figure>
 
