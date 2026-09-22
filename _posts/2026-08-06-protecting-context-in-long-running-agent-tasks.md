@@ -142,6 +142,8 @@ It has four main jobs:
 - **Constrain completion with evidence.** Opening a page or running a command proves that an action occurred. Evidence must still match the right requirement, subject, and scope; ambiguous output cannot close the task.
 - **Separate delegated work from root authority.** A subagent can finish a bounded assignment, but it cannot rewrite the user's root requirements, and local success does not become whole-task success.
 
+If you ask to “explain the configuration, then edit the file and run the test,” finishing the explanation leaves two jobs to do. For a supported test, “run and report” requires an actual finished run and an honest account of the result; “fix it until the test passes” requires a pass. Guard checks the execution records saved by Codex, not just the word “success” in the output.
+
 Context Guard can also record an execution contract. Once adopted, it records task sources by role:
 
 | Source | What it decides | Boundary |
@@ -157,11 +159,13 @@ The contract is dormant by default: only the user who started the root task can 
 
 To avoid false positives, Context Guard determines whether a sentence produced by the agent discusses completion or actually declares the whole task complete. When the agent says “Is the task complete?”, it is asking a question; “The task is not complete” is a negation; and “Saying ‘the task is complete’ would be inaccurate” discusses the wording. None of these is the agent declaring the task complete. By contrast, a direct statement such as “The task is complete”—even when presented only as a standalone quotation—or “I have completed all requirements” must still pass the evidence-backed completion gate.
 
-When the next step requires user confirmation, an external system, or an explicit deferral, Context Guard keeps the unfinished item open rather than confusing “safe to stop now” with “the whole task is complete.” Under the project's [privacy and retention design](https://github.com/GreenLv/codex-context-guard/blob/main/docs/PRIVACY.md), its runtime ledger stays local by default, outside the project Git history, and does not copy the full transcript.
+If the next step needs information or confirmation from you, Guard keeps it unfinished. “Continue” can resume the current task, but cannot supply a missing specific confirmation or reopen canceled work. Long-term effects can remain under observation; a test or evaluation requested now, with everything it needs available, cannot be skipped by saying it will happen later.
+
+Under the project’s [privacy and retention design](https://github.com/GreenLv/codex-context-guard/blob/main/docs/PRIVACY.md), requirements and check records stay local by default, outside the project Git history, without copying the full conversation.
 
 ## 4. Installation and fit
 
-Under the current [published requirements](https://github.com/GreenLv/codex-context-guard/blob/main/README.md#install), the project requires Python 3.10 or later, and the validated minimum baseline for the Codex CLI is `0.146.0`.
+Before installing, prepare Python as described in the [requirements](https://github.com/GreenLv/codex-context-guard/blob/main/README.md#install) and check that your Codex supports plugins and lifecycle Hooks—checks that run at points such as task startup and tool execution. Supported environments are listed in [Compatibility](https://github.com/GreenLv/codex-context-guard/blob/main/docs/COMPATIBILITY.md).
 
 On macOS and Linux:
 
@@ -174,10 +178,10 @@ python3 scripts/manage_plugin.py --apply
 On Windows:
 
 ```powershell
-py -3.10 scripts\manage_plugin.py --apply
+py -3 scripts\manage_plugin.py --apply
 ```
 
-After installation, use the following controls in a Codex conversation to activate Context Guard, inspect its status, or run diagnostics:
+After installation or an upgrade, inspect and trust all of the plugin’s Hooks in a fresh task, then start another task to use it. An already running task may still use the old files. These controls activate the plugin, show its status, and run diagnostics:
 
 ```text
 $context-guard
@@ -195,7 +199,7 @@ Context Guard is most useful when a task runs for a while, receives revised requ
 
 For a small change completed in one conversation, the full workflow is usually unnecessary. In the project's [published sample of five completed, tool-heavy desktop tasks](https://github.com/GreenLv/codex-context-guard/blob/main/README.md#observed-token-overhead) using 0.6.1, direct Hook and recovery context was about 1.4% of total tokens, and about 1.5% once plugin-triggered checks were included; treat about 1%–2% as an order-of-magnitude estimate for similar long-running work. This is a small-sample observation, not a guarantee for every workload.
 
-The project has scoped native acceptance on macOS and Windows. Linux is currently claimed only for source CI. Context Guard is not a semantic correctness prover, security sandbox, cloud sync service, or complete conversation backup. See the [English README](https://github.com/GreenLv/codex-context-guard/blob/main/README.md), [Compatibility](https://github.com/GreenLv/codex-context-guard/blob/main/docs/COMPATIBILITY.md), and [Local release acceptance](https://github.com/GreenLv/codex-context-guard/blob/main/docs/LOCAL_ACCEPTANCE.md) for the full installation and evidence boundaries.
+Consult the acceptance records to see which operating systems and Codex environments were checked; one passing test does not cover every setup. Checking completion claims also does not mean blocking every way Codex can mark a Goal complete. The plugin cannot replace content review and is not a security sandbox, cloud sync service, or full conversation backup. See the [English README](https://github.com/GreenLv/codex-context-guard/blob/main/README.md), [Compatibility](https://github.com/GreenLv/codex-context-guard/blob/main/docs/COMPATIBILITY.md), and [acceptance records](https://github.com/GreenLv/codex-context-guard/blob/main/docs/LOCAL_ACCEPTANCE.md) for details.
 
 ## 5. Summary
 
