@@ -2,6 +2,7 @@
 title: "The Agent Says “Done” — Sorry, It’s Lying to You"
 date: 2026-09-22 20:00:00 +0800
 permalink: /blogs/verifiable-task-completion-in-dsh/
+chinese_url: https://blog.csdn.net/LvGreat/article/details/166373382
 categories:
   - blogs
 excerpt: "The agent reports success, but the bug is still there. How dsh-completion-guard checks saved tool results against your requirements before certifying completion."
@@ -14,6 +15,8 @@ comments: false
 share: false
 related: false
 ---
+
+<p class="blog-post-source">Also available as the <a href="{{ page.chinese_url }}">original Chinese article</a>.</p>
 
 ![A coding assistant reports DONE while the adjacent browser preview still shows ERROR](/images/blogs/dsh-completion-guard-en.webp)
 
