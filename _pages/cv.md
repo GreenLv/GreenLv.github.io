@@ -98,10 +98,10 @@ redirect_from:
 - [CDN流量调度方法、系统、装置、存储介质](https://patents.google.com/patent/CN121442004A/) [CN121442004A] \
   _林川清, 梁阳光, 田语, **吕格瑞**, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [李振宇](https://zhenyulee.github.io/)_
 
-- 面向低时延视频流的自适应跨帧前向纠错方法、装置 [CN122179059A] \
+- [面向低时延视频流的自适应跨帧前向纠错方法、装置](https://eureka.patsnap.com/patent/CN122179059A) [CN122179059A] \
   _黄诗扬, **吕格瑞**, 赵员康, 张佳兴, 谭清月, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [李振宇](https://zhenyulee.github.io/)_
 
-- 一种面向解耦式媒体传输系统的带宽主动探测方法 [CN122845476A] \
+- [一种面向解耦式媒体传输系统的带宽主动探测方法](https://eureka.patsnap.com/patent/CN122845476A) [CN122845476A] \
   _谭清月, **吕格瑞**, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), 张佳兴, 黄诗扬, 张修梁, [李振宇](https://zhenyulee.github.io/)_
 
 - 一种用于 MoQ 架构媒体传输系统的自适应调节装置 \
