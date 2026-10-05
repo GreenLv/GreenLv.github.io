@@ -101,6 +101,21 @@ redirect_from:
 - 面向低时延视频流的自适应跨帧前向纠错方法、装置 [CN122179059A] \
   _黄诗扬, **吕格瑞**, 赵员康, 张佳兴, 谭清月, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [李振宇](https://zhenyulee.github.io/)_
 
+- 一种面向解耦式媒体传输系统的带宽主动探测方法 [CN122845476A] \
+  _谭清月, **吕格瑞**, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), 张佳兴, 黄诗扬, 张修梁, [李振宇](https://zhenyulee.github.io/)_
+
+- 一种用于 MoQ 架构媒体传输系统的自适应调节装置 \
+  _谭清月, **吕格瑞**, [武庆华](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), 张佳兴, 黄诗扬, 张修梁, [李振宇](https://zhenyulee.github.io/)_
+
+- 一种面向多智能体系统的键值缓存通信方法 \
+  _田语, [李振宇](https://zhenyulee.github.io/), 李子涵, 刘婷, **吕格瑞**_
+
+- 一种基于分布式缓存的推理系统和 KV 表示复用方法 \
+  _李子涵, [李振宇](https://zhenyulee.github.io/), 刘婷, 田语, **吕格瑞**_
+
+- 一种面向大模型推理的键值缓存的压缩管理方法 \
+  _李子涵, [李振宇](https://zhenyulee.github.io/), 刘婷, 田语, **吕格瑞**_
+
 - [QoE-Driven Application-Transport Cooperation Requirements](https://datatracker.ietf.org/doc/draft-zhang-qoe-driven-transport-requirement/) (IETF Draft) \
   _Jiaxing Zhang, **Gerui Lv**, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/)_
 
