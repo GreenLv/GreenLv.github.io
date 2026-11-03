@@ -109,6 +109,11 @@ author_profile: true
   _Chuanqing Lin, **Gerui Lv**, Yangguang Liang, Fuhua Zeng, Xiaodong Li, [Qinghua Wu](https://www.ict.ac.cn/sourcedb/cn/jssrck/202007/t20200715_5626158.html), [Zhenyu Li](https://zhenyulee.github.io/), [Gaogang Xie](https://people.ucas.ac.cn/~_xie)_ \
   <a href="https://www.sciencedirect.com/journal/computer-networks"><b>Elsevier Computer Networks (CN)</b></a>, 2026 (CCF B, JCR Q1)
 
+- [Challenges and Opportunities of Ultra-Large-Scale Intelligent Computing Cluster — Report of the 39th CCF Beautiful Lake Seminar | 超大规模智算集群的挑战与机遇——第三十九期CCF秀湖会议报告](https://dl.ccf.org.cn/article/articleDetail.html?type=xhtx_thesis&_ack=1&id=8252915031033856)
+  ([PDF](https://greenlv.github.io/files/2026_计算_超大规模智算集群的挑战与机遇.pdf)) \
+  _Jianxin Huang, Xiangrui Yang, **Gerui Lv**, Jiamin Cao, Jinshu Su_ \
+  <a href="https://cccf.hrbeu.edu.cn/"><b>计算</b></a>, 2026, 2(10): 84–92
+
 - [Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs](https://dl.acm.org/doi/10.1145/3768983)
   ([PDF](https://greenlv.github.io/files/2025_CoNEXT_Oceanus.pdf))
   ([Slides](https://greenlv.github.io/files/2025_CoNEXT_Oceanus_slides.pdf))
