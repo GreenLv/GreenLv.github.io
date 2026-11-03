@@ -112,7 +112,7 @@ author_profile: true
 - [Challenges and Opportunities of Ultra-Large-Scale Intelligent Computing Cluster: Report of the 39th CCF Beautiful Lake Seminar | 超大规模智算集群的挑战与机遇——第三十九期CCF秀湖会议报告](https://dl.ccf.org.cn/article/articleDetail.html?type=xhtx_thesis&_ack=1&id=8252915031033856)
   ([PDF](https://greenlv.github.io/files/2026_计算_超大规模智算集群的挑战与机遇.pdf)) \
   _Jianxin Huang, Xiangrui Yang, **Gerui Lv**, Jiamin Cao, Jinshu Su_ \
-  <a href="https://cccf.hrbeu.edu.cn/"><b>Computing Magazine of the CCF | CCF 计算</b></a>, 2026
+  <a href="https://cccf.hrbeu.edu.cn/"><b>Computing Magazine of the CCF (CCCF) | CCF 计算</b></a>, 2026
 
 - [Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs](https://dl.acm.org/doi/10.1145/3768983)
   ([PDF](https://greenlv.github.io/files/2025_CoNEXT_Oceanus.pdf))
