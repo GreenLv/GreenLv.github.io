@@ -52,8 +52,7 @@ redirect_from:
 
 ## Honors and Awards
 
-- First Prize in the inaugural Intelligent Domain-Specific Networking (iDSN) Challenge (首届智能领域定制网络iDSN挑战赛), 2026 \
-  _1/44_
+- First Prize (_1/44_) in the inaugural Intelligent Domain-Specific Networking (iDSN) Challenge (首届智能领域定制网络iDSN挑战赛), 2026 
 - [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025 ([Report](https://ict.cas.cn/xwgg/jssxw/202604/t20260422_8189888.html)) \
   _One of two awardees at ICT, CAS (计算所仅2人)_
 - ACM SIGMOBILE China Doctoral Dissertation Award, 2025 \
