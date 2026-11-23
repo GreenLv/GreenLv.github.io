@@ -52,6 +52,7 @@ redirect_from:
 
 ## Honors and Awards
 
+- First Prize (1/44), Inaugural Intelligent Domain-Specific Networking (iDSN) Challenge (首届智能领域定制网络iDSN挑战赛), 2026
 - [Excellent Doctoral Dissertations of CAS (中国科学院百篇优秀博士学位论文)](https://www.ucas.edu.cn/tz/b104567516144b8db1df8039e6abc077.htm), 2025 ([Report](https://ict.cas.cn/xwgg/jssxw/202604/t20260422_8189888.html)) \
   _One of two awardees at ICT, CAS (计算所仅2人)_
 - ACM SIGMOBILE China Doctoral Dissertation Award, 2025 \
@@ -61,7 +62,7 @@ redirect_from:
 - [Outstanding Ph.D. Graduates of Beijing (北京市优秀博士毕业生)](https://jw.beijing.gov.cn/tzgg/202410/t20241010_3916096.html), 2024
 - Outstanding Ph.D. Graduates in UCAS, 2024
 - Best Paper Award at ACM NOSSDAV 2024
-- First Place Award in the [MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC](https://2024.acmmmsys.org/gc/ORL-BWE-RTC/), organized by Microsoft Research, 2024
+- First Place Award in the [MMSys ’24 Grand Challenge on Offline RL for Bandwidth Estimation in RTC](https://2024.acmmmsys.org/gc/ORL-BWE-RTC/), organized by Microsoft Research, 2024 ([Challenge report](https://doi.org/10.1145/3625468.3653068))
 - National Scholarship for Doctoral Students, UCAS, 2023
 - Third Prize in Global AI Transmission Competition (AITrans), organized by Tsinghua University, 2019  \
   _4/138; Ranked 2nd in real-world evaluations_
